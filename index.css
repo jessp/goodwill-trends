@@ -1,0 +1,54 @@
+.inTextKey {
+	display: inline-block;
+	border: 2px solid black;
+	padding: 0px 4px;
+}
+
+.inTextKey.dashed {
+	border: 2px dashed black;
+	background-color: rgba(0,0,0,0.05);
+}
+
+.green {
+	border-color: green;
+	background-color: rgba(0,255,0,0.1);
+}
+
+.blue {
+	border-color: blue;
+	background-color: rgba(0,0,255,0.1);
+}
+
+.legend {
+	font-size: 80%;
+}
+
+.marginnote p {
+	font-size: 90%;
+	line-height: 150%;
+}
+
+.floated {
+	float: left;
+}
+
+.svgTitle {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.marginnote .svgTitle {
+	font-size: 90%;
+}
+
+.figure div:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.selectiveBrandChart {
+	height: 100px;
+	overflow: scroll;
+}

@@ -1,0 +1,3851 @@
+brand,date,count,median
+Abercrombie & Fitch,2014-07,12,8.49
+Abercrombie & Fitch,2014-08,15,7.0
+Abercrombie & Fitch,2014-09,6,7.495
+Abercrombie & Fitch,2014-10,5,7.99
+Abercrombie & Fitch,2014-11,2,5.0
+Abercrombie & Fitch,2014-12,12,5.0
+Abercrombie & Fitch,2015-01,12,7.99
+Abercrombie & Fitch,2015-02,9,6.99
+Abercrombie & Fitch,2015-03,23,6.99
+Abercrombie & Fitch,2015-04,22,6.99
+Abercrombie & Fitch,2015-05,13,6.99
+Abercrombie & Fitch,2015-06,17,6.99
+Abercrombie & Fitch,2015-07,20,5.995
+Abercrombie & Fitch,2015-08,18,6.99
+Abercrombie & Fitch,2015-09,21,6.99
+Abercrombie & Fitch,2015-10,16,6.99
+Abercrombie & Fitch,2015-11,20,7.99
+Abercrombie & Fitch,2015-12,26,7.49
+Abercrombie & Fitch,2016-01,19,6.99
+Abercrombie & Fitch,2016-02,27,6.99
+Abercrombie & Fitch,2016-03,22,7.495
+Abercrombie & Fitch,2016-04,43,3.99
+Abercrombie & Fitch,2016-05,42,3.99
+Abercrombie & Fitch,2016-06,52,4.49
+Abercrombie & Fitch,2016-07,91,5.49
+Abercrombie & Fitch,2016-08,56,4.99
+Abercrombie & Fitch,2016-09,90,5.49
+Abercrombie & Fitch,2016-10,82,6.49
+Abercrombie & Fitch,2016-11,71,3.99
+Abercrombie & Fitch,2016-12,57,5.49
+Abercrombie & Fitch,2017-01,136,5.49
+Abercrombie & Fitch,2017-02,158,7.49
+Abercrombie & Fitch,2017-03,144,7.49
+Abercrombie & Fitch,2017-04,149,7.49
+Abercrombie & Fitch,2017-05,114,7.49
+Abercrombie & Fitch,2017-06,84,7.49
+Abercrombie & Fitch,2017-07,44,7.49
+Abercrombie & Fitch,2017-08,104,7.49
+Abercrombie & Fitch,2017-09,89,7.49
+Abercrombie & Fitch,2017-10,84,7.49
+Abercrombie & Fitch,2017-11,79,7.49
+Abercrombie & Fitch,2017-12,39,7.99
+Abercrombie & Fitch,2018-01,90,7.49
+Abercrombie & Fitch,2018-02,87,7.49
+Abercrombie & Fitch,2018-03,87,5.99
+Abercrombie & Fitch,2018-04,86,9.49
+Abercrombie & Fitch,2018-05,146,9.49
+Abercrombie & Fitch,2018-06,178,7.49
+Abercrombie & Fitch,2018-07,142,7.49
+Abercrombie & Fitch,2018-08,77,4.99
+Abercrombie & Fitch,2018-09,100,9.99
+Abercrombie & Fitch,2018-10,84,9.49
+Abercrombie & Fitch,2018-11,155,9.49
+Abercrombie & Fitch,2018-12,191,9.49
+Abercrombie & Fitch,2019-01,199,9.49
+Abercrombie & Fitch,2019-02,154,9.49
+Abercrombie & Fitch,2019-03,171,9.49
+Abercrombie & Fitch,2019-04,170,7.49
+Abercrombie & Fitch,2019-05,187,11.99
+Abercrombie & Fitch,2019-06,56,7.99
+Abercrombie & Fitch,2019-07,42,7.99
+Abercrombie & Fitch,2019-08,33,7.49
+Abercrombie & Fitch,2019-09,3,7.99
+Adidas,2014-07,9,7.99
+Adidas,2014-08,8,9.99
+Adidas,2014-09,5,9.99
+Adidas,2014-10,4,7.99
+Adidas,2014-11,15,5.0
+Adidas,2014-12,9,5.0
+Adidas,2015-01,11,6.0
+Adidas,2015-02,17,6.0
+Adidas,2015-03,20,5.5
+Adidas,2015-04,12,5.995
+Adidas,2015-05,11,5.0
+Adidas,2015-06,23,6.99
+Adidas,2015-07,9,5.0
+Adidas,2015-08,28,7.49
+Adidas,2015-09,18,8.49
+Adidas,2015-10,13,6.99
+Adidas,2015-11,3,6.99
+Adidas,2015-12,17,6.99
+Adidas,2016-01,37,3.99
+Adidas,2016-02,28,3.99
+Adidas,2016-03,8,7.99
+Adidas,2016-04,19,7.99
+Adidas,2016-05,19,8.01
+Adidas,2016-06,62,5.49
+Adidas,2016-07,110,5.49
+Adidas,2016-08,86,5.49
+Adidas,2016-09,71,5.49
+Adidas,2016-10,41,6.49
+Adidas,2016-11,61,6.49
+Adidas,2016-12,21,8.99
+Adidas,2017-01,42,5.49
+Adidas,2017-02,12,6.0
+Adidas,2017-03,11,6.99
+Adidas,2017-04,6,6.470000000000001
+Adidas,2017-05,18,8.99
+Adidas,2017-06,25,7.99
+Adidas,2017-07,61,7.49
+Adidas,2017-08,47,7.49
+Adidas,2017-09,14,6.99
+Adidas,2017-10,30,7.49
+Adidas,2017-11,52,7.49
+Adidas,2017-12,46,7.99
+Adidas,2018-01,24,7.99
+Adidas,2018-02,17,7.99
+Adidas,2018-03,91,9.49
+Adidas,2018-04,121,9.49
+Adidas,2018-05,141,5.99
+Adidas,2018-06,74,5.99
+Adidas,2018-07,55,4.99
+Adidas,2018-08,71,6.99
+Adidas,2018-09,36,9.99
+Adidas,2018-10,52,8.0
+Adidas,2018-11,50,9.99
+Adidas,2018-12,43,6.99
+Adidas,2019-01,18,7.99
+Adidas,2019-02,34,7.99
+Adidas,2019-03,65,8.99
+Adidas,2019-04,82,9.49
+Adidas,2019-05,65,7.99
+Adidas,2019-06,60,8.24
+Adidas,2019-07,56,9.99
+Adidas,2019-08,80,9.49
+Adidas,2019-09,11,11.99
+Adidas,2019-10,7,11.99
+Adidas,2019-11,4,11.99
+Adidas,2019-12,4,11.99
+Aeropostale,2015-12,8,3.49
+Aeropostale,2016-01,23,3.49
+Aeropostale,2016-04,8,5.0
+Aeropostale,2016-05,3,6.99
+Aeropostale,2016-06,10,3.99
+Aeropostale,2016-07,16,3.99
+Aeropostale,2017-01,5,7.49
+Aeropostale,2017-02,69,7.49
+Aeropostale,2017-10,4,9.99
+Aeropostale,2017-11,14,6.99
+Aeropostale,2017-12,57,7.99
+Aeropostale,2018-01,34,7.99
+Aeropostale,2018-02,21,7.49
+Aeropostale,2018-03,15,5.99
+Aeropostale,2018-04,12,9.49
+Aeropostale,2018-05,2,9.49
+Aeropostale,2018-06,63,9.49
+Aeropostale,2018-07,6,8.49
+Aeropostale,2018-08,23,6.99
+Aeropostale,2018-10,52,9.49
+Aeropostale,2018-11,41,9.99
+Aeropostale,2018-12,27,9.99
+Aeropostale,2019-01,67,8.0
+Aeropostale,2019-02,27,9.0
+Aeropostale,2019-03,16,7.245
+Aeropostale,2019-04,28,6.49
+Aeropostale,2019-05,19,6.49
+Aeropostale,2019-06,35,11.99
+Aeropostale,2019-07,27,9.49
+Aeropostale,2019-08,31,7.49
+Aeropostale,2019-09,15,11.99
+Aeropostale,2019-10,16,11.99
+Aeropostale,2019-11,3,6.99
+Aeropostale,2019-12,10,11.99
+Alfred Dunner,2015-12,21,3.99
+Alfred Dunner,2016-01,20,3.99
+Alfred Dunner,2016-04,32,3.99
+Alfred Dunner,2016-05,4,3.99
+Alfred Dunner,2016-06,7,4.99
+Alfred Dunner,2016-07,13,5.0
+Alfred Dunner,2016-11,1,18.0
+Alfred Dunner,2017-01,1,1.99
+Alfred Dunner,2017-02,48,7.49
+Alfred Dunner,2017-03,1,9.99
+Alfred Dunner,2017-08,2,9.745000000000001
+Alfred Dunner,2017-11,150,7.99
+Alfred Dunner,2017-12,1111,7.99
+Alfred Dunner,2018-01,797,7.99
+Alfred Dunner,2018-02,472,9.49
+Alfred Dunner,2018-03,130,9.49
+Alfred Dunner,2018-04,141,9.49
+Alfred Dunner,2018-05,39,9.49
+Alfred Dunner,2018-06,430,9.49
+Alfred Dunner,2018-07,20,9.49
+Alfred Dunner,2018-08,228,9.49
+Alfred Dunner,2018-09,1,31.99
+Alfred Dunner,2018-10,363,9.49
+Alfred Dunner,2018-11,13,9.99
+Alfred Dunner,2018-12,36,9.49
+Alfred Dunner,2019-01,492,7.49
+Alfred Dunner,2019-02,60,7.49
+Alfred Dunner,2019-03,12,10.0
+Alfred Dunner,2019-04,15,6.49
+Alfred Dunner,2019-05,7,6.95
+Alfred Dunner,2019-06,75,9.49
+Alfred Dunner,2019-07,177,9.49
+Alfred Dunner,2019-08,321,9.49
+Alfred Dunner,2019-09,14,10.74
+Alfred Dunner,2019-10,8,11.99
+Alfred Dunner,2019-12,3,11.99
+Alia,2014-07,7,5.99
+Alia,2014-08,30,3.49
+Alia,2014-09,23,3.49
+Alia,2014-10,18,3.49
+Alia,2014-11,17,3.99
+Alia,2014-12,20,3.99
+Alia,2015-01,18,4.49
+Alia,2015-02,26,5.99
+Alia,2015-03,137,3.49
+Alia,2015-04,143,3.99
+Alia,2015-05,68,3.99
+Alia,2015-06,20,3.99
+Alia,2015-07,22,4.49
+Alia,2015-08,29,4.49
+Alia,2015-09,45,3.49
+Alia,2015-10,200,3.49
+Alia,2015-11,174,3.49
+Alia,2015-12,115,3.99
+Alia,2016-01,150,3.99
+Alia,2016-02,46,3.99
+Alia,2016-03,14,3.99
+Alia,2016-04,21,3.99
+Alia,2016-05,7,6.99
+Alia,2016-06,2,20.99
+Alia,2016-07,13,5.49
+Alia,2016-08,9,4.99
+Alia,2016-09,8,2.99
+Alia,2016-10,3,9.99
+Alia,2016-11,8,8.495000000000001
+Alia,2016-12,35,6.49
+Alia,2017-01,80,6.49
+Alia,2017-02,150,19.99
+Alia,2017-03,124,7.49
+Alia,2017-04,124,7.49
+Alia,2017-05,100,7.49
+Alia,2017-06,243,7.49
+Alia,2017-07,273,7.49
+Alia,2017-08,408,7.49
+Alia,2017-09,453,7.49
+Alia,2017-10,988,9.49
+Alia,2017-11,2041,9.49
+Alia,2017-12,3730,9.49
+Alia,2018-01,4550,7.99
+Alia,2018-02,4032,7.49
+Alia,2018-03,3898,9.49
+Alia,2018-04,4921,9.49
+Alia,2018-05,5759,9.49
+Alia,2018-06,5529,9.49
+Alia,2018-07,3593,9.49
+Alia,2018-08,3050,9.49
+Alia,2018-09,3462,9.49
+Alia,2018-10,3928,9.49
+Alia,2018-11,2353,9.49
+Alia,2018-12,1813,9.49
+Alia,2019-01,1197,7.49
+Alia,2019-02,785,7.99
+Alia,2019-03,1805,9.49
+Alia,2019-04,2017,9.49
+Alia,2019-05,2834,9.49
+Alia,2019-06,2830,9.49
+Alia,2019-07,3878,9.49
+Alia,2019-08,4109,9.49
+Alia,2019-09,9,9.49
+Alia,2019-10,2,11.99
+American Eagle,2014-07,22,7.0
+American Eagle,2014-08,10,7.0
+American Eagle,2014-09,7,4.0
+American Eagle,2014-10,27,4.0
+American Eagle,2014-11,15,5.0
+American Eagle,2014-12,24,5.0
+American Eagle,2015-01,26,6.99
+American Eagle,2015-02,28,7.495
+American Eagle,2015-03,27,6.99
+American Eagle,2015-04,16,5.0
+American Eagle,2015-05,23,7.0
+American Eagle,2015-06,42,6.99
+American Eagle,2015-07,47,6.99
+American Eagle,2015-08,69,5.95
+American Eagle,2015-09,45,4.99
+American Eagle,2015-10,51,6.99
+American Eagle,2015-11,61,6.99
+American Eagle,2015-12,61,5.0
+American Eagle,2016-01,93,5.0
+American Eagle,2016-02,77,5.99
+American Eagle,2016-03,45,5.0
+American Eagle,2016-04,111,3.99
+American Eagle,2016-05,89,3.99
+American Eagle,2016-06,140,5.49
+American Eagle,2016-07,452,5.49
+American Eagle,2016-08,424,5.49
+American Eagle,2016-09,463,5.49
+American Eagle,2016-10,441,5.49
+American Eagle,2016-11,522,5.49
+American Eagle,2016-12,363,6.49
+American Eagle,2017-01,483,5.49
+American Eagle,2017-02,431,7.49
+American Eagle,2017-03,826,7.49
+American Eagle,2017-04,765,7.49
+American Eagle,2017-05,493,7.49
+American Eagle,2017-06,543,7.49
+American Eagle,2017-07,318,7.49
+American Eagle,2017-08,489,7.49
+American Eagle,2017-09,341,7.49
+American Eagle,2017-10,380,7.49
+American Eagle,2017-11,562,7.49
+American Eagle,2017-12,717,7.99
+American Eagle,2018-01,791,7.49
+American Eagle,2018-02,411,5.99
+American Eagle,2018-03,335,5.99
+American Eagle,2018-04,427,9.49
+American Eagle,2018-05,815,9.49
+American Eagle,2018-06,897,9.49
+American Eagle,2018-07,674,7.49
+American Eagle,2018-08,395,5.99
+American Eagle,2018-09,486,9.49
+American Eagle,2018-10,588,9.49
+American Eagle,2018-11,716,9.49
+American Eagle,2018-12,1211,9.49
+American Eagle,2019-01,1340,7.49
+American Eagle,2019-02,773,7.99
+American Eagle,2019-03,1283,9.49
+American Eagle,2019-04,1491,9.49
+American Eagle,2019-05,1101,9.49
+American Eagle,2019-06,589,8.49
+American Eagle,2019-07,532,9.49
+American Eagle,2019-08,471,7.49
+American Eagle,2019-09,9,7.99
+American Eagle,2019-12,2,11.99
+Banana Republic,2014-07,161,7.99
+Banana Republic,2014-08,184,7.99
+Banana Republic,2014-09,48,7.99
+Banana Republic,2014-10,156,7.99
+Banana Republic,2014-11,121,7.99
+Banana Republic,2014-12,91,7.99
+Banana Republic,2015-01,172,6.99
+Banana Republic,2015-02,129,7.99
+Banana Republic,2015-03,179,7.99
+Banana Republic,2015-04,147,7.99
+Banana Republic,2015-05,131,7.99
+Banana Republic,2015-06,126,7.0
+Banana Republic,2015-07,201,6.99
+Banana Republic,2015-08,193,6.99
+Banana Republic,2015-09,154,6.99
+Banana Republic,2015-10,156,7.99
+Banana Republic,2015-11,113,7.99
+Banana Republic,2015-12,129,6.99
+Banana Republic,2016-01,141,7.99
+Banana Republic,2016-02,140,6.99
+Banana Republic,2016-03,162,7.99
+Banana Republic,2016-04,153,6.99
+Banana Republic,2016-05,153,6.99
+Banana Republic,2016-06,205,5.95
+Banana Republic,2016-07,177,5.99
+Banana Republic,2016-08,196,5.49
+Banana Republic,2016-09,203,5.99
+Banana Republic,2016-10,197,6.49
+Banana Republic,2016-11,235,6.49
+Banana Republic,2016-12,231,5.99
+Banana Republic,2017-01,414,5.49
+Banana Republic,2017-02,285,7.49
+Banana Republic,2017-03,342,7.49
+Banana Republic,2017-04,302,7.49
+Banana Republic,2017-05,269,7.49
+Banana Republic,2017-06,220,7.49
+Banana Republic,2017-07,279,7.49
+Banana Republic,2017-08,411,7.49
+Banana Republic,2017-09,501,7.49
+Banana Republic,2017-10,394,7.49
+Banana Republic,2017-11,291,7.49
+Banana Republic,2017-12,368,7.99
+Banana Republic,2018-01,380,7.49
+Banana Republic,2018-02,385,5.99
+Banana Republic,2018-03,419,6.99
+Banana Republic,2018-04,404,7.49
+Banana Republic,2018-05,423,7.99
+Banana Republic,2018-06,518,4.99
+Banana Republic,2018-07,712,4.99
+Banana Republic,2018-08,827,4.99
+Banana Republic,2018-09,744,9.99
+Banana Republic,2018-10,601,8.99
+Banana Republic,2018-11,684,9.49
+Banana Republic,2018-12,752,9.49
+Banana Republic,2019-01,587,7.99
+Banana Republic,2019-02,388,7.99
+Banana Republic,2019-03,514,7.99
+Banana Republic,2019-04,725,7.99
+Banana Republic,2019-05,810,7.99
+Banana Republic,2019-06,959,8.49
+Banana Republic,2019-07,717,7.99
+Banana Republic,2019-08,752,7.99
+Banana Republic,2019-09,129,11.99
+Banana Republic,2019-10,201,11.99
+Banana Republic,2019-11,27,11.99
+Banana Republic,2019-12,83,11.99
+Cabin Creek,2015-05,3,6.99
+Cabin Creek,2015-06,4,6.99
+Cabin Creek,2015-07,4,6.99
+Cabin Creek,2015-08,4,6.99
+Cabin Creek,2015-12,6,6.99
+Cabin Creek,2016-01,1,6.99
+Cabin Creek,2016-02,1,9.99
+Cabin Creek,2016-03,1,3.0
+Cabin Creek,2016-07,6,7.0
+Cabin Creek,2016-08,11,5.49
+Cabin Creek,2016-09,2,6.99
+Cabin Creek,2017-03,13,5.99
+Cabin Creek,2017-04,12,1.0
+Cabin Creek,2017-05,1,1.0
+Cabin Creek,2017-08,29,7.49
+Cabin Creek,2017-09,69,7.49
+Cabin Creek,2017-10,57,7.49
+Cabin Creek,2017-11,2,7.49
+Cabin Creek,2017-12,23,7.49
+Cabin Creek,2018-01,57,7.49
+Cabin Creek,2018-02,80,7.49
+Cabin Creek,2018-03,102,7.49
+Cabin Creek,2018-04,103,9.49
+Cabin Creek,2018-05,59,9.49
+Cabin Creek,2018-06,51,7.49
+Cabin Creek,2018-07,20,7.49
+Cabin Creek,2018-09,26,9.49
+Cabin Creek,2018-10,30,9.49
+Cabin Creek,2018-11,22,9.49
+Cabin Creek,2018-12,24,9.49
+Cabin Creek,2019-01,66,7.49
+Cabin Creek,2019-02,30,5.99
+Cabin Creek,2019-03,36,9.49
+Cabin Creek,2019-04,26,9.49
+Cabin Creek,2019-05,25,9.49
+Cabin Creek,2019-06,14,7.99
+Cabin Creek,2019-07,1,11.99
+Cabin Creek,2019-08,1,11.99
+Cabin Creek,2019-10,2,9.49
+Calvin Klein,2014-07,104,9.99
+Calvin Klein,2014-08,71,9.99
+Calvin Klein,2014-09,28,5.995
+Calvin Klein,2014-10,65,8.99
+Calvin Klein,2014-11,38,7.99
+Calvin Klein,2014-12,75,7.99
+Calvin Klein,2015-01,78,7.99
+Calvin Klein,2015-02,62,7.99
+Calvin Klein,2015-03,101,5.0
+Calvin Klein,2015-04,102,4.99
+Calvin Klein,2015-05,151,3.49
+Calvin Klein,2015-06,189,3.49
+Calvin Klein,2015-07,252,4.49
+Calvin Klein,2015-08,181,4.99
+Calvin Klein,2015-09,201,4.99
+Calvin Klein,2015-10,289,3.99
+Calvin Klein,2015-11,162,3.99
+Calvin Klein,2015-12,142,4.99
+Calvin Klein,2016-01,137,5.0
+Calvin Klein,2016-02,154,6.99
+Calvin Klein,2016-03,116,7.99
+Calvin Klein,2016-04,84,6.99
+Calvin Klein,2016-05,175,3.99
+Calvin Klein,2016-06,169,4.99
+Calvin Klein,2016-07,144,6.99
+Calvin Klein,2016-08,160,6.99
+Calvin Klein,2016-09,151,6.49
+Calvin Klein,2016-10,165,6.49
+Calvin Klein,2016-11,200,6.49
+Calvin Klein,2016-12,313,5.49
+Calvin Klein,2017-01,268,6.49
+Calvin Klein,2017-02,194,7.49
+Calvin Klein,2017-03,234,7.49
+Calvin Klein,2017-04,262,7.49
+Calvin Klein,2017-05,223,7.49
+Calvin Klein,2017-06,278,7.49
+Calvin Klein,2017-07,242,7.49
+Calvin Klein,2017-08,311,7.49
+Calvin Klein,2017-09,278,7.49
+Calvin Klein,2017-10,261,7.49
+Calvin Klein,2017-11,256,7.49
+Calvin Klein,2017-12,233,7.49
+Calvin Klein,2018-01,309,7.49
+Calvin Klein,2018-02,211,5.99
+Calvin Klein,2018-03,234,7.99
+Calvin Klein,2018-04,198,7.99
+Calvin Klein,2018-05,254,6.99
+Calvin Klein,2018-06,267,6.0
+Calvin Klein,2018-07,450,7.99
+Calvin Klein,2018-08,402,7.99
+Calvin Klein,2018-09,366,8.99
+Calvin Klein,2018-10,343,7.99
+Calvin Klein,2018-11,301,7.99
+Calvin Klein,2018-12,289,8.99
+Calvin Klein,2019-01,353,7.99
+Calvin Klein,2019-02,284,7.99
+Calvin Klein,2019-03,463,7.99
+Calvin Klein,2019-04,415,7.99
+Calvin Klein,2019-05,510,7.99
+Calvin Klein,2019-06,565,7.99
+Calvin Klein,2019-07,582,7.99
+Calvin Klein,2019-08,555,7.49
+Calvin Klein,2019-09,61,9.99
+Calvin Klein,2019-10,17,11.99
+Calvin Klein,2019-11,5,11.99
+Calvin Klein,2019-12,10,11.99
+Caribbean Joe,2014-07,35,3.99
+Caribbean Joe,2014-08,69,3.49
+Caribbean Joe,2014-09,30,3.49
+Caribbean Joe,2014-10,29,3.99
+Caribbean Joe,2014-11,15,6.99
+Caribbean Joe,2014-12,21,4.49
+Caribbean Joe,2015-01,34,4.49
+Caribbean Joe,2015-02,29,3.99
+Caribbean Joe,2015-03,108,3.99
+Caribbean Joe,2015-04,200,3.49
+Caribbean Joe,2015-05,281,3.49
+Caribbean Joe,2015-06,195,3.49
+Caribbean Joe,2015-07,144,3.49
+Caribbean Joe,2015-08,131,3.99
+Caribbean Joe,2015-09,312,3.99
+Caribbean Joe,2015-10,328,3.49
+Caribbean Joe,2015-11,520,3.99
+Caribbean Joe,2015-12,612,3.99
+Caribbean Joe,2016-01,330,3.99
+Caribbean Joe,2016-02,250,3.99
+Caribbean Joe,2016-03,200,3.99
+Caribbean Joe,2016-04,93,3.99
+Caribbean Joe,2016-05,61,3.99
+Caribbean Joe,2016-06,37,3.99
+Caribbean Joe,2016-07,1,6.0
+Caribbean Joe,2016-08,47,5.49
+Caribbean Joe,2016-09,17,5.49
+Caribbean Joe,2016-10,24,5.49
+Caribbean Joe,2016-11,143,5.49
+Caribbean Joe,2016-12,228,5.49
+Caribbean Joe,2017-01,355,6.49
+Caribbean Joe,2017-02,280,7.49
+Caribbean Joe,2017-03,263,7.49
+Caribbean Joe,2017-04,315,7.49
+Caribbean Joe,2017-05,367,9.49
+Caribbean Joe,2017-06,982,9.49
+Caribbean Joe,2017-07,1160,9.49
+Caribbean Joe,2017-08,1277,7.49
+Caribbean Joe,2017-09,2603,9.49
+Caribbean Joe,2017-10,2467,9.49
+Caribbean Joe,2017-11,2941,7.99
+Caribbean Joe,2017-12,3557,7.99
+Caribbean Joe,2018-01,3923,7.99
+Caribbean Joe,2018-02,3983,9.49
+Caribbean Joe,2018-03,3965,9.49
+Caribbean Joe,2018-04,3990,9.49
+Caribbean Joe,2018-05,4065,9.49
+Caribbean Joe,2018-06,5162,9.49
+Caribbean Joe,2018-07,4698,9.49
+Caribbean Joe,2018-08,4472,9.49
+Caribbean Joe,2018-09,6340,9.49
+Caribbean Joe,2018-10,9119,9.49
+Caribbean Joe,2018-11,6476,9.49
+Caribbean Joe,2018-12,5585,9.49
+Caribbean Joe,2019-01,3772,7.49
+Caribbean Joe,2019-02,1778,7.49
+Caribbean Joe,2019-03,2818,9.49
+Caribbean Joe,2019-04,2593,9.49
+Caribbean Joe,2019-05,2277,9.49
+Caribbean Joe,2019-06,2362,9.49
+Caribbean Joe,2019-07,3042,9.49
+Caribbean Joe,2019-08,3166,9.49
+Caribbean Joe,2019-09,10,9.49
+Champion,2014-07,22,3.49
+Champion,2014-08,14,3.49
+Champion,2014-09,17,3.49
+Champion,2014-10,37,3.49
+Champion,2014-11,51,3.49
+Champion,2014-12,63,3.49
+Champion,2015-01,29,3.49
+Champion,2015-02,39,3.49
+Champion,2015-03,93,3.49
+Champion,2015-04,61,3.49
+Champion,2015-05,59,3.49
+Champion,2015-06,32,3.49
+Champion,2015-07,31,3.49
+Champion,2015-08,19,3.49
+Champion,2015-09,59,3.49
+Champion,2015-10,70,3.49
+Champion,2015-11,90,3.99
+Champion,2015-12,53,3.99
+Champion,2016-01,25,3.99
+Champion,2016-02,32,3.99
+Champion,2016-03,40,3.99
+Champion,2016-04,1,5.0
+Champion,2016-05,10,8.99
+Champion,2016-06,2,4.49
+Champion,2016-07,2,7.970000000000001
+Champion,2016-08,9,5.49
+Champion,2016-09,28,5.87
+Champion,2016-10,31,5.49
+Champion,2016-11,46,5.49
+Champion,2016-12,24,6.49
+Champion,2017-01,40,3.99
+Champion,2017-02,31,3.99
+Champion,2017-03,26,5.99
+Champion,2017-04,31,7.49
+Champion,2017-05,39,7.49
+Champion,2017-06,13,6.99
+Champion,2017-07,10,6.99
+Champion,2017-08,6,5.995
+Champion,2017-09,31,9.49
+Champion,2017-10,69,7.49
+Champion,2017-11,81,7.49
+Champion,2017-12,129,7.49
+Champion,2018-01,159,7.49
+Champion,2018-02,139,5.99
+Champion,2018-03,110,7.49
+Champion,2018-04,66,7.49
+Champion,2018-05,116,6.99
+Champion,2018-06,147,9.49
+Champion,2018-07,193,9.49
+Champion,2018-08,265,9.49
+Champion,2018-09,331,9.49
+Champion,2018-10,253,9.49
+Champion,2018-11,194,9.49
+Champion,2018-12,230,9.49
+Champion,2019-01,175,7.49
+Champion,2019-02,111,9.49
+Champion,2019-03,179,9.49
+Champion,2019-04,191,9.49
+Champion,2019-05,280,7.49
+Champion,2019-06,118,9.49
+Champion,2019-07,83,7.99
+Champion,2019-08,301,9.49
+Champion,2019-09,6,9.49
+Champion,2019-12,1,11.99
+Chico's,2014-07,284,7.99
+Chico's,2014-08,282,9.485
+Chico's,2014-09,98,9.969999999999999
+Chico's,2014-10,363,6.99
+Chico's,2014-11,161,6.99
+Chico's,2014-12,129,7.99
+Chico's,2015-01,137,7.99
+Chico's,2015-02,170,9.99
+Chico's,2015-03,242,7.99
+Chico's,2015-04,251,7.01
+Chico's,2015-05,224,6.99
+Chico's,2015-06,318,6.99
+Chico's,2015-07,265,6.99
+Chico's,2015-08,299,6.99
+Chico's,2015-09,205,6.99
+Chico's,2015-10,121,7.99
+Chico's,2015-11,111,8.99
+Chico's,2015-12,93,7.99
+Chico's,2016-01,87,7.0
+Chico's,2016-02,80,7.99
+Chico's,2016-03,121,7.99
+Chico's,2016-04,165,9.0
+Chico's,2016-05,98,7.995
+Chico's,2016-06,152,9.99
+Chico's,2016-07,143,7.99
+Chico's,2016-08,173,7.99
+Chico's,2016-09,177,7.99
+Chico's,2016-10,215,7.0
+Chico's,2016-11,243,6.99
+Chico's,2016-12,180,7.99
+Chico's,2017-01,148,8.995000000000001
+Chico's,2017-02,176,9.99
+Chico's,2017-03,241,7.49
+Chico's,2017-04,296,7.99
+Chico's,2017-05,241,8.99
+Chico's,2017-06,242,8.99
+Chico's,2017-07,326,7.495
+Chico's,2017-08,306,7.99
+Chico's,2017-09,392,6.99
+Chico's,2017-10,362,7.99
+Chico's,2017-11,429,7.99
+Chico's,2017-12,375,7.99
+Chico's,2018-01,293,7.99
+Chico's,2018-02,276,7.99
+Chico's,2018-03,364,8.99
+Chico's,2018-04,260,9.0
+Chico's,2018-05,345,7.99
+Chico's,2018-06,378,8.969999999999999
+Chico's,2018-07,524,7.99
+Chico's,2018-08,511,7.5
+Chico's,2018-09,340,7.99
+Chico's,2018-10,359,7.5
+Chico's,2018-11,368,7.5
+Chico's,2018-12,379,7.99
+Chico's,2019-01,373,7.99
+Chico's,2019-02,328,7.99
+Chico's,2019-03,418,8.0
+Chico's,2019-04,425,7.99
+Chico's,2019-05,581,7.99
+Chico's,2019-06,724,6.99
+Chico's,2019-07,580,7.49
+Chico's,2019-08,588,7.5
+Chico's,2019-09,83,9.99
+Chico's,2019-10,11,11.99
+Chico's,2019-11,4,11.99
+Chico's,2019-12,4,11.99
+Coldwater Creek,2016-01,29,7.99
+Coldwater Creek,2016-04,20,6.99
+Coldwater Creek,2016-05,7,5.0
+Coldwater Creek,2016-06,3,5.0
+Coldwater Creek,2016-07,12,7.970000000000001
+Coldwater Creek,2016-08,2,5.720000000000001
+Coldwater Creek,2016-09,3,5.95
+Coldwater Creek,2016-10,1,5.95
+Coldwater Creek,2016-11,1,19.99
+Coldwater Creek,2017-01,4,4.495
+Coldwater Creek,2017-02,22,7.49
+Coldwater Creek,2017-03,6,8.49
+Coldwater Creek,2017-04,1,5.99
+Coldwater Creek,2017-05,1,5.99
+Coldwater Creek,2017-06,4,6.5
+Coldwater Creek,2017-07,17,5.0
+Coldwater Creek,2017-08,1,7.99
+Coldwater Creek,2017-10,3,9.99
+Coldwater Creek,2017-11,20,7.99
+Coldwater Creek,2017-12,207,7.99
+Coldwater Creek,2018-01,160,7.99
+Coldwater Creek,2018-02,51,5.99
+Coldwater Creek,2018-03,25,9.49
+Coldwater Creek,2018-04,19,9.49
+Coldwater Creek,2018-05,6,7.995
+Coldwater Creek,2018-06,61,7.49
+Coldwater Creek,2018-07,7,4.99
+Coldwater Creek,2018-08,49,7.0
+Coldwater Creek,2018-10,69,9.49
+Coldwater Creek,2018-11,37,9.99
+Coldwater Creek,2018-12,27,9.99
+Coldwater Creek,2019-01,68,7.99
+Coldwater Creek,2019-02,20,9.49
+Coldwater Creek,2019-03,14,8.0
+Coldwater Creek,2019-04,26,9.99
+Coldwater Creek,2019-05,17,11.99
+Coldwater Creek,2019-06,44,11.99
+Coldwater Creek,2019-07,44,9.49
+Coldwater Creek,2019-08,55,7.49
+Coldwater Creek,2019-09,11,11.99
+Coldwater Creek,2019-10,22,11.99
+Coldwater Creek,2019-11,11,11.99
+Coldwater Creek,2019-12,18,11.99
+Columbia,2014-07,72,5.99
+Columbia,2014-08,46,5.475
+Columbia,2014-09,26,3.49
+Columbia,2014-10,47,5.99
+Columbia,2014-11,49,5.0
+Columbia,2014-12,55,3.99
+Columbia,2015-01,42,4.49
+Columbia,2015-02,57,3.99
+Columbia,2015-03,66,3.99
+Columbia,2015-04,60,4.99
+Columbia,2015-05,79,3.49
+Columbia,2015-06,90,3.49
+Columbia,2015-07,194,3.99
+Columbia,2015-08,91,4.49
+Columbia,2015-09,44,3.49
+Columbia,2015-10,163,3.99
+Columbia,2015-11,221,3.99
+Columbia,2015-12,315,3.99
+Columbia,2016-01,195,3.99
+Columbia,2016-02,181,3.99
+Columbia,2016-03,182,3.99
+Columbia,2016-04,42,4.995
+Columbia,2016-05,69,3.99
+Columbia,2016-06,89,5.0
+Columbia,2016-07,124,5.49
+Columbia,2016-08,118,5.49
+Columbia,2016-09,86,5.720000000000001
+Columbia,2016-10,106,5.95
+Columbia,2016-11,147,6.49
+Columbia,2016-12,75,6.0
+Columbia,2017-01,77,7.49
+Columbia,2017-02,171,7.49
+Columbia,2017-03,194,7.49
+Columbia,2017-04,199,7.49
+Columbia,2017-05,185,7.49
+Columbia,2017-06,183,7.49
+Columbia,2017-07,230,7.49
+Columbia,2017-08,244,7.49
+Columbia,2017-09,162,7.49
+Columbia,2017-10,166,9.49
+Columbia,2017-11,219,7.49
+Columbia,2017-12,486,7.99
+Columbia,2018-01,596,9.49
+Columbia,2018-02,540,5.99
+Columbia,2018-03,463,9.49
+Columbia,2018-04,416,9.49
+Columbia,2018-05,322,9.49
+Columbia,2018-06,353,9.49
+Columbia,2018-07,407,9.49
+Columbia,2018-08,568,9.49
+Columbia,2018-09,659,9.49
+Columbia,2018-10,582,9.49
+Columbia,2018-11,344,9.49
+Columbia,2018-12,422,9.49
+Columbia,2019-01,391,7.99
+Columbia,2019-02,222,7.99
+Columbia,2019-03,401,9.49
+Columbia,2019-04,696,9.49
+Columbia,2019-05,1028,9.49
+Columbia,2019-06,915,9.49
+Columbia,2019-07,1286,9.49
+Columbia,2019-08,1279,9.49
+Columbia,2019-09,62,7.99
+Columbia,2019-10,9,11.99
+Columbia,2019-11,1,11.99
+Columbia,2019-12,2,11.99
+Coral Bay,2014-07,62,3.49
+Coral Bay,2014-08,148,3.49
+Coral Bay,2014-09,63,3.49
+Coral Bay,2014-10,145,3.49
+Coral Bay,2014-11,160,3.49
+Coral Bay,2014-12,240,3.49
+Coral Bay,2015-01,158,3.49
+Coral Bay,2015-02,329,3.49
+Coral Bay,2015-03,988,3.49
+Coral Bay,2015-04,1115,3.49
+Coral Bay,2015-05,938,3.49
+Coral Bay,2015-06,640,3.49
+Coral Bay,2015-07,694,3.99
+Coral Bay,2015-08,374,3.99
+Coral Bay,2015-09,744,3.99
+Coral Bay,2015-10,1474,3.49
+Coral Bay,2015-11,1751,3.99
+Coral Bay,2015-12,1646,3.99
+Coral Bay,2016-01,1238,3.99
+Coral Bay,2016-02,758,3.99
+Coral Bay,2016-03,579,3.99
+Coral Bay,2016-04,460,3.99
+Coral Bay,2016-05,306,3.99
+Coral Bay,2016-06,231,3.99
+Coral Bay,2016-07,107,3.99
+Coral Bay,2016-08,45,3.99
+Coral Bay,2016-09,79,5.49
+Coral Bay,2016-10,151,5.49
+Coral Bay,2016-11,663,5.49
+Coral Bay,2016-12,707,6.49
+Coral Bay,2017-01,634,5.49
+Coral Bay,2017-02,646,7.49
+Coral Bay,2017-03,1102,7.49
+Coral Bay,2017-04,1255,7.49
+Coral Bay,2017-05,1458,7.49
+Coral Bay,2017-06,2122,7.49
+Coral Bay,2017-07,2141,7.49
+Coral Bay,2017-08,3112,7.49
+Coral Bay,2017-09,5421,7.49
+Coral Bay,2017-10,5479,7.49
+Coral Bay,2017-11,8247,7.99
+Coral Bay,2017-12,12151,7.99
+Coral Bay,2018-01,15909,7.99
+Coral Bay,2018-02,15891,7.49
+Coral Bay,2018-03,14917,9.49
+Coral Bay,2018-04,13873,9.49
+Coral Bay,2018-05,12289,9.49
+Coral Bay,2018-06,12279,9.49
+Coral Bay,2018-07,11910,9.49
+Coral Bay,2018-08,14812,9.49
+Coral Bay,2018-09,16910,9.49
+Coral Bay,2018-10,17789,9.49
+Coral Bay,2018-11,10532,9.49
+Coral Bay,2018-12,10652,9.49
+Coral Bay,2019-01,9205,7.49
+Coral Bay,2019-02,6994,9.49
+Coral Bay,2019-03,14423,9.49
+Coral Bay,2019-04,15510,9.49
+Coral Bay,2019-05,16574,9.49
+Coral Bay,2019-06,13951,9.49
+Coral Bay,2019-07,17028,9.49
+Coral Bay,2019-08,17000,9.49
+Coral Bay,2019-09,74,9.49
+Dept 222,2015-02,7,3.49
+Dept 222,2015-03,32,3.49
+Dept 222,2015-04,34,3.99
+Dept 222,2015-05,124,3.49
+Dept 222,2015-06,236,3.49
+Dept 222,2015-07,310,3.49
+Dept 222,2015-08,174,3.99
+Dept 222,2015-09,527,3.49
+Dept 222,2015-10,637,3.49
+Dept 222,2015-11,647,3.99
+Dept 222,2015-12,723,3.99
+Dept 222,2016-01,750,3.99
+Dept 222,2016-02,529,3.49
+Dept 222,2016-03,295,3.99
+Dept 222,2016-04,131,3.99
+Dept 222,2016-05,42,3.99
+Dept 222,2016-06,137,3.99
+Dept 222,2016-07,126,3.99
+Dept 222,2016-08,52,3.5
+Dept 222,2016-09,22,6.49
+Dept 222,2016-10,97,6.49
+Dept 222,2016-11,252,6.49
+Dept 222,2016-12,202,6.49
+Dept 222,2017-01,184,6.49
+Dept 222,2017-02,137,7.49
+Dept 222,2017-03,175,7.49
+Dept 222,2017-04,112,7.49
+Dept 222,2017-05,208,9.49
+Dept 222,2017-06,600,9.49
+Dept 222,2017-07,592,7.49
+Dept 222,2017-08,792,7.49
+Dept 222,2017-09,1579,7.49
+Dept 222,2017-10,1733,7.49
+Dept 222,2017-11,2366,7.49
+Dept 222,2017-12,4253,7.99
+Dept 222,2018-01,8314,7.99
+Dept 222,2018-02,10024,9.49
+Dept 222,2018-03,10708,9.49
+Dept 222,2018-04,7883,9.49
+Dept 222,2018-05,5827,9.49
+Dept 222,2018-06,7276,9.49
+Dept 222,2018-07,8780,9.49
+Dept 222,2018-08,10243,9.49
+Dept 222,2018-09,9665,9.49
+Dept 222,2018-10,8824,9.49
+Dept 222,2018-11,4945,9.49
+Dept 222,2018-12,4705,9.49
+Dept 222,2019-01,4006,7.49
+Dept 222,2019-02,2769,9.49
+Dept 222,2019-03,5626,9.49
+Dept 222,2019-04,6011,9.49
+Dept 222,2019-05,8404,9.49
+Dept 222,2019-06,8035,9.49
+Dept 222,2019-07,9360,9.49
+Dept 222,2019-08,8236,7.99
+Dept 222,2019-09,35,9.49
+Derek Heart,2016-04,2,6.99
+Derek Heart,2016-06,4,3.99
+Derek Heart,2016-07,1,9.99
+Derek Heart,2017-11,32,9.99
+Derek Heart,2017-12,218,9.99
+Derek Heart,2018-01,207,9.99
+Derek Heart,2018-02,40,9.49
+Derek Heart,2018-03,14,9.49
+Derek Heart,2018-04,12,9.49
+Derek Heart,2018-05,6,9.49
+Derek Heart,2018-06,71,9.49
+Derek Heart,2018-07,3,9.49
+Derek Heart,2018-08,97,9.49
+Derek Heart,2018-10,292,9.49
+Derek Heart,2018-11,9,9.99
+Derek Heart,2018-12,12,9.49
+Derek Heart,2019-01,115,7.49
+Derek Heart,2019-02,18,5.99
+Derek Heart,2019-03,2,6.0
+Derek Heart,2019-04,2,7.995
+Derek Heart,2019-05,1,11.99
+Derek Heart,2019-06,58,8.49
+Derek Heart,2019-07,116,9.49
+Derek Heart,2019-08,228,9.49
+Derek Heart,2019-09,2,8.74
+Derek Heart,2019-10,4,11.99
+Derek Heart,2019-12,1,11.99
+Designer,2014-07,28,37.5
+Designer,2014-08,18,23.119999999999997
+Designer,2014-09,7,19.88
+Designer,2014-10,23,19.88
+Designer,2014-11,12,22.744999999999997
+Designer,2014-12,19,20.0
+Designer,2015-01,16,26.445
+Designer,2015-02,24,16.635
+Designer,2015-03,21,39.26
+Designer,2015-04,22,22.505000000000003
+Designer,2015-05,26,23.5
+Designer,2015-06,17,10.95
+Designer,2015-07,21,36.99
+Designer,2015-08,17,18.99
+Designer,2015-09,18,18.0
+Designer,2015-10,15,14.99
+Designer,2015-11,13,40.0
+Designer,2015-12,32,25.055
+Designer,2016-01,22,27.02
+Designer,2016-02,23,21.0
+Designer,2016-03,23,13.0
+Designer,2016-04,17,31.0
+Designer,2016-05,19,21.45
+Designer,2016-06,4,20.615
+Designer,2016-07,25,25.99
+Designer,2016-08,16,26.990000000000002
+Designer,2016-09,16,17.005
+Designer,2016-10,18,17.97
+Designer,2016-11,17,9.99
+Designer,2016-12,16,21.195
+Designer,2017-01,21,35.0
+Designer,2017-02,16,18.82
+Designer,2017-03,19,23.0
+Designer,2017-04,19,21.0
+Designer,2017-05,14,17.994999999999997
+Designer,2017-06,48,32.379999999999995
+Designer,2017-07,14,31.5
+Designer,2017-08,14,26.43
+Designer,2017-09,24,16.5
+Designer,2017-10,16,22.0
+Designer,2017-11,15,42.0
+Designer,2017-12,14,28.380000000000003
+Designer,2018-01,14,28.494999999999997
+Designer,2018-02,14,37.935
+Designer,2018-03,15,12.0
+Designer,2018-04,20,41.94
+Designer,2018-05,34,31.36
+Designer,2018-06,22,21.494999999999997
+Designer,2018-07,30,24.5
+Designer,2018-08,38,55.54
+Designer,2018-09,21,39.99
+Designer,2018-10,27,35.99
+Designer,2018-11,16,32.665
+Designer,2018-12,19,48.55
+Designer,2019-01,26,28.5
+Designer,2019-02,31,38.0
+Designer,2019-03,26,32.0
+Designer,2019-04,34,24.0
+Designer,2019-05,29,32.0
+Designer,2019-06,41,34.0
+Designer,2019-07,16,37.0
+Designer,2019-08,22,27.0
+Designer,2019-09,7,26.0
+Eddie Bauer,2014-07,18,8.99
+Eddie Bauer,2014-08,13,9.99
+Eddie Bauer,2014-09,5,7.0
+Eddie Bauer,2014-10,20,7.87
+Eddie Bauer,2014-11,29,5.99
+Eddie Bauer,2014-12,19,8.95
+Eddie Bauer,2015-01,17,8.99
+Eddie Bauer,2015-02,29,6.99
+Eddie Bauer,2015-03,30,6.99
+Eddie Bauer,2015-04,25,5.0
+Eddie Bauer,2015-05,17,6.99
+Eddie Bauer,2015-06,17,5.0
+Eddie Bauer,2015-07,21,6.0
+Eddie Bauer,2015-08,20,6.99
+Eddie Bauer,2015-09,20,5.99
+Eddie Bauer,2015-10,9,9.99
+Eddie Bauer,2015-11,24,7.99
+Eddie Bauer,2015-12,10,6.99
+Eddie Bauer,2016-01,5,6.99
+Eddie Bauer,2016-02,10,9.49
+Eddie Bauer,2016-03,10,6.49
+Eddie Bauer,2016-04,13,6.99
+Eddie Bauer,2016-05,21,6.99
+Eddie Bauer,2016-06,27,6.99
+Eddie Bauer,2016-07,18,5.49
+Eddie Bauer,2016-08,40,5.49
+Eddie Bauer,2016-09,39,5.49
+Eddie Bauer,2016-10,80,5.49
+Eddie Bauer,2016-11,115,6.49
+Eddie Bauer,2016-12,272,5.49
+Eddie Bauer,2017-01,289,5.49
+Eddie Bauer,2017-02,332,7.49
+Eddie Bauer,2017-03,398,7.49
+Eddie Bauer,2017-04,336,7.49
+Eddie Bauer,2017-05,232,7.49
+Eddie Bauer,2017-06,251,7.49
+Eddie Bauer,2017-07,305,7.49
+Eddie Bauer,2017-08,487,7.49
+Eddie Bauer,2017-09,481,7.49
+Eddie Bauer,2017-10,327,7.49
+Eddie Bauer,2017-11,318,7.49
+Eddie Bauer,2017-12,418,7.99
+Eddie Bauer,2018-01,551,7.49
+Eddie Bauer,2018-02,432,7.49
+Eddie Bauer,2018-03,474,9.49
+Eddie Bauer,2018-04,499,9.49
+Eddie Bauer,2018-05,713,9.49
+Eddie Bauer,2018-06,650,9.49
+Eddie Bauer,2018-07,443,7.49
+Eddie Bauer,2018-08,215,5.0
+Eddie Bauer,2018-09,106,8.0
+Eddie Bauer,2018-10,128,8.0
+Eddie Bauer,2018-11,69,9.99
+Eddie Bauer,2018-12,234,9.49
+Eddie Bauer,2019-01,353,7.49
+Eddie Bauer,2019-02,216,7.49
+Eddie Bauer,2019-03,291,9.49
+Eddie Bauer,2019-04,388,9.49
+Eddie Bauer,2019-05,374,7.49
+Eddie Bauer,2019-06,307,6.49
+Eddie Bauer,2019-07,169,8.99
+Eddie Bauer,2019-08,103,7.49
+Eddie Bauer,2019-09,24,11.99
+Eddie Bauer,2019-10,37,11.99
+Eddie Bauer,2019-11,15,11.99
+Eddie Bauer,2019-12,13,11.99
+Express,2015-06,1,3.0
+Express,2015-12,2,7.49
+Express,2016-01,20,7.99
+Express,2016-03,2,10.0
+Express,2016-04,43,7.99
+Express,2016-05,3,9.99
+Express,2016-06,20,9.469999999999999
+Express,2016-07,52,7.99
+Express,2017-01,2,4.745
+Express,2017-02,29,7.49
+Express,2017-03,3,4.99
+Express,2017-05,4,5.99
+Express,2017-06,6,6.245
+Express,2017-07,5,5.95
+Express,2017-08,6,1.0
+Express,2017-09,10,3.0
+Express,2017-10,4,8.49
+Express,2017-11,34,7.99
+Express,2017-12,134,7.99
+Express,2018-01,98,7.99
+Express,2018-02,54,5.0
+Express,2018-03,42,9.24
+Express,2018-04,34,9.49
+Express,2018-05,37,4.99
+Express,2018-06,138,5.99
+Express,2018-07,15,4.99
+Express,2018-08,122,4.99
+Express,2018-09,1,7.0
+Express,2018-10,192,9.99
+Express,2018-11,200,9.99
+Express,2018-12,175,9.99
+Express,2019-01,265,7.99
+Express,2019-02,80,7.99
+Express,2019-03,34,9.99
+Express,2019-04,69,9.99
+Express,2019-05,83,11.99
+Express,2019-06,240,11.99
+Express,2019-07,165,8.49
+Express,2019-08,112,8.49
+Express,2019-09,48,11.99
+Express,2019-10,112,11.99
+Express,2019-11,20,11.99
+Express,2019-12,46,11.99
+Forever 21,2014-07,8,6.99
+Forever 21,2014-08,8,5.975
+Forever 21,2014-09,2,12.239999999999998
+Forever 21,2014-10,18,5.0
+Forever 21,2014-11,14,6.99
+Forever 21,2014-12,18,6.99
+Forever 21,2015-01,26,5.0
+Forever 21,2015-02,13,6.99
+Forever 21,2015-03,32,3.0
+Forever 21,2015-04,26,3.0
+Forever 21,2015-05,12,6.495
+Forever 21,2015-06,14,7.470000000000001
+Forever 21,2015-07,15,6.99
+Forever 21,2015-08,19,6.99
+Forever 21,2015-09,30,6.99
+Forever 21,2015-10,24,6.99
+Forever 21,2015-11,16,5.5
+Forever 21,2015-12,41,3.49
+Forever 21,2016-01,53,6.99
+Forever 21,2016-02,52,7.0
+Forever 21,2016-03,35,7.0
+Forever 21,2016-04,44,7.99
+Forever 21,2016-05,64,4.99
+Forever 21,2016-06,74,4.99
+Forever 21,2016-07,120,7.49
+Forever 21,2016-08,49,7.0
+Forever 21,2016-09,19,6.95
+Forever 21,2016-10,44,5.74
+Forever 21,2016-11,51,6.49
+Forever 21,2016-12,57,5.49
+Forever 21,2017-01,44,5.49
+Forever 21,2017-02,80,7.49
+Forever 21,2017-03,96,7.49
+Forever 21,2017-04,120,7.49
+Forever 21,2017-05,113,7.49
+Forever 21,2017-06,122,7.49
+Forever 21,2017-07,141,7.49
+Forever 21,2017-08,221,7.49
+Forever 21,2017-09,176,7.49
+Forever 21,2017-10,212,5.99
+Forever 21,2017-11,193,7.49
+Forever 21,2017-12,217,7.49
+Forever 21,2018-01,244,7.49
+Forever 21,2018-02,196,5.99
+Forever 21,2018-03,146,5.99
+Forever 21,2018-04,135,5.99
+Forever 21,2018-05,303,5.99
+Forever 21,2018-06,435,5.99
+Forever 21,2018-07,575,4.99
+Forever 21,2018-08,446,4.99
+Forever 21,2018-09,496,9.49
+Forever 21,2018-10,420,9.99
+Forever 21,2018-11,474,9.49
+Forever 21,2018-12,576,9.49
+Forever 21,2019-01,421,7.99
+Forever 21,2019-02,180,9.49
+Forever 21,2019-03,337,9.49
+Forever 21,2019-04,443,9.49
+Forever 21,2019-05,794,2.99
+Forever 21,2019-06,266,6.49
+Forever 21,2019-07,225,7.99
+Forever 21,2019-08,212,7.49
+Forever 21,2019-09,31,7.99
+Forever 21,2019-10,19,11.99
+Gap,2014-07,37,6.99
+Gap,2014-08,22,5.0
+Gap,2014-09,12,6.995
+Gap,2014-10,17,6.95
+Gap,2014-11,31,5.99
+Gap,2014-12,28,6.99
+Gap,2015-01,29,5.0
+Gap,2015-02,26,5.0
+Gap,2015-03,21,5.0
+Gap,2015-04,18,7.0
+Gap,2015-05,20,6.99
+Gap,2015-06,33,6.99
+Gap,2015-07,27,6.99
+Gap,2015-08,44,6.99
+Gap,2015-09,44,4.995
+Gap,2015-10,33,5.0
+Gap,2015-11,34,5.995
+Gap,2015-12,39,5.99
+Gap,2016-01,34,6.99
+Gap,2016-02,32,5.99
+Gap,2016-03,31,5.99
+Gap,2016-04,41,6.99
+Gap,2016-05,32,8.969999999999999
+Gap,2016-06,68,5.99
+Gap,2016-07,71,7.99
+Gap,2016-08,158,5.49
+Gap,2016-09,99,5.49
+Gap,2016-10,77,3.99
+Gap,2016-11,82,5.49
+Gap,2016-12,210,5.49
+Gap,2017-01,323,5.49
+Gap,2017-02,238,7.49
+Gap,2017-03,338,7.49
+Gap,2017-04,302,7.49
+Gap,2017-05,152,7.49
+Gap,2017-06,134,7.49
+Gap,2017-07,157,7.49
+Gap,2017-08,402,7.49
+Gap,2017-09,471,7.49
+Gap,2017-10,401,7.49
+Gap,2017-11,198,7.49
+Gap,2017-12,129,7.49
+Gap,2018-01,283,7.49
+Gap,2018-02,399,7.49
+Gap,2018-03,376,5.99
+Gap,2018-04,345,5.99
+Gap,2018-05,496,6.99
+Gap,2018-06,611,4.99
+Gap,2018-07,737,4.99
+Gap,2018-08,509,4.99
+Gap,2018-09,499,9.99
+Gap,2018-10,414,9.99
+Gap,2018-11,345,9.99
+Gap,2018-12,409,9.49
+Gap,2019-01,555,7.49
+Gap,2019-02,367,7.49
+Gap,2019-03,673,9.49
+Gap,2019-04,1141,9.49
+Gap,2019-05,1767,5.99
+Gap,2019-06,615,5.99
+Gap,2019-07,313,9.49
+Gap,2019-08,312,8.74
+Gap,2019-09,18,7.99
+Gap,2019-12,2,11.99
+Gloria Vanderbilt,2014-07,81,3.49
+Gloria Vanderbilt,2014-08,124,3.49
+Gloria Vanderbilt,2014-09,51,3.49
+Gloria Vanderbilt,2014-10,121,3.49
+Gloria Vanderbilt,2014-11,65,3.49
+Gloria Vanderbilt,2014-12,81,3.49
+Gloria Vanderbilt,2015-01,39,3.49
+Gloria Vanderbilt,2015-02,55,3.49
+Gloria Vanderbilt,2015-03,352,3.49
+Gloria Vanderbilt,2015-04,516,3.49
+Gloria Vanderbilt,2015-05,667,3.49
+Gloria Vanderbilt,2015-06,366,3.49
+Gloria Vanderbilt,2015-07,456,3.49
+Gloria Vanderbilt,2015-08,230,3.99
+Gloria Vanderbilt,2015-09,591,3.99
+Gloria Vanderbilt,2015-10,681,3.49
+Gloria Vanderbilt,2015-11,656,3.99
+Gloria Vanderbilt,2015-12,733,3.99
+Gloria Vanderbilt,2016-01,678,3.49
+Gloria Vanderbilt,2016-02,505,3.49
+Gloria Vanderbilt,2016-03,307,3.99
+Gloria Vanderbilt,2016-04,139,3.99
+Gloria Vanderbilt,2016-05,121,3.99
+Gloria Vanderbilt,2016-06,113,3.99
+Gloria Vanderbilt,2016-07,60,3.99
+Gloria Vanderbilt,2016-08,51,3.5
+Gloria Vanderbilt,2016-09,3,5.0
+Gloria Vanderbilt,2016-10,38,5.49
+Gloria Vanderbilt,2016-11,283,6.49
+Gloria Vanderbilt,2016-12,239,6.49
+Gloria Vanderbilt,2017-01,320,7.49
+Gloria Vanderbilt,2017-02,265,7.49
+Gloria Vanderbilt,2017-03,228,7.49
+Gloria Vanderbilt,2017-04,473,7.49
+Gloria Vanderbilt,2017-05,1034,7.49
+Gloria Vanderbilt,2017-06,1030,7.49
+Gloria Vanderbilt,2017-07,659,7.49
+Gloria Vanderbilt,2017-08,687,7.49
+Gloria Vanderbilt,2017-09,950,7.49
+Gloria Vanderbilt,2017-10,898,7.49
+Gloria Vanderbilt,2017-11,2176,7.99
+Gloria Vanderbilt,2017-12,5787,9.49
+Gloria Vanderbilt,2018-01,8569,7.99
+Gloria Vanderbilt,2018-02,7024,5.99
+Gloria Vanderbilt,2018-03,6847,9.49
+Gloria Vanderbilt,2018-04,7595,9.49
+Gloria Vanderbilt,2018-05,8609,9.49
+Gloria Vanderbilt,2018-06,7383,9.49
+Gloria Vanderbilt,2018-07,5194,9.49
+Gloria Vanderbilt,2018-08,4144,9.49
+Gloria Vanderbilt,2018-09,4804,9.49
+Gloria Vanderbilt,2018-10,6034,9.49
+Gloria Vanderbilt,2018-11,4440,9.49
+Gloria Vanderbilt,2018-12,4993,9.49
+Gloria Vanderbilt,2019-01,3566,7.49
+Gloria Vanderbilt,2019-02,1411,7.49
+Gloria Vanderbilt,2019-03,2971,9.49
+Gloria Vanderbilt,2019-04,2771,9.49
+Gloria Vanderbilt,2019-05,3443,9.49
+Gloria Vanderbilt,2019-06,3776,9.49
+Gloria Vanderbilt,2019-07,5293,9.49
+Gloria Vanderbilt,2019-08,4907,9.49
+Gloria Vanderbilt,2019-09,23,9.49
+Guess,2014-07,49,7.99
+Guess,2014-08,109,5.99
+Guess,2014-09,20,9.99
+Guess,2014-10,44,5.99
+Guess,2014-11,36,5.99
+Guess,2014-12,31,6.99
+Guess,2015-01,31,8.95
+Guess,2015-02,30,8.49
+Guess,2015-03,58,7.99
+Guess,2015-04,52,6.99
+Guess,2015-05,60,7.99
+Guess,2015-06,55,6.99
+Guess,2015-07,57,6.99
+Guess,2015-08,61,6.99
+Guess,2015-09,64,6.49
+Guess,2015-10,64,4.49
+Guess,2015-11,62,6.99
+Guess,2015-12,38,6.99
+Guess,2016-01,34,6.99
+Guess,2016-02,20,6.99
+Guess,2016-03,44,9.99
+Guess,2016-04,57,8.99
+Guess,2016-05,35,6.95
+Guess,2016-06,26,7.49
+Guess,2016-07,35,8.99
+Guess,2016-08,27,7.99
+Guess,2016-09,22,7.49
+Guess,2016-10,63,9.99
+Guess,2016-11,49,9.95
+Guess,2016-12,19,9.99
+Guess,2017-01,24,7.99
+Guess,2017-02,32,7.49
+Guess,2017-03,44,6.99
+Guess,2017-04,37,7.99
+Guess,2017-05,37,8.99
+Guess,2017-06,48,7.99
+Guess,2017-07,78,7.49
+Guess,2017-08,38,7.49
+Guess,2017-09,21,6.99
+Guess,2017-10,22,6.99
+Guess,2017-11,43,7.99
+Guess,2017-12,31,7.99
+Guess,2018-01,22,7.99
+Guess,2018-02,16,5.99
+Guess,2018-03,118,9.49
+Guess,2018-04,104,9.49
+Guess,2018-05,113,6.99
+Guess,2018-06,35,4.99
+Guess,2018-07,76,4.99
+Guess,2018-08,82,7.99
+Guess,2018-09,91,7.99
+Guess,2018-10,69,7.99
+Guess,2018-11,70,9.49
+Guess,2018-12,77,9.49
+Guess,2019-01,83,7.99
+Guess,2019-02,95,7.99
+Guess,2019-03,105,7.99
+Guess,2019-04,70,7.99
+Guess,2019-05,60,7.99
+Guess,2019-06,100,9.49
+Guess,2019-07,118,9.49
+Guess,2019-08,94,7.99
+Guess,2019-09,15,11.99
+Guess,2019-10,4,11.99
+Guess,2019-11,2,11.99
+Guess,2019-12,7,11.99
+H&M,2014-07,19,5.99
+H&M,2014-08,13,5.99
+H&M,2014-09,6,5.99
+H&M,2014-10,31,5.99
+H&M,2014-11,13,5.99
+H&M,2014-12,7,6.99
+H&M,2015-01,12,3.99
+H&M,2015-02,9,7.99
+H&M,2015-03,9,4.99
+H&M,2015-04,6,7.49
+H&M,2015-05,3,4.99
+H&M,2015-06,5,4.99
+H&M,2015-07,18,4.99
+H&M,2015-08,23,5.0
+H&M,2015-09,30,4.99
+H&M,2015-10,17,6.99
+H&M,2015-11,27,7.99
+H&M,2015-12,25,6.99
+H&M,2016-01,20,6.99
+H&M,2016-02,15,6.99
+H&M,2016-03,28,6.99
+H&M,2016-04,47,3.99
+H&M,2016-05,36,3.99
+H&M,2016-06,18,5.0
+H&M,2016-07,16,8.469999999999999
+H&M,2016-08,25,5.49
+H&M,2016-09,32,5.49
+H&M,2016-10,32,6.49
+H&M,2016-11,78,6.49
+H&M,2016-12,56,6.49
+H&M,2017-01,65,5.49
+H&M,2017-02,48,7.49
+H&M,2017-03,78,7.49
+H&M,2017-04,81,7.49
+H&M,2017-05,12,5.995
+H&M,2017-06,25,7.49
+H&M,2017-07,81,7.49
+H&M,2017-08,184,7.49
+H&M,2017-09,158,7.49
+H&M,2017-10,104,7.49
+H&M,2017-11,132,7.49
+H&M,2017-12,185,7.99
+H&M,2018-01,181,7.99
+H&M,2018-02,83,5.99
+H&M,2018-03,113,9.49
+H&M,2018-04,123,9.49
+H&M,2018-05,155,6.99
+H&M,2018-06,245,4.99
+H&M,2018-07,367,4.99
+H&M,2018-08,353,4.99
+H&M,2018-09,341,9.99
+H&M,2018-10,275,9.99
+H&M,2018-11,249,9.99
+H&M,2018-12,209,9.99
+H&M,2019-01,62,8.0
+H&M,2019-02,23,8.0
+H&M,2019-03,55,9.49
+H&M,2019-04,175,9.49
+H&M,2019-05,688,11.99
+H&M,2019-06,175,9.49
+H&M,2019-07,249,9.49
+H&M,2019-08,244,7.49
+H&M,2019-09,9,7.99
+H&M,2019-12,1,11.99
+Harley Davidson,2014-07,163,7.0
+Harley Davidson,2014-08,105,7.99
+Harley Davidson,2014-09,78,7.99
+Harley Davidson,2014-10,179,7.99
+Harley Davidson,2014-11,206,7.5
+Harley Davidson,2014-12,244,7.0
+Harley Davidson,2015-01,188,9.99
+Harley Davidson,2015-02,232,9.99
+Harley Davidson,2015-03,279,6.0
+Harley Davidson,2015-04,229,8.25
+Harley Davidson,2015-05,211,7.0
+Harley Davidson,2015-06,188,8.445
+Harley Davidson,2015-07,233,6.99
+Harley Davidson,2015-08,232,7.99
+Harley Davidson,2015-09,201,7.99
+Harley Davidson,2015-10,156,6.99
+Harley Davidson,2015-11,188,7.99
+Harley Davidson,2015-12,170,7.99
+Harley Davidson,2016-01,176,7.99
+Harley Davidson,2016-02,216,7.99
+Harley Davidson,2016-03,206,7.0
+Harley Davidson,2016-04,198,8.495000000000001
+Harley Davidson,2016-05,144,8.995000000000001
+Harley Davidson,2016-06,166,7.99
+Harley Davidson,2016-07,200,7.99
+Harley Davidson,2016-08,258,7.99
+Harley Davidson,2016-09,202,6.99
+Harley Davidson,2016-10,319,6.99
+Harley Davidson,2016-11,166,7.99
+Harley Davidson,2016-12,219,7.95
+Harley Davidson,2017-01,269,6.99
+Harley Davidson,2017-02,253,7.99
+Harley Davidson,2017-03,206,7.99
+Harley Davidson,2017-04,161,9.0
+Harley Davidson,2017-05,192,7.99
+Harley Davidson,2017-06,164,8.469999999999999
+Harley Davidson,2017-07,182,7.99
+Harley Davidson,2017-08,184,7.99
+Harley Davidson,2017-09,117,7.99
+Harley Davidson,2017-10,193,7.99
+Harley Davidson,2017-11,145,8.95
+Harley Davidson,2017-12,169,7.99
+Harley Davidson,2018-01,121,7.99
+Harley Davidson,2018-02,108,8.725
+Harley Davidson,2018-03,231,9.99
+Harley Davidson,2018-04,152,8.99
+Harley Davidson,2018-05,223,9.49
+Harley Davidson,2018-06,214,8.99
+Harley Davidson,2018-07,181,8.99
+Harley Davidson,2018-08,162,9.99
+Harley Davidson,2018-09,186,8.995000000000001
+Harley Davidson,2018-10,239,8.99
+Harley Davidson,2018-11,250,8.99
+Harley Davidson,2018-12,225,9.49
+Harley Davidson,2019-01,176,9.49
+Harley Davidson,2019-02,165,9.99
+Harley Davidson,2019-03,150,9.49
+Harley Davidson,2019-04,156,9.99
+Harley Davidson,2019-05,144,9.245000000000001
+Harley Davidson,2019-06,170,8.5
+Harley Davidson,2019-07,168,7.99
+Harley Davidson,2019-08,177,9.99
+Harley Davidson,2019-09,46,9.99
+Harley Davidson,2019-10,4,11.99
+Harley Davidson,2019-12,2,19.99
+Hearts of Palm,2014-07,14,8.99
+Hearts of Palm,2014-08,28,3.49
+Hearts of Palm,2014-09,8,3.49
+Hearts of Palm,2014-10,15,3.49
+Hearts of Palm,2014-11,14,3.49
+Hearts of Palm,2014-12,27,3.49
+Hearts of Palm,2015-01,27,3.49
+Hearts of Palm,2015-02,7,4.99
+Hearts of Palm,2015-03,31,3.99
+Hearts of Palm,2015-04,16,3.49
+Hearts of Palm,2015-05,5,3.49
+Hearts of Palm,2015-07,20,3.99
+Hearts of Palm,2015-08,43,3.99
+Hearts of Palm,2015-09,27,3.99
+Hearts of Palm,2015-10,95,3.49
+Hearts of Palm,2015-11,128,3.99
+Hearts of Palm,2015-12,127,3.99
+Hearts of Palm,2016-01,99,3.9
+Hearts of Palm,2016-02,18,3.99
+Hearts of Palm,2016-03,31,3.99
+Hearts of Palm,2016-04,35,3.99
+Hearts of Palm,2016-05,4,4.495
+Hearts of Palm,2016-06,3,5.99
+Hearts of Palm,2016-07,1,6.99
+Hearts of Palm,2016-08,23,5.49
+Hearts of Palm,2016-09,84,6.25
+Hearts of Palm,2016-10,98,6.49
+Hearts of Palm,2016-11,100,5.49
+Hearts of Palm,2016-12,40,6.49
+Hearts of Palm,2017-01,60,7.49
+Hearts of Palm,2017-02,97,7.49
+Hearts of Palm,2017-03,177,7.49
+Hearts of Palm,2017-04,288,7.49
+Hearts of Palm,2017-05,205,7.49
+Hearts of Palm,2017-06,198,7.49
+Hearts of Palm,2017-07,180,7.49
+Hearts of Palm,2017-08,196,7.49
+Hearts of Palm,2017-09,366,7.49
+Hearts of Palm,2017-10,397,7.49
+Hearts of Palm,2017-11,826,7.49
+Hearts of Palm,2017-12,1640,7.99
+Hearts of Palm,2018-01,2330,9.49
+Hearts of Palm,2018-02,2410,7.49
+Hearts of Palm,2018-03,2785,9.49
+Hearts of Palm,2018-04,2579,9.49
+Hearts of Palm,2018-05,2483,9.49
+Hearts of Palm,2018-06,2700,9.49
+Hearts of Palm,2018-07,2386,9.49
+Hearts of Palm,2018-08,2437,9.49
+Hearts of Palm,2018-09,3246,9.49
+Hearts of Palm,2018-10,4531,9.49
+Hearts of Palm,2018-11,3339,9.49
+Hearts of Palm,2018-12,3510,9.49
+Hearts of Palm,2019-01,2420,7.49
+Hearts of Palm,2019-02,1297,9.49
+Hearts of Palm,2019-03,3675,9.49
+Hearts of Palm,2019-04,3666,9.49
+Hearts of Palm,2019-05,3460,9.49
+Hearts of Palm,2019-06,2111,9.49
+Hearts of Palm,2019-07,3096,9.49
+Hearts of Palm,2019-08,5050,9.49
+Hearts of Palm,2019-09,28,9.49
+Hollister,2014-07,9,5.99
+Hollister,2014-08,18,7.0
+Hollister,2014-09,6,7.88
+Hollister,2014-10,14,8.469999999999999
+Hollister,2014-11,7,8.95
+Hollister,2014-12,10,5.0
+Hollister,2015-01,13,6.99
+Hollister,2015-02,27,7.99
+Hollister,2015-03,31,6.49
+Hollister,2015-04,21,6.95
+Hollister,2015-05,20,6.99
+Hollister,2015-06,30,6.99
+Hollister,2015-07,35,6.99
+Hollister,2015-08,68,6.99
+Hollister,2015-09,40,4.99
+Hollister,2015-10,33,6.99
+Hollister,2015-11,34,7.495
+Hollister,2015-12,21,5.0
+Hollister,2016-01,27,5.99
+Hollister,2016-02,30,6.99
+Hollister,2016-03,20,5.495
+Hollister,2016-04,34,7.99
+Hollister,2016-05,56,4.99
+Hollister,2016-06,96,5.49
+Hollister,2016-07,198,5.49
+Hollister,2016-08,283,5.49
+Hollister,2016-09,195,5.49
+Hollister,2016-10,239,5.49
+Hollister,2016-11,133,5.49
+Hollister,2016-12,191,5.49
+Hollister,2017-01,312,5.49
+Hollister,2017-02,257,7.49
+Hollister,2017-03,412,7.49
+Hollister,2017-04,328,7.49
+Hollister,2017-05,171,7.49
+Hollister,2017-06,168,7.49
+Hollister,2017-07,145,7.49
+Hollister,2017-08,206,7.49
+Hollister,2017-09,231,7.49
+Hollister,2017-10,295,7.49
+Hollister,2017-11,271,7.49
+Hollister,2017-12,206,7.99
+Hollister,2018-01,219,7.49
+Hollister,2018-02,161,5.99
+Hollister,2018-03,177,7.49
+Hollister,2018-04,222,9.49
+Hollister,2018-05,492,9.49
+Hollister,2018-06,529,9.49
+Hollister,2018-07,305,7.49
+Hollister,2018-08,76,5.99
+Hollister,2018-09,147,9.99
+Hollister,2018-10,165,9.49
+Hollister,2018-11,225,9.49
+Hollister,2018-12,346,9.49
+Hollister,2019-01,239,7.49
+Hollister,2019-02,158,9.245000000000001
+Hollister,2019-03,336,9.49
+Hollister,2019-04,323,7.99
+Hollister,2019-05,320,9.49
+Hollister,2019-06,135,9.49
+Hollister,2019-07,160,9.49
+Hollister,2019-08,111,7.49
+Hollister,2019-09,3,9.99
+Hue,2014-10,1,4.0
+Hue,2014-11,2,4.0
+Hue,2015-07,1,9.99
+Hue,2015-08,1,20.96
+Hue,2015-09,1,9.99
+Hue,2015-10,3,4.99
+Hue,2015-11,3,4.99
+Hue,2015-12,1,4.99
+Hue,2016-08,1,5.0
+Hue,2016-10,4,6.99
+Hue,2017-02,1,7.99
+Hue,2017-03,4,6.495
+Hue,2017-05,2,7.99
+Hue,2017-06,3,5.99
+Hue,2017-07,5,5.99
+Hue,2017-08,3,7.99
+Hue,2017-09,26,7.49
+Hue,2017-10,1,7.99
+Hue,2017-11,1,4.99
+Hue,2017-12,15,7.49
+Hue,2018-01,103,7.49
+Hue,2018-02,278,9.49
+Hue,2018-03,364,9.49
+Hue,2018-04,273,5.99
+Hue,2018-05,167,9.49
+Hue,2018-06,261,9.49
+Hue,2018-07,330,9.49
+Hue,2018-08,386,9.49
+Hue,2018-09,339,9.49
+Hue,2018-10,391,9.49
+Hue,2018-11,223,9.49
+Hue,2018-12,185,9.49
+Hue,2019-01,127,7.49
+Hue,2019-02,62,5.99
+Hue,2019-03,196,9.49
+Hue,2019-04,1253,9.49
+Hue,2019-05,2402,9.49
+Hue,2019-06,2046,9.49
+Hue,2019-07,1509,7.49
+Hue,2019-08,919,7.49
+Hue,2019-09,2,11.99
+Hue,2019-11,1,11.99
+INC,2015-12,2,7.49
+INC,2016-01,15,7.99
+INC,2016-03,2,7.0
+INC,2016-04,15,6.99
+INC,2016-05,3,5.0
+INC,2016-06,5,3.99
+INC,2016-07,3,6.99
+INC,2017-02,3,6.99
+INC,2017-03,4,4.75
+INC,2017-07,2,6.245
+INC,2017-08,2,6.5
+INC,2017-11,12,7.99
+INC,2017-12,81,7.99
+INC,2018-01,50,7.99
+INC,2018-02,16,9.49
+INC,2018-03,11,9.49
+INC,2018-04,41,9.49
+INC,2018-05,5,4.99
+INC,2018-06,134,7.49
+INC,2018-07,2,4.99
+INC,2018-08,20,9.49
+INC,2018-09,1,7.5
+INC,2018-10,30,7.745
+INC,2018-11,26,9.99
+INC,2018-12,16,9.99
+INC,2019-01,26,8.0
+INC,2019-02,9,7.99
+INC,2019-03,8,8.995000000000001
+INC,2019-04,19,6.95
+INC,2019-05,9,11.99
+INC,2019-06,142,7.99
+INC,2019-07,199,12.49
+INC,2019-08,212,6.99
+INC,2019-09,11,11.99
+INC,2019-10,27,11.99
+INC,2019-11,7,11.99
+INC,2019-12,14,11.99
+IZOD,2014-07,26,5.99
+IZOD,2014-08,33,5.99
+IZOD,2014-09,12,5.99
+IZOD,2014-10,21,5.99
+IZOD,2014-11,20,5.495
+IZOD,2014-12,25,6.95
+IZOD,2015-01,47,6.99
+IZOD,2015-02,48,3.99
+IZOD,2015-03,23,7.99
+IZOD,2015-04,24,5.0
+IZOD,2015-05,22,6.495
+IZOD,2015-06,14,6.99
+IZOD,2015-07,27,6.99
+IZOD,2015-08,25,6.99
+IZOD,2015-09,22,3.99
+IZOD,2015-10,44,3.99
+IZOD,2015-11,73,3.99
+IZOD,2015-12,90,3.99
+IZOD,2016-01,31,3.99
+IZOD,2016-02,14,4.495
+IZOD,2016-03,74,3.99
+IZOD,2016-04,44,3.99
+IZOD,2016-05,61,3.99
+IZOD,2016-06,41,3.99
+IZOD,2016-07,35,3.99
+IZOD,2016-08,35,3.99
+IZOD,2016-09,28,5.49
+IZOD,2016-10,72,6.49
+IZOD,2016-11,124,6.49
+IZOD,2016-12,94,5.49
+IZOD,2017-01,61,5.49
+IZOD,2017-02,57,7.49
+IZOD,2017-03,52,7.49
+IZOD,2017-04,60,7.49
+IZOD,2017-05,73,7.49
+IZOD,2017-06,65,7.49
+IZOD,2017-07,31,7.49
+IZOD,2017-08,52,7.49
+IZOD,2017-09,74,7.49
+IZOD,2017-10,65,7.49
+IZOD,2017-11,74,7.49
+IZOD,2017-12,52,7.49
+IZOD,2018-01,84,7.74
+IZOD,2018-02,68,9.49
+IZOD,2018-03,64,5.99
+IZOD,2018-04,155,9.49
+IZOD,2018-05,229,9.49
+IZOD,2018-06,228,9.49
+IZOD,2018-07,240,9.49
+IZOD,2018-08,209,9.49
+IZOD,2018-09,136,8.5
+IZOD,2018-10,85,9.49
+IZOD,2018-11,94,9.49
+IZOD,2018-12,157,9.49
+IZOD,2019-01,113,7.49
+IZOD,2019-02,85,7.49
+IZOD,2019-03,235,9.49
+IZOD,2019-04,308,9.49
+IZOD,2019-05,291,9.49
+IZOD,2019-06,197,7.99
+IZOD,2019-07,168,9.49
+IZOD,2019-08,196,7.99
+IZOD,2019-09,11,11.99
+IZOD,2019-10,4,11.99
+IZOD,2019-11,1,11.99
+IZOD,2019-12,1,11.99
+J Crew,2014-07,53,7.99
+J Crew,2014-08,44,7.99
+J Crew,2014-09,21,7.99
+J Crew,2014-10,37,7.99
+J Crew,2014-11,33,9.99
+J Crew,2014-12,41,7.99
+J Crew,2015-01,56,7.0
+J Crew,2015-02,57,6.99
+J Crew,2015-03,45,7.99
+J Crew,2015-04,41,9.99
+J Crew,2015-05,24,9.49
+J Crew,2015-06,46,7.95
+J Crew,2015-07,51,6.99
+J Crew,2015-08,73,6.99
+J Crew,2015-09,65,6.99
+J Crew,2015-10,46,7.99
+J Crew,2015-11,58,8.99
+J Crew,2015-12,66,6.99
+J Crew,2016-01,37,6.99
+J Crew,2016-02,46,7.99
+J Crew,2016-03,51,8.99
+J Crew,2016-04,63,7.99
+J Crew,2016-05,77,7.99
+J Crew,2016-06,45,7.99
+J Crew,2016-07,71,7.99
+J Crew,2016-08,118,6.470000000000001
+J Crew,2016-09,135,6.25
+J Crew,2016-10,98,7.99
+J Crew,2016-11,99,6.49
+J Crew,2016-12,66,6.49
+J Crew,2017-01,146,5.49
+J Crew,2017-02,104,7.49
+J Crew,2017-03,80,7.735
+J Crew,2017-04,96,9.49
+J Crew,2017-05,137,8.99
+J Crew,2017-06,155,7.49
+J Crew,2017-07,117,7.49
+J Crew,2017-08,120,7.49
+J Crew,2017-09,96,7.49
+J Crew,2017-10,125,7.49
+J Crew,2017-11,137,7.49
+J Crew,2017-12,222,7.99
+J Crew,2018-01,230,7.49
+J Crew,2018-02,138,5.99
+J Crew,2018-03,101,5.99
+J Crew,2018-04,123,5.0
+J Crew,2018-05,227,6.95
+J Crew,2018-06,246,4.99
+J Crew,2018-07,395,6.99
+J Crew,2018-08,529,4.99
+J Crew,2018-09,449,9.99
+J Crew,2018-10,274,9.99
+J Crew,2018-11,287,9.99
+J Crew,2018-12,221,9.99
+J Crew,2019-01,228,8.0
+J Crew,2019-02,224,7.99
+J Crew,2019-03,310,7.99
+J Crew,2019-04,332,7.99
+J Crew,2019-05,305,7.99
+J Crew,2019-06,507,8.49
+J Crew,2019-07,350,7.99
+J Crew,2019-08,357,7.49
+J Crew,2019-09,99,11.99
+J Crew,2019-10,81,11.99
+J Crew,2019-11,22,11.99
+J Crew,2019-12,48,11.99
+Jessica Simpson,2014-07,8,4.995
+Jessica Simpson,2014-08,8,3.74
+Jessica Simpson,2014-09,21,9.99
+Jessica Simpson,2014-10,11,5.99
+Jessica Simpson,2014-11,11,3.99
+Jessica Simpson,2014-12,15,3.99
+Jessica Simpson,2015-01,8,3.99
+Jessica Simpson,2015-02,27,3.49
+Jessica Simpson,2015-03,49,3.49
+Jessica Simpson,2015-04,17,4.98
+Jessica Simpson,2015-05,36,3.49
+Jessica Simpson,2015-06,20,4.99
+Jessica Simpson,2015-07,27,4.49
+Jessica Simpson,2015-08,17,4.49
+Jessica Simpson,2015-09,12,3.99
+Jessica Simpson,2015-10,92,3.99
+Jessica Simpson,2015-11,179,3.99
+Jessica Simpson,2015-12,94,3.99
+Jessica Simpson,2016-01,140,3.99
+Jessica Simpson,2016-02,101,3.99
+Jessica Simpson,2016-03,86,3.99
+Jessica Simpson,2016-04,61,3.99
+Jessica Simpson,2016-05,66,3.99
+Jessica Simpson,2016-06,75,3.99
+Jessica Simpson,2016-07,16,4.49
+Jessica Simpson,2016-08,27,5.49
+Jessica Simpson,2016-09,37,6.25
+Jessica Simpson,2016-10,28,5.62
+Jessica Simpson,2016-11,29,5.49
+Jessica Simpson,2016-12,16,5.49
+Jessica Simpson,2017-01,12,7.49
+Jessica Simpson,2017-02,46,7.49
+Jessica Simpson,2017-03,112,7.49
+Jessica Simpson,2017-04,87,7.49
+Jessica Simpson,2017-05,16,6.99
+Jessica Simpson,2017-06,14,7.49
+Jessica Simpson,2017-07,12,7.99
+Jessica Simpson,2017-08,8,5.48
+Jessica Simpson,2017-09,46,9.49
+Jessica Simpson,2017-10,65,7.99
+Jessica Simpson,2017-11,46,7.49
+Jessica Simpson,2017-12,20,7.74
+Jessica Simpson,2018-01,14,7.49
+Jessica Simpson,2018-02,31,9.49
+Jessica Simpson,2018-03,40,9.49
+Jessica Simpson,2018-04,43,5.99
+Jessica Simpson,2018-05,20,4.99
+Jessica Simpson,2018-06,29,5.99
+Jessica Simpson,2018-07,31,7.99
+Jessica Simpson,2018-08,79,9.49
+Jessica Simpson,2018-09,159,9.49
+Jessica Simpson,2018-10,111,9.49
+Jessica Simpson,2018-11,39,7.99
+Jessica Simpson,2018-12,24,7.99
+Jessica Simpson,2019-01,13,7.99
+Jessica Simpson,2019-02,19,7.99
+Jessica Simpson,2019-03,13,7.99
+Jessica Simpson,2019-04,49,9.49
+Jessica Simpson,2019-05,109,9.49
+Jessica Simpson,2019-06,125,9.49
+Jessica Simpson,2019-07,239,9.49
+Jessica Simpson,2019-08,351,9.49
+Jessica Simpson,2019-09,7,9.49
+Jessica Simpson,2019-12,1,11.99
+Jones New York,2014-07,143,5.99
+Jones New York,2014-08,162,5.99
+Jones New York,2014-09,66,7.995
+Jones New York,2014-10,109,6.55
+Jones New York,2014-11,111,6.99
+Jones New York,2014-12,62,7.495
+Jones New York,2015-01,98,6.99
+Jones New York,2015-02,125,5.99
+Jones New York,2015-03,237,4.99
+Jones New York,2015-04,178,5.0
+Jones New York,2015-05,153,5.0
+Jones New York,2015-06,110,7.99
+Jones New York,2015-07,154,5.995
+Jones New York,2015-08,144,6.99
+Jones New York,2015-09,151,6.01
+Jones New York,2015-10,348,3.99
+Jones New York,2015-11,557,3.99
+Jones New York,2015-12,557,3.99
+Jones New York,2016-01,350,3.99
+Jones New York,2016-02,208,3.99
+Jones New York,2016-03,167,3.99
+Jones New York,2016-04,62,6.99
+Jones New York,2016-05,46,7.99
+Jones New York,2016-06,68,7.99
+Jones New York,2016-07,92,6.99
+Jones New York,2016-08,97,5.49
+Jones New York,2016-09,100,6.99
+Jones New York,2016-10,118,5.49
+Jones New York,2016-11,286,6.49
+Jones New York,2016-12,287,6.49
+Jones New York,2017-01,305,6.49
+Jones New York,2017-02,228,7.49
+Jones New York,2017-03,368,7.49
+Jones New York,2017-04,492,7.49
+Jones New York,2017-05,428,7.49
+Jones New York,2017-06,379,7.49
+Jones New York,2017-07,467,7.49
+Jones New York,2017-08,727,7.49
+Jones New York,2017-09,541,7.49
+Jones New York,2017-10,444,7.49
+Jones New York,2017-11,525,7.49
+Jones New York,2017-12,706,7.99
+Jones New York,2018-01,645,7.99
+Jones New York,2018-02,528,7.49
+Jones New York,2018-03,510,9.49
+Jones New York,2018-04,439,8.99
+Jones New York,2018-05,397,7.99
+Jones New York,2018-06,282,7.49
+Jones New York,2018-07,235,7.49
+Jones New York,2018-08,401,9.49
+Jones New York,2018-09,390,9.49
+Jones New York,2018-10,335,9.49
+Jones New York,2018-11,231,9.49
+Jones New York,2018-12,318,9.49
+Jones New York,2019-01,307,7.49
+Jones New York,2019-02,197,7.99
+Jones New York,2019-03,211,7.99
+Jones New York,2019-04,251,9.49
+Jones New York,2019-05,411,9.49
+Jones New York,2019-06,496,7.99
+Jones New York,2019-07,429,9.49
+Jones New York,2019-08,438,7.99
+Jones New York,2019-09,48,10.99
+Jones New York,2019-10,23,11.99
+Jones New York,2019-11,4,11.99
+Jones New York,2019-12,6,11.99
+LL Bean,2017-02,11,7.49
+LL Bean,2017-10,1,6.99
+LL Bean,2017-11,22,7.99
+LL Bean,2017-12,166,7.99
+LL Bean,2018-01,107,7.99
+LL Bean,2018-02,28,7.74
+LL Bean,2018-03,12,9.49
+LL Bean,2018-04,3,9.49
+LL Bean,2018-05,2,4.99
+LL Bean,2018-06,10,7.49
+LL Bean,2018-07,3,9.49
+LL Bean,2018-08,26,9.49
+LL Bean,2018-10,14,9.99
+LL Bean,2018-11,18,9.99
+LL Bean,2018-12,12,9.99
+LL Bean,2019-01,29,9.0
+LL Bean,2019-02,5,7.49
+LL Bean,2019-03,9,14.0
+LL Bean,2019-04,15,6.99
+LL Bean,2019-05,11,11.99
+LL Bean,2019-06,17,11.99
+LL Bean,2019-07,11,11.99
+LL Bean,2019-08,9,11.99
+LL Bean,2019-09,8,11.99
+LL Bean,2019-10,10,11.99
+LL Bean,2019-11,5,11.99
+LL Bean,2019-12,6,11.99
+Lacoste,2014-07,22,7.99
+Lacoste,2014-08,29,9.0
+Lacoste,2014-09,5,9.99
+Lacoste,2014-10,10,7.99
+Lacoste,2014-11,22,7.99
+Lacoste,2014-12,17,7.99
+Lacoste,2015-01,16,9.99
+Lacoste,2015-02,19,7.99
+Lacoste,2015-03,47,9.95
+Lacoste,2015-04,21,9.95
+Lacoste,2015-05,21,8.99
+Lacoste,2015-06,24,9.469999999999999
+Lacoste,2015-07,33,9.95
+Lacoste,2015-08,17,9.99
+Lacoste,2015-09,11,9.95
+Lacoste,2015-10,17,8.99
+Lacoste,2015-11,7,9.95
+Lacoste,2015-12,13,9.95
+Lacoste,2016-01,22,7.99
+Lacoste,2016-02,41,7.99
+Lacoste,2016-03,22,9.969999999999999
+Lacoste,2016-04,31,9.99
+Lacoste,2016-05,29,9.95
+Lacoste,2016-06,33,5.49
+Lacoste,2016-07,22,7.995
+Lacoste,2016-08,15,8.99
+Lacoste,2016-09,20,9.95
+Lacoste,2016-10,19,9.95
+Lacoste,2016-11,32,7.970000000000001
+Lacoste,2016-12,23,9.95
+Lacoste,2017-01,25,9.95
+Lacoste,2017-02,38,9.95
+Lacoste,2017-03,14,9.95
+Lacoste,2017-04,21,9.95
+Lacoste,2017-05,27,9.95
+Lacoste,2017-06,10,7.49
+Lacoste,2017-07,13,7.99
+Lacoste,2017-08,30,7.99
+Lacoste,2017-09,28,7.99
+Lacoste,2017-10,34,9.99
+Lacoste,2017-11,30,7.49
+Lacoste,2017-12,28,7.99
+Lacoste,2018-01,17,8.99
+Lacoste,2018-02,7,7.99
+Lacoste,2018-03,6,7.745
+Lacoste,2018-04,22,7.99
+Lacoste,2018-05,8,5.99
+Lacoste,2018-06,15,7.99
+Lacoste,2018-07,19,7.99
+Lacoste,2018-08,12,8.495000000000001
+Lacoste,2018-09,3,9.99
+Lacoste,2018-10,8,9.99
+Lacoste,2018-11,18,9.74
+Lacoste,2018-12,19,9.99
+Lacoste,2019-01,22,9.99
+Lacoste,2019-02,22,9.99
+Lacoste,2019-03,14,8.99
+Lacoste,2019-04,15,7.99
+Lacoste,2019-05,34,18.99
+Lacoste,2019-06,12,7.995
+Lacoste,2019-07,12,8.49
+Lacoste,2019-08,30,8.24
+Lacoste,2019-09,3,19.99
+Lacoste,2019-10,4,19.99
+Land's End,2014-07,10,7.95
+Land's End,2014-08,10,6.86
+Land's End,2014-10,5,3.0
+Land's End,2014-11,5,29.76
+Land's End,2014-12,5,9.99
+Land's End,2015-01,8,5.49
+Land's End,2015-02,8,8.0
+Land's End,2015-03,19,6.99
+Land's End,2015-04,23,6.99
+Land's End,2015-05,18,6.99
+Land's End,2015-06,13,6.99
+Land's End,2015-07,20,6.99
+Land's End,2015-08,22,6.99
+Land's End,2015-09,2,5.49
+Land's End,2015-10,4,8.99
+Land's End,2015-11,10,7.99
+Land's End,2015-12,15,6.99
+Land's End,2016-01,5,5.99
+Land's End,2016-02,2,6.49
+Land's End,2016-03,3,9.99
+Land's End,2016-04,7,6.99
+Land's End,2016-05,3,6.99
+Land's End,2016-06,14,6.99
+Land's End,2016-07,34,5.49
+Land's End,2016-08,33,5.49
+Land's End,2016-09,38,5.49
+Land's End,2016-10,41,5.49
+Land's End,2016-11,129,5.49
+Land's End,2016-12,159,6.49
+Land's End,2017-01,213,5.49
+Land's End,2017-02,127,7.49
+Land's End,2017-03,137,7.49
+Land's End,2017-04,90,7.49
+Land's End,2017-05,57,7.49
+Land's End,2017-06,56,7.24
+Land's End,2017-07,81,7.49
+Land's End,2017-08,301,7.49
+Land's End,2017-09,400,7.49
+Land's End,2017-10,357,7.49
+Land's End,2017-11,393,7.49
+Land's End,2017-12,357,7.99
+Land's End,2018-01,291,7.99
+Land's End,2018-02,186,9.49
+Land's End,2018-03,200,8.99
+Land's End,2018-04,262,9.49
+Land's End,2018-05,415,9.49
+Land's End,2018-06,486,7.49
+Land's End,2018-07,318,7.49
+Land's End,2018-08,146,5.99
+Land's End,2018-09,74,9.74
+Land's End,2018-10,74,9.99
+Land's End,2018-11,90,9.49
+Land's End,2018-12,195,9.49
+Land's End,2019-01,288,8.495000000000001
+Land's End,2019-02,153,7.49
+Land's End,2019-03,195,9.49
+Land's End,2019-04,225,9.49
+Land's End,2019-05,248,9.49
+Land's End,2019-06,260,9.49
+Land's End,2019-07,172,9.49
+Land's End,2019-08,137,8.49
+Land's End,2019-09,31,11.99
+Land's End,2019-10,48,11.99
+Land's End,2019-11,3,11.99
+Land's End,2019-12,6,11.99
+Lane Bryant,2016-01,11,6.99
+Lane Bryant,2016-04,11,9.0
+Lane Bryant,2016-05,1,6.99
+Lane Bryant,2016-06,2,5.24
+Lane Bryant,2016-07,7,5.0
+Lane Bryant,2017-02,7,7.99
+Lane Bryant,2017-05,1,6.99
+Lane Bryant,2017-06,1,6.99
+Lane Bryant,2017-07,4,5.995
+Lane Bryant,2017-08,6,5.99
+Lane Bryant,2017-09,5,6.5
+Lane Bryant,2017-10,1,6.5
+Lane Bryant,2017-11,3,19.99
+Lane Bryant,2017-12,27,7.99
+Lane Bryant,2018-01,19,7.95
+Lane Bryant,2018-02,15,9.49
+Lane Bryant,2018-03,14,6.5
+Lane Bryant,2018-04,6,6.99
+Lane Bryant,2018-05,11,4.99
+Lane Bryant,2018-06,40,7.99
+Lane Bryant,2018-07,2,7.24
+Lane Bryant,2018-08,45,7.5
+Lane Bryant,2018-09,8,8.245000000000001
+Lane Bryant,2018-10,83,9.49
+Lane Bryant,2018-11,49,9.99
+Lane Bryant,2018-12,32,9.99
+Lane Bryant,2019-01,42,7.99
+Lane Bryant,2019-02,19,9.99
+Lane Bryant,2019-03,14,9.99
+Lane Bryant,2019-04,20,9.99
+Lane Bryant,2019-05,13,11.99
+Lane Bryant,2019-06,33,11.99
+Lane Bryant,2019-07,52,9.24
+Lane Bryant,2019-08,41,8.99
+Lane Bryant,2019-09,10,11.99
+Lane Bryant,2019-10,25,11.99
+Lane Bryant,2019-11,3,11.99
+Lane Bryant,2019-12,8,11.99
+Liz Claiborne,2014-07,97,5.99
+Liz Claiborne,2014-08,92,5.99
+Liz Claiborne,2014-09,35,7.99
+Liz Claiborne,2014-10,137,5.99
+Liz Claiborne,2014-11,65,5.99
+Liz Claiborne,2014-12,70,5.0
+Liz Claiborne,2015-01,98,6.495
+Liz Claiborne,2015-02,79,5.0
+Liz Claiborne,2015-03,63,6.99
+Liz Claiborne,2015-04,64,6.99
+Liz Claiborne,2015-05,48,6.99
+Liz Claiborne,2015-06,79,6.99
+Liz Claiborne,2015-07,79,5.0
+Liz Claiborne,2015-08,91,6.99
+Liz Claiborne,2015-09,62,4.99
+Liz Claiborne,2015-10,70,5.99
+Liz Claiborne,2015-11,59,6.99
+Liz Claiborne,2015-12,65,5.99
+Liz Claiborne,2016-01,38,6.99
+Liz Claiborne,2016-02,33,6.99
+Liz Claiborne,2016-03,91,6.99
+Liz Claiborne,2016-04,95,6.99
+Liz Claiborne,2016-05,79,4.99
+Liz Claiborne,2016-06,62,5.0
+Liz Claiborne,2016-07,62,5.49
+Liz Claiborne,2016-08,130,5.49
+Liz Claiborne,2016-09,109,5.49
+Liz Claiborne,2016-10,171,4.99
+Liz Claiborne,2016-11,57,6.99
+Liz Claiborne,2016-12,122,5.74
+Liz Claiborne,2017-01,124,5.49
+Liz Claiborne,2017-02,110,7.49
+Liz Claiborne,2017-03,327,7.49
+Liz Claiborne,2017-04,453,7.49
+Liz Claiborne,2017-05,215,7.49
+Liz Claiborne,2017-06,205,7.49
+Liz Claiborne,2017-07,303,7.49
+Liz Claiborne,2017-08,486,7.49
+Liz Claiborne,2017-09,407,7.49
+Liz Claiborne,2017-10,435,7.49
+Liz Claiborne,2017-11,495,7.49
+Liz Claiborne,2017-12,650,7.99
+Liz Claiborne,2018-01,790,7.49
+Liz Claiborne,2018-02,609,7.49
+Liz Claiborne,2018-03,758,9.49
+Liz Claiborne,2018-04,697,9.49
+Liz Claiborne,2018-05,1001,9.49
+Liz Claiborne,2018-06,1121,9.49
+Liz Claiborne,2018-07,796,7.99
+Liz Claiborne,2018-08,390,5.99
+Liz Claiborne,2018-09,307,9.49
+Liz Claiborne,2018-10,427,9.49
+Liz Claiborne,2018-11,582,9.49
+Liz Claiborne,2018-12,841,9.49
+Liz Claiborne,2019-01,887,7.49
+Liz Claiborne,2019-02,479,7.49
+Liz Claiborne,2019-03,630,9.49
+Liz Claiborne,2019-04,897,9.49
+Liz Claiborne,2019-05,1066,9.49
+Liz Claiborne,2019-06,818,7.49
+Liz Claiborne,2019-07,479,7.99
+Liz Claiborne,2019-08,409,7.99
+Liz Claiborne,2019-09,32,11.99
+Liz Claiborne,2019-10,36,11.99
+Liz Claiborne,2019-11,3,11.99
+Liz Claiborne,2019-12,11,11.99
+Loft,2014-07,328,7.0
+Loft,2014-08,357,7.98
+Loft,2014-09,114,7.99
+Loft,2014-10,299,7.99
+Loft,2014-11,171,7.99
+Loft,2014-12,161,7.99
+Loft,2015-01,230,6.99
+Loft,2015-02,302,7.02
+Loft,2015-03,287,6.99
+Loft,2015-04,278,6.99
+Loft,2015-05,222,6.99
+Loft,2015-06,273,6.99
+Loft,2015-07,371,6.99
+Loft,2015-08,431,6.99
+Loft,2015-09,316,5.0
+Loft,2015-10,271,7.99
+Loft,2015-11,250,7.99
+Loft,2015-12,273,5.0
+Loft,2016-01,254,6.99
+Loft,2016-02,210,7.99
+Loft,2016-03,238,7.0
+Loft,2016-04,285,6.99
+Loft,2016-05,354,6.99
+Loft,2016-06,442,6.99
+Loft,2016-07,469,5.49
+Loft,2016-08,678,5.49
+Loft,2016-09,647,5.49
+Loft,2016-10,624,5.49
+Loft,2016-11,565,6.49
+Loft,2016-12,670,5.49
+Loft,2017-01,935,5.49
+Loft,2017-02,777,7.49
+Loft,2017-03,915,7.49
+Loft,2017-04,1140,7.49
+Loft,2017-05,864,7.49
+Loft,2017-06,772,7.49
+Loft,2017-07,846,7.49
+Loft,2017-08,1249,7.49
+Loft,2017-09,1091,7.49
+Loft,2017-10,1142,7.49
+Loft,2017-11,1132,7.49
+Loft,2017-12,980,7.99
+Loft,2018-01,849,7.99
+Loft,2018-02,817,7.49
+Loft,2018-03,981,7.99
+Loft,2018-04,1103,9.49
+Loft,2018-05,1969,6.99
+Loft,2018-06,2177,7.49
+Loft,2018-07,2232,5.99
+Loft,2018-08,2017,4.99
+Loft,2018-09,1985,9.99
+Loft,2018-10,1510,9.99
+Loft,2018-11,1868,9.99
+Loft,2018-12,1994,9.49
+Loft,2019-01,1497,7.99
+Loft,2019-02,1022,7.99
+Loft,2019-03,1507,9.49
+Loft,2019-04,1820,9.49
+Loft,2019-05,1769,7.99
+Loft,2019-06,2053,9.49
+Loft,2019-07,1981,7.99
+Loft,2019-08,1699,7.49
+Loft,2019-09,325,11.99
+Loft,2019-10,455,11.99
+Loft,2019-11,123,11.99
+Loft,2019-12,192,11.99
+LuLaRoe,2016-10,3,16.99
+LuLaRoe,2016-12,2,10.485
+LuLaRoe,2017-01,3,21.0
+LuLaRoe,2017-02,7,21.0
+LuLaRoe,2017-03,12,15.995
+LuLaRoe,2017-04,21,16.99
+LuLaRoe,2017-05,33,12.99
+LuLaRoe,2017-06,47,10.99
+LuLaRoe,2017-07,54,9.99
+LuLaRoe,2017-08,79,11.05
+LuLaRoe,2017-09,112,9.99
+LuLaRoe,2017-10,140,9.0
+LuLaRoe,2017-11,124,9.004999999999999
+LuLaRoe,2017-12,172,8.99
+LuLaRoe,2018-01,346,8.99
+LuLaRoe,2018-02,352,9.99
+LuLaRoe,2018-03,467,9.49
+LuLaRoe,2018-04,316,9.99
+LuLaRoe,2018-05,364,9.49
+LuLaRoe,2018-06,385,7.99
+LuLaRoe,2018-07,510,8.0
+LuLaRoe,2018-08,476,8.469999999999999
+LuLaRoe,2018-09,441,9.49
+LuLaRoe,2018-10,665,9.49
+LuLaRoe,2018-11,844,9.49
+LuLaRoe,2018-12,1113,9.49
+LuLaRoe,2019-01,1483,7.49
+LuLaRoe,2019-02,1272,9.49
+LuLaRoe,2019-03,1309,9.49
+LuLaRoe,2019-04,1014,9.49
+LuLaRoe,2019-05,1046,9.49
+LuLaRoe,2019-06,1252,9.49
+LuLaRoe,2019-07,1711,9.49
+LuLaRoe,2019-08,2246,9.49
+LuLaRoe,2019-09,73,7.99
+LuLaRoe,2019-10,18,11.99
+LuLaRoe,2019-11,2,11.99
+LuLaRoe,2019-12,8,11.99
+Lucky Brand,2014-07,24,8.469999999999999
+Lucky Brand,2014-08,46,8.0
+Lucky Brand,2014-09,13,7.99
+Lucky Brand,2014-10,51,7.99
+Lucky Brand,2014-11,32,7.99
+Lucky Brand,2014-12,24,7.99
+Lucky Brand,2015-01,68,7.99
+Lucky Brand,2015-02,21,8.0
+Lucky Brand,2015-03,49,8.99
+Lucky Brand,2015-04,43,7.99
+Lucky Brand,2015-05,41,7.99
+Lucky Brand,2015-06,54,7.0
+Lucky Brand,2015-07,81,7.99
+Lucky Brand,2015-08,73,7.99
+Lucky Brand,2015-09,60,7.99
+Lucky Brand,2015-10,77,7.99
+Lucky Brand,2015-11,73,7.0
+Lucky Brand,2015-12,88,6.99
+Lucky Brand,2016-01,68,7.99
+Lucky Brand,2016-02,81,6.99
+Lucky Brand,2016-03,90,7.99
+Lucky Brand,2016-04,92,7.99
+Lucky Brand,2016-05,89,8.0
+Lucky Brand,2016-06,105,7.99
+Lucky Brand,2016-07,89,8.95
+Lucky Brand,2016-08,90,7.99
+Lucky Brand,2016-09,105,7.99
+Lucky Brand,2016-10,119,6.99
+Lucky Brand,2016-11,111,6.99
+Lucky Brand,2016-12,137,5.95
+Lucky Brand,2017-01,129,6.49
+Lucky Brand,2017-02,77,5.95
+Lucky Brand,2017-03,105,7.99
+Lucky Brand,2017-04,122,7.49
+Lucky Brand,2017-05,112,7.74
+Lucky Brand,2017-06,79,7.99
+Lucky Brand,2017-07,88,7.49
+Lucky Brand,2017-08,127,7.0
+Lucky Brand,2017-09,97,6.5
+Lucky Brand,2017-10,93,7.99
+Lucky Brand,2017-11,71,6.99
+Lucky Brand,2017-12,65,7.99
+Lucky Brand,2018-01,37,7.99
+Lucky Brand,2018-02,58,7.99
+Lucky Brand,2018-03,99,9.0
+Lucky Brand,2018-04,82,7.99
+Lucky Brand,2018-05,142,7.99
+Lucky Brand,2018-06,163,7.99
+Lucky Brand,2018-07,221,7.5
+Lucky Brand,2018-08,191,7.99
+Lucky Brand,2018-09,182,7.99
+Lucky Brand,2018-10,179,7.99
+Lucky Brand,2018-11,173,7.99
+Lucky Brand,2018-12,161,7.99
+Lucky Brand,2019-01,109,7.99
+Lucky Brand,2019-02,138,7.99
+Lucky Brand,2019-03,160,7.99
+Lucky Brand,2019-04,169,7.99
+Lucky Brand,2019-05,255,7.99
+Lucky Brand,2019-06,1043,9.49
+Lucky Brand,2019-07,2125,9.49
+Lucky Brand,2019-08,2620,9.49
+Lucky Brand,2019-09,46,9.49
+Lucky Brand,2019-10,16,11.99
+Lucky Brand,2019-11,2,9.49
+Lucky Brand,2019-12,1,11.99
+Lululemon,2014-07,4,24.49
+Lululemon,2014-11,3,23.01
+Lululemon,2014-12,6,19.99
+Lululemon,2015-01,6,28.994999999999997
+Lululemon,2015-02,5,26.0
+Lululemon,2015-03,5,17.0
+Lululemon,2015-04,3,26.0
+Lululemon,2015-05,5,28.5
+Lululemon,2015-06,5,15.99
+Lululemon,2015-07,6,18.5
+Lululemon,2015-08,11,12.99
+Lululemon,2015-09,11,16.0
+Lululemon,2015-10,6,17.2
+Lululemon,2015-11,2,16.990000000000002
+Lululemon,2015-12,2,11.995000000000001
+Lululemon,2016-01,6,17.33
+Lululemon,2016-02,7,13.99
+Lululemon,2016-03,10,20.5
+Lululemon,2016-04,13,19.24
+Lululemon,2016-05,12,27.0
+Lululemon,2016-06,21,17.0
+Lululemon,2016-07,25,12.0
+Lululemon,2016-08,22,10.995000000000001
+Lululemon,2016-09,13,15.0
+Lululemon,2016-10,21,13.0
+Lululemon,2016-11,17,9.99
+Lululemon,2016-12,15,12.0
+Lululemon,2017-01,29,13.0
+Lululemon,2017-02,15,12.01
+Lululemon,2017-03,43,13.32
+Lululemon,2017-04,43,11.95
+Lululemon,2017-05,35,14.0
+Lululemon,2017-06,14,12.245000000000001
+Lululemon,2017-07,22,12.95
+Lululemon,2017-08,18,13.995000000000001
+Lululemon,2017-09,21,9.99
+Lululemon,2017-10,22,9.99
+Lululemon,2017-11,11,9.99
+Lululemon,2017-12,14,11.855
+Lululemon,2018-01,44,12.475
+Lululemon,2018-02,54,11.99
+Lululemon,2018-03,48,11.0
+Lululemon,2018-04,31,9.99
+Lululemon,2018-05,61,10.99
+Lululemon,2018-06,32,11.004999999999999
+Lululemon,2018-07,128,9.99
+Lululemon,2018-08,75,9.99
+Lululemon,2018-09,116,9.99
+Lululemon,2018-10,130,9.99
+Lululemon,2018-11,107,9.99
+Lululemon,2018-12,90,9.99
+Lululemon,2019-01,67,9.99
+Lululemon,2019-02,109,9.99
+Lululemon,2019-03,98,11.495000000000001
+Lululemon,2019-04,101,9.99
+Lululemon,2019-05,94,9.99
+Lululemon,2019-06,110,9.99
+Lululemon,2019-07,154,9.99
+Lululemon,2019-08,166,9.99
+Lululemon,2019-09,16,11.495000000000001
+Lululemon,2019-10,1,24.99
+Max Studio,2014-07,15,9.99
+Max Studio,2014-08,13,8.0
+Max Studio,2014-09,6,6.495
+Max Studio,2014-10,10,7.99
+Max Studio,2014-11,17,7.99
+Max Studio,2014-12,8,9.99
+Max Studio,2015-01,15,7.99
+Max Studio,2015-02,20,8.49
+Max Studio,2015-03,16,8.49
+Max Studio,2015-04,7,6.99
+Max Studio,2015-05,9,9.99
+Max Studio,2015-06,23,8.95
+Max Studio,2015-07,21,9.95
+Max Studio,2015-08,16,7.49
+Max Studio,2015-09,16,8.469999999999999
+Max Studio,2015-10,12,6.99
+Max Studio,2015-11,14,6.99
+Max Studio,2015-12,5,7.99
+Max Studio,2016-01,27,7.99
+Max Studio,2016-02,17,8.99
+Max Studio,2016-03,16,6.99
+Max Studio,2016-04,24,9.469999999999999
+Max Studio,2016-05,21,8.99
+Max Studio,2016-06,11,9.95
+Max Studio,2016-07,14,8.49
+Max Studio,2016-08,14,8.49
+Max Studio,2016-09,14,7.5
+Max Studio,2016-10,26,6.495
+Max Studio,2016-11,38,5.49
+Max Studio,2016-12,93,5.49
+Max Studio,2017-01,75,5.49
+Max Studio,2017-02,39,7.49
+Max Studio,2017-03,29,6.5
+Max Studio,2017-04,18,6.99
+Max Studio,2017-05,54,7.49
+Max Studio,2017-06,26,6.595000000000001
+Max Studio,2017-07,17,2.5
+Max Studio,2017-08,27,7.99
+Max Studio,2017-09,43,8.0
+Max Studio,2017-10,21,7.49
+Max Studio,2017-11,20,7.99
+Max Studio,2017-12,67,7.99
+Max Studio,2018-01,41,9.49
+Max Studio,2018-02,53,9.49
+Max Studio,2018-03,54,5.99
+Max Studio,2018-04,38,9.49
+Max Studio,2018-05,54,9.49
+Max Studio,2018-06,76,7.49
+Max Studio,2018-07,110,6.99
+Max Studio,2018-08,45,4.99
+Max Studio,2018-09,40,9.99
+Max Studio,2018-10,44,7.99
+Max Studio,2018-11,55,7.99
+Max Studio,2018-12,46,9.99
+Max Studio,2019-01,41,7.99
+Max Studio,2019-02,34,7.99
+Max Studio,2019-03,49,7.99
+Max Studio,2019-04,103,9.49
+Max Studio,2019-05,713,9.49
+Max Studio,2019-06,1917,9.49
+Max Studio,2019-07,3093,9.49
+Max Studio,2019-08,3153,9.49
+Max Studio,2019-09,26,10.99
+Max Studio,2019-10,8,11.99
+Max Studio,2019-11,2,11.99
+Max Studio,2019-12,6,11.99
+Michael Kors,2014-07,191,9.99
+Michael Kors,2014-08,187,9.99
+Michael Kors,2014-09,91,9.99
+Michael Kors,2014-10,166,9.99
+Michael Kors,2014-11,235,9.99
+Michael Kors,2014-12,308,9.99
+Michael Kors,2015-01,357,9.99
+Michael Kors,2015-02,297,9.99
+Michael Kors,2015-03,304,9.99
+Michael Kors,2015-04,336,9.99
+Michael Kors,2015-05,326,8.99
+Michael Kors,2015-06,350,9.99
+Michael Kors,2015-07,492,8.99
+Michael Kors,2015-08,494,8.99
+Michael Kors,2015-09,366,7.99
+Michael Kors,2015-10,256,8.99
+Michael Kors,2015-11,284,9.95
+Michael Kors,2015-12,256,8.99
+Michael Kors,2016-01,314,8.99
+Michael Kors,2016-02,306,8.0
+Michael Kors,2016-03,365,9.95
+Michael Kors,2016-04,447,9.95
+Michael Kors,2016-05,496,9.95
+Michael Kors,2016-06,465,9.95
+Michael Kors,2016-07,537,7.99
+Michael Kors,2016-08,590,9.95
+Michael Kors,2016-09,501,8.99
+Michael Kors,2016-10,519,8.99
+Michael Kors,2016-11,502,7.99
+Michael Kors,2016-12,478,7.99
+Michael Kors,2017-01,654,7.99
+Michael Kors,2017-02,506,8.99
+Michael Kors,2017-03,528,8.99
+Michael Kors,2017-04,520,8.95
+Michael Kors,2017-05,657,8.99
+Michael Kors,2017-06,598,8.985
+Michael Kors,2017-07,749,8.95
+Michael Kors,2017-08,587,7.99
+Michael Kors,2017-09,491,7.99
+Michael Kors,2017-10,409,7.99
+Michael Kors,2017-11,525,8.74
+Michael Kors,2017-12,410,7.99
+Michael Kors,2018-01,343,7.99
+Michael Kors,2018-02,375,7.99
+Michael Kors,2018-03,510,7.99
+Michael Kors,2018-04,387,8.99
+Michael Kors,2018-05,510,7.99
+Michael Kors,2018-06,591,7.99
+Michael Kors,2018-07,655,7.99
+Michael Kors,2018-08,593,7.99
+Michael Kors,2018-09,503,8.99
+Michael Kors,2018-10,539,7.99
+Michael Kors,2018-11,630,7.99
+Michael Kors,2018-12,609,7.99
+Michael Kors,2019-01,526,7.99
+Michael Kors,2019-02,536,7.99
+Michael Kors,2019-03,628,8.99
+Michael Kors,2019-04,727,7.99
+Michael Kors,2019-05,944,7.99
+Michael Kors,2019-06,995,7.99
+Michael Kors,2019-07,973,7.99
+Michael Kors,2019-08,957,8.99
+Michael Kors,2019-09,133,9.99
+Michael Kors,2019-10,3,11.99
+Michael Kors,2019-11,2,11.99
+Michael Kors,2019-12,1,11.99
+Mossimo,2014-07,4,7.0
+Mossimo,2014-08,6,4.5
+Mossimo,2014-09,6,4.245
+Mossimo,2014-10,8,6.99
+Mossimo,2014-11,3,6.99
+Mossimo,2014-12,5,5.0
+Mossimo,2015-01,3,7.99
+Mossimo,2015-02,5,3.0
+Mossimo,2015-04,6,7.49
+Mossimo,2015-05,4,4.99
+Mossimo,2015-06,10,9.99
+Mossimo,2015-07,56,4.99
+Mossimo,2015-08,29,4.49
+Mossimo,2015-09,14,4.49
+Mossimo,2015-10,10,7.99
+Mossimo,2015-11,21,3.49
+Mossimo,2015-12,31,3.49
+Mossimo,2016-01,8,6.99
+Mossimo,2016-02,23,5.99
+Mossimo,2016-03,17,6.99
+Mossimo,2016-04,13,6.99
+Mossimo,2016-05,10,6.99
+Mossimo,2016-06,18,5.84
+Mossimo,2016-07,34,5.49
+Mossimo,2016-08,32,5.49
+Mossimo,2016-09,22,3.5
+Mossimo,2016-10,69,5.49
+Mossimo,2016-11,68,6.49
+Mossimo,2016-12,75,5.49
+Mossimo,2017-01,50,4.984999999999999
+Mossimo,2017-02,25,7.99
+Mossimo,2017-03,45,7.49
+Mossimo,2017-04,25,7.49
+Mossimo,2017-05,30,7.49
+Mossimo,2017-06,23,6.99
+Mossimo,2017-07,63,7.49
+Mossimo,2017-08,93,7.49
+Mossimo,2017-09,146,7.49
+Mossimo,2017-10,152,7.49
+Mossimo,2017-11,105,7.49
+Mossimo,2017-12,149,7.49
+Mossimo,2018-01,221,7.49
+Mossimo,2018-02,190,5.99
+Mossimo,2018-03,174,5.99
+Mossimo,2018-04,154,9.49
+Mossimo,2018-05,263,4.99
+Mossimo,2018-06,277,4.99
+Mossimo,2018-07,388,4.99
+Mossimo,2018-08,302,4.99
+Mossimo,2018-09,292,9.99
+Mossimo,2018-10,214,9.99
+Mossimo,2018-11,253,9.99
+Mossimo,2018-12,215,9.99
+Mossimo,2019-01,196,8.0
+Mossimo,2019-02,137,7.99
+Mossimo,2019-03,166,7.99
+Mossimo,2019-04,811,9.99
+Mossimo,2019-05,263,9.49
+Mossimo,2019-06,251,7.49
+Mossimo,2019-07,116,7.49
+Mossimo,2019-08,85,4.99
+Mossimo,2019-09,14,7.99
+Mossimo,2019-12,1,11.99
+Nautica,2014-07,4,5.99
+Nautica,2014-08,6,5.495
+Nautica,2014-10,1,16.0
+Nautica,2014-11,6,7.49
+Nautica,2014-12,15,5.0
+Nautica,2015-01,5,7.99
+Nautica,2015-02,8,5.0
+Nautica,2015-03,4,10.555
+Nautica,2015-04,3,7.99
+Nautica,2015-05,10,5.0
+Nautica,2015-06,4,7.495
+Nautica,2015-07,7,7.99
+Nautica,2015-08,10,7.49
+Nautica,2015-09,11,4.99
+Nautica,2015-10,7,7.99
+Nautica,2015-11,5,6.99
+Nautica,2015-12,23,3.49
+Nautica,2016-01,4,7.49
+Nautica,2016-02,3,8.99
+Nautica,2016-03,3,5.0
+Nautica,2016-04,1,5.0
+Nautica,2016-05,9,3.99
+Nautica,2016-06,8,3.99
+Nautica,2016-07,7,5.69
+Nautica,2016-08,7,6.99
+Nautica,2016-09,10,5.495
+Nautica,2016-10,3,5.0
+Nautica,2016-11,12,6.99
+Nautica,2016-12,2,6.99
+Nautica,2017-01,49,7.49
+Nautica,2017-02,81,7.49
+Nautica,2017-03,36,5.99
+Nautica,2017-04,15,7.99
+Nautica,2017-05,9,9.99
+Nautica,2017-06,9,7.49
+Nautica,2017-07,31,7.49
+Nautica,2017-08,34,6.99
+Nautica,2017-09,11,6.99
+Nautica,2017-10,23,6.99
+Nautica,2017-11,20,6.99
+Nautica,2017-12,22,6.99
+Nautica,2018-01,53,7.49
+Nautica,2018-02,78,7.49
+Nautica,2018-03,63,7.49
+Nautica,2018-04,67,9.49
+Nautica,2018-05,111,9.49
+Nautica,2018-06,158,7.49
+Nautica,2018-07,107,7.99
+Nautica,2018-08,109,6.0
+Nautica,2018-09,60,9.49
+Nautica,2018-10,46,9.49
+Nautica,2018-11,49,9.49
+Nautica,2018-12,108,9.49
+Nautica,2019-01,129,7.49
+Nautica,2019-02,67,5.99
+Nautica,2019-03,91,9.49
+Nautica,2019-04,185,9.49
+Nautica,2019-05,276,9.49
+Nautica,2019-06,204,7.49
+Nautica,2019-07,122,8.74
+Nautica,2019-08,252,9.49
+Nautica,2019-09,9,11.99
+Nautica,2019-10,8,11.99
+Nautica,2019-11,1,11.99
+Nautica,2019-12,2,9.49
+Nike,2014-07,56,5.99
+Nike,2014-08,31,6.0
+Nike,2014-09,15,5.99
+Nike,2014-10,32,7.99
+Nike,2014-11,73,6.99
+Nike,2014-12,67,4.98
+Nike,2015-01,70,6.99
+Nike,2015-02,46,7.99
+Nike,2015-03,25,8.0
+Nike,2015-04,33,6.99
+Nike,2015-05,49,5.0
+Nike,2015-06,62,6.99
+Nike,2015-07,44,6.99
+Nike,2015-08,100,4.99
+Nike,2015-09,80,4.995
+Nike,2015-10,74,4.99
+Nike,2015-11,81,5.0
+Nike,2015-12,127,3.49
+Nike,2016-01,81,4.99
+Nike,2016-02,77,5.0
+Nike,2016-03,70,7.470000000000001
+Nike,2016-04,102,4.99
+Nike,2016-05,98,3.99
+Nike,2016-06,209,5.69
+Nike,2016-07,250,6.970000000000001
+Nike,2016-08,149,5.99
+Nike,2016-09,116,5.82
+Nike,2016-10,70,6.49
+Nike,2016-11,142,6.49
+Nike,2016-12,137,6.49
+Nike,2017-01,108,5.49
+Nike,2017-02,112,7.49
+Nike,2017-03,151,7.49
+Nike,2017-04,158,7.49
+Nike,2017-05,107,7.49
+Nike,2017-06,101,7.49
+Nike,2017-07,147,7.49
+Nike,2017-08,83,7.49
+Nike,2017-09,33,6.0
+Nike,2017-10,42,7.99
+Nike,2017-11,46,7.74
+Nike,2017-12,97,7.49
+Nike,2018-01,206,7.49
+Nike,2018-02,285,7.49
+Nike,2018-03,253,8.99
+Nike,2018-04,282,9.49
+Nike,2018-05,325,7.99
+Nike,2018-06,362,7.49
+Nike,2018-07,312,7.0
+Nike,2018-08,304,5.99
+Nike,2018-09,221,9.99
+Nike,2018-10,185,8.0
+Nike,2018-11,118,9.99
+Nike,2018-12,199,9.49
+Nike,2019-01,260,8.0
+Nike,2019-02,223,9.49
+Nike,2019-03,259,9.49
+Nike,2019-04,220,7.99
+Nike,2019-05,233,9.49
+Nike,2019-06,268,9.49
+Nike,2019-07,312,9.49
+Nike,2019-08,229,9.49
+Nike,2019-09,37,11.99
+Nike,2019-10,17,11.99
+Nike,2019-11,5,11.99
+Nike,2019-12,34,11.99
+Nue Options,2014-07,23,3.99
+Nue Options,2014-08,92,3.49
+Nue Options,2014-09,46,3.49
+Nue Options,2014-10,58,3.99
+Nue Options,2014-11,47,3.49
+Nue Options,2014-12,70,3.49
+Nue Options,2015-01,73,3.99
+Nue Options,2015-02,68,3.49
+Nue Options,2015-03,126,3.49
+Nue Options,2015-04,140,3.49
+Nue Options,2015-05,198,3.49
+Nue Options,2015-06,121,3.49
+Nue Options,2015-07,116,3.49
+Nue Options,2015-08,73,3.49
+Nue Options,2015-09,175,3.49
+Nue Options,2015-10,518,3.99
+Nue Options,2015-11,520,3.99
+Nue Options,2015-12,572,3.99
+Nue Options,2016-01,392,3.99
+Nue Options,2016-02,182,3.99
+Nue Options,2016-03,45,3.99
+Nue Options,2016-04,48,3.99
+Nue Options,2016-05,79,3.99
+Nue Options,2016-06,27,3.99
+Nue Options,2016-07,13,3.99
+Nue Options,2016-08,11,6.99
+Nue Options,2016-10,11,5.49
+Nue Options,2016-11,60,5.49
+Nue Options,2016-12,82,6.49
+Nue Options,2017-01,66,5.49
+Nue Options,2017-02,71,7.49
+Nue Options,2017-03,44,5.99
+Nue Options,2017-04,99,7.49
+Nue Options,2017-05,178,8.995000000000001
+Nue Options,2017-06,308,9.49
+Nue Options,2017-07,281,9.49
+Nue Options,2017-08,417,7.49
+Nue Options,2017-09,818,7.49
+Nue Options,2017-10,749,7.49
+Nue Options,2017-11,1218,7.49
+Nue Options,2017-12,2583,9.49
+Nue Options,2018-01,4316,7.99
+Nue Options,2018-02,5396,9.49
+Nue Options,2018-03,5523,9.49
+Nue Options,2018-04,3959,9.49
+Nue Options,2018-05,2673,9.49
+Nue Options,2018-06,2272,9.49
+Nue Options,2018-07,2234,9.49
+Nue Options,2018-08,2095,9.49
+Nue Options,2018-09,2685,9.49
+Nue Options,2018-10,2188,9.49
+Nue Options,2018-11,1175,9.49
+Nue Options,2018-12,1054,9.49
+Nue Options,2019-01,649,7.49
+Nue Options,2019-02,294,7.49
+Nue Options,2019-03,741,9.49
+Nue Options,2019-04,1083,9.49
+Nue Options,2019-05,1839,9.49
+Nue Options,2019-06,1996,9.49
+Nue Options,2019-07,2260,9.49
+Nue Options,2019-08,1870,7.99
+Nue Options,2019-09,17,9.49
+Old Navy,2014-07,11,5.0
+Old Navy,2014-08,15,6.99
+Old Navy,2014-09,12,6.99
+Old Navy,2014-10,17,6.99
+Old Navy,2014-11,29,5.99
+Old Navy,2014-12,23,4.98
+Old Navy,2015-01,19,4.99
+Old Navy,2015-02,39,6.99
+Old Navy,2015-03,51,6.99
+Old Navy,2015-04,50,6.99
+Old Navy,2015-05,45,6.99
+Old Navy,2015-06,37,6.99
+Old Navy,2015-07,63,6.99
+Old Navy,2015-08,77,6.49
+Old Navy,2015-09,57,4.99
+Old Navy,2015-10,40,6.99
+Old Navy,2015-11,30,6.99
+Old Navy,2015-12,23,6.99
+Old Navy,2016-01,17,6.99
+Old Navy,2016-02,25,7.99
+Old Navy,2016-03,31,3.99
+Old Navy,2016-04,57,3.99
+Old Navy,2016-05,48,3.99
+Old Navy,2016-06,73,5.49
+Old Navy,2016-07,130,5.49
+Old Navy,2016-08,147,5.49
+Old Navy,2016-09,133,5.49
+Old Navy,2016-10,141,5.49
+Old Navy,2016-11,115,5.49
+Old Navy,2016-12,194,5.49
+Old Navy,2017-01,300,5.49
+Old Navy,2017-02,315,7.49
+Old Navy,2017-03,458,7.49
+Old Navy,2017-04,528,7.49
+Old Navy,2017-05,284,7.49
+Old Navy,2017-06,226,7.49
+Old Navy,2017-07,271,7.49
+Old Navy,2017-08,717,7.49
+Old Navy,2017-09,713,7.49
+Old Navy,2017-10,821,7.49
+Old Navy,2017-11,665,7.49
+Old Navy,2017-12,670,7.99
+Old Navy,2018-01,858,7.49
+Old Navy,2018-02,665,5.99
+Old Navy,2018-03,643,5.99
+Old Navy,2018-04,378,9.49
+Old Navy,2018-05,647,5.99
+Old Navy,2018-06,869,4.99
+Old Navy,2018-07,1212,4.99
+Old Navy,2018-08,905,4.99
+Old Navy,2018-09,815,9.99
+Old Navy,2018-10,593,9.99
+Old Navy,2018-11,648,9.99
+Old Navy,2018-12,549,9.99
+Old Navy,2019-01,268,9.49
+Old Navy,2019-02,135,9.49
+Old Navy,2019-03,472,9.49
+Old Navy,2019-04,686,9.49
+Old Navy,2019-05,1849,2.99
+Old Navy,2019-06,416,5.99
+Old Navy,2019-07,300,7.49
+Old Navy,2019-08,352,9.49
+Old Navy,2019-09,43,7.99
+Old Navy,2019-12,4,11.99
+One Urban Day,2017-06,229,9.49
+One Urban Day,2017-07,284,9.49
+One Urban Day,2017-08,291,9.49
+One Urban Day,2017-09,649,9.49
+One Urban Day,2017-10,481,9.49
+One Urban Day,2017-11,288,9.49
+One Urban Day,2017-12,112,7.99
+One Urban Day,2018-01,149,7.99
+One Urban Day,2018-02,99,5.99
+One Urban Day,2018-03,62,5.99
+One Urban Day,2018-04,74,9.49
+One Urban Day,2018-05,176,9.49
+One Urban Day,2018-06,199,9.49
+One Urban Day,2018-07,156,9.49
+One Urban Day,2018-08,120,9.49
+One Urban Day,2018-09,105,9.49
+One Urban Day,2018-10,42,9.49
+One Urban Day,2018-11,13,9.49
+One Urban Day,2018-12,35,9.49
+One Urban Day,2019-01,24,7.49
+One Urban Day,2019-02,3,7.49
+One Urban Day,2019-03,29,9.49
+One Urban Day,2019-04,26,9.49
+One Urban Day,2019-05,16,7.49
+Patagonia,2014-07,9,6.99
+Patagonia,2014-08,4,9.99
+Patagonia,2014-09,6,9.99
+Patagonia,2014-10,10,9.99
+Patagonia,2014-11,2,12.0
+Patagonia,2014-12,1,28.99
+Patagonia,2015-01,5,7.0
+Patagonia,2015-02,5,12.95
+Patagonia,2015-03,10,6.975
+Patagonia,2015-04,4,5.995
+Patagonia,2015-05,6,9.75
+Patagonia,2015-06,1,5.0
+Patagonia,2015-07,4,9.99
+Patagonia,2015-08,7,19.99
+Patagonia,2015-09,8,5.95
+Patagonia,2015-10,9,6.99
+Patagonia,2015-11,7,10.25
+Patagonia,2015-12,7,9.0
+Patagonia,2016-01,11,7.99
+Patagonia,2016-02,7,6.99
+Patagonia,2016-03,7,7.99
+Patagonia,2016-04,8,9.5
+Patagonia,2016-05,6,7.99
+Patagonia,2016-06,9,7.99
+Patagonia,2016-07,6,10.495000000000001
+Patagonia,2016-08,12,10.99
+Patagonia,2016-09,13,7.99
+Patagonia,2016-10,10,8.49
+Patagonia,2016-11,7,7.99
+Patagonia,2016-12,6,10.379999999999999
+Patagonia,2017-01,9,6.99
+Patagonia,2017-02,17,7.99
+Patagonia,2017-03,22,7.99
+Patagonia,2017-04,29,7.99
+Patagonia,2017-05,10,7.99
+Patagonia,2017-06,13,7.99
+Patagonia,2017-07,13,8.99
+Patagonia,2017-08,26,7.99
+Patagonia,2017-09,6,7.99
+Patagonia,2017-10,14,9.99
+Patagonia,2017-11,21,7.99
+Patagonia,2017-12,17,7.99
+Patagonia,2018-01,18,9.245000000000001
+Patagonia,2018-02,22,9.0
+Patagonia,2018-03,46,7.99
+Patagonia,2018-04,54,7.99
+Patagonia,2018-05,36,7.99
+Patagonia,2018-06,31,7.0
+Patagonia,2018-07,23,7.99
+Patagonia,2018-08,23,9.99
+Patagonia,2018-09,32,9.99
+Patagonia,2018-10,50,9.99
+Patagonia,2018-11,53,9.99
+Patagonia,2018-12,45,9.99
+Patagonia,2019-01,26,9.99
+Patagonia,2019-02,74,9.99
+Patagonia,2019-03,79,9.99
+Patagonia,2019-04,126,9.99
+Patagonia,2019-05,117,9.99
+Patagonia,2019-06,103,9.99
+Patagonia,2019-07,79,9.99
+Patagonia,2019-08,99,9.99
+Patagonia,2019-09,17,9.99
+Patagonia,2019-10,1,19.99
+Patagonia,2019-11,1,6.99
+Patagonia,2019-12,2,19.99
+Piper & Taylor,2019-01,10,7.49
+Piper & Taylor,2019-04,1,9.49
+Piper & Taylor,2019-05,30,9.49
+Piper & Taylor,2019-06,25,7.49
+Piper & Taylor,2019-07,3,9.49
+Piper & Taylor,2019-08,2731,9.49
+Piper & Taylor,2019-09,13,9.49
+Rafaella,2014-07,17,5.99
+Rafaella,2014-08,21,6.99
+Rafaella,2014-09,9,6.0
+Rafaella,2014-10,23,5.99
+Rafaella,2014-11,20,5.995
+Rafaella,2014-12,12,7.0
+Rafaella,2015-01,16,6.995
+Rafaella,2015-02,19,7.99
+Rafaella,2015-03,29,6.99
+Rafaella,2015-04,34,6.995
+Rafaella,2015-05,20,6.99
+Rafaella,2015-06,28,6.995
+Rafaella,2015-07,25,5.0
+Rafaella,2015-08,22,6.99
+Rafaella,2015-09,26,3.99
+Rafaella,2015-10,56,3.99
+Rafaella,2015-11,86,3.99
+Rafaella,2015-12,102,3.99
+Rafaella,2016-01,87,3.99
+Rafaella,2016-02,21,3.99
+Rafaella,2016-03,31,3.99
+Rafaella,2016-04,55,3.99
+Rafaella,2016-05,74,3.99
+Rafaella,2016-06,15,6.99
+Rafaella,2016-07,11,8.75
+Rafaella,2016-08,20,6.99
+Rafaella,2016-09,46,6.25
+Rafaella,2016-10,47,5.49
+Rafaella,2016-11,124,6.49
+Rafaella,2016-12,160,6.49
+Rafaella,2017-01,184,5.49
+Rafaella,2017-02,120,7.49
+Rafaella,2017-03,180,7.49
+Rafaella,2017-04,181,7.49
+Rafaella,2017-05,123,7.49
+Rafaella,2017-06,391,9.49
+Rafaella,2017-07,418,9.49
+Rafaella,2017-08,357,7.49
+Rafaella,2017-09,499,9.49
+Rafaella,2017-10,520,7.49
+Rafaella,2017-11,1032,7.99
+Rafaella,2017-12,1732,8.99
+Rafaella,2018-01,2719,7.99
+Rafaella,2018-02,2803,9.49
+Rafaella,2018-03,3018,9.49
+Rafaella,2018-04,2549,9.49
+Rafaella,2018-05,2421,9.49
+Rafaella,2018-06,2393,9.49
+Rafaella,2018-07,1922,9.49
+Rafaella,2018-08,1138,9.49
+Rafaella,2018-09,1409,9.49
+Rafaella,2018-10,1646,9.49
+Rafaella,2018-11,1095,9.49
+Rafaella,2018-12,1482,9.49
+Rafaella,2019-01,1685,7.49
+Rafaella,2019-02,1209,9.49
+Rafaella,2019-03,2815,9.49
+Rafaella,2019-04,3321,9.49
+Rafaella,2019-05,4077,9.49
+Rafaella,2019-06,4475,9.49
+Rafaella,2019-07,5935,9.49
+Rafaella,2019-08,6163,9.49
+Rafaella,2019-09,30,9.49
+Rafaella,2019-10,6,11.99
+Rafaella,2019-12,4,11.99
+Ralph Lauren,2014-07,190,7.99
+Ralph Lauren,2014-08,218,7.99
+Ralph Lauren,2014-09,105,9.99
+Ralph Lauren,2014-10,159,7.99
+Ralph Lauren,2014-11,221,7.99
+Ralph Lauren,2014-12,214,6.995
+Ralph Lauren,2015-01,232,7.99
+Ralph Lauren,2015-02,245,7.99
+Ralph Lauren,2015-03,237,7.99
+Ralph Lauren,2015-04,226,6.99
+Ralph Lauren,2015-05,191,7.99
+Ralph Lauren,2015-06,223,7.0
+Ralph Lauren,2015-07,305,6.99
+Ralph Lauren,2015-08,333,6.99
+Ralph Lauren,2015-09,213,6.95
+Ralph Lauren,2015-10,151,7.99
+Ralph Lauren,2015-11,119,7.99
+Ralph Lauren,2015-12,146,7.33
+Ralph Lauren,2016-01,118,7.99
+Ralph Lauren,2016-02,125,8.0
+Ralph Lauren,2016-03,158,7.99
+Ralph Lauren,2016-04,192,7.99
+Ralph Lauren,2016-05,151,7.99
+Ralph Lauren,2016-06,110,8.99
+Ralph Lauren,2016-07,217,6.99
+Ralph Lauren,2016-08,201,5.49
+Ralph Lauren,2016-09,237,6.25
+Ralph Lauren,2016-10,244,6.49
+Ralph Lauren,2016-11,269,6.49
+Ralph Lauren,2016-12,351,5.49
+Ralph Lauren,2017-01,282,5.49
+Ralph Lauren,2017-02,288,9.0
+Ralph Lauren,2017-03,291,7.49
+Ralph Lauren,2017-04,399,7.9
+Ralph Lauren,2017-05,273,7.99
+Ralph Lauren,2017-06,214,7.49
+Ralph Lauren,2017-07,306,7.49
+Ralph Lauren,2017-08,612,7.49
+Ralph Lauren,2017-09,454,7.49
+Ralph Lauren,2017-10,307,7.49
+Ralph Lauren,2017-11,279,8.0
+Ralph Lauren,2017-12,274,7.99
+Ralph Lauren,2018-01,265,7.49
+Ralph Lauren,2018-02,382,8.495000000000001
+Ralph Lauren,2018-03,491,9.49
+Ralph Lauren,2018-04,370,9.49
+Ralph Lauren,2018-05,210,6.99
+Ralph Lauren,2018-06,403,6.0
+Ralph Lauren,2018-07,427,7.95
+Ralph Lauren,2018-08,391,6.99
+Ralph Lauren,2018-09,258,7.99
+Ralph Lauren,2018-10,349,7.99
+Ralph Lauren,2018-11,264,8.99
+Ralph Lauren,2018-12,309,7.99
+Ralph Lauren,2019-01,321,8.0
+Ralph Lauren,2019-02,253,7.99
+Ralph Lauren,2019-03,351,7.99
+Ralph Lauren,2019-04,430,8.99
+Ralph Lauren,2019-05,634,9.49
+Ralph Lauren,2019-06,717,8.99
+Ralph Lauren,2019-07,541,8.99
+Ralph Lauren,2019-08,629,7.99
+Ralph Lauren,2019-09,65,9.99
+Ralph Lauren,2019-10,22,11.99
+Ralph Lauren,2019-11,4,11.99
+Ralph Lauren,2019-12,12,11.99
+Reel Legends,2014-07,31,3.49
+Reel Legends,2014-08,46,3.49
+Reel Legends,2014-09,36,3.49
+Reel Legends,2014-10,74,3.49
+Reel Legends,2014-11,85,3.49
+Reel Legends,2014-12,102,3.49
+Reel Legends,2015-01,73,3.49
+Reel Legends,2015-02,177,3.49
+Reel Legends,2015-03,546,3.49
+Reel Legends,2015-04,472,3.49
+Reel Legends,2015-05,320,3.49
+Reel Legends,2015-06,265,3.49
+Reel Legends,2015-07,221,3.49
+Reel Legends,2015-08,61,4.49
+Reel Legends,2015-09,92,3.49
+Reel Legends,2015-10,264,3.49
+Reel Legends,2015-11,279,3.49
+Reel Legends,2015-12,239,3.49
+Reel Legends,2016-01,319,3.49
+Reel Legends,2016-02,405,3.49
+Reel Legends,2016-03,1305,3.99
+Reel Legends,2016-04,719,3.99
+Reel Legends,2016-05,254,3.99
+Reel Legends,2016-06,199,3.99
+Reel Legends,2016-07,60,3.99
+Reel Legends,2016-08,81,5.49
+Reel Legends,2016-09,643,6.25
+Reel Legends,2016-10,682,5.49
+Reel Legends,2016-11,1271,5.49
+Reel Legends,2016-12,1358,5.49
+Reel Legends,2017-01,2398,5.49
+Reel Legends,2017-02,1040,5.49
+Reel Legends,2017-03,332,7.49
+Reel Legends,2017-04,349,7.49
+Reel Legends,2017-05,278,7.49
+Reel Legends,2017-06,436,7.49
+Reel Legends,2017-07,345,7.49
+Reel Legends,2017-08,364,7.49
+Reel Legends,2017-09,1001,9.49
+Reel Legends,2017-10,1472,9.49
+Reel Legends,2017-11,2634,9.49
+Reel Legends,2017-12,3844,9.49
+Reel Legends,2018-01,4466,7.99
+Reel Legends,2018-02,4785,9.49
+Reel Legends,2018-03,5227,9.49
+Reel Legends,2018-04,5091,9.49
+Reel Legends,2018-05,3841,9.49
+Reel Legends,2018-06,3314,9.49
+Reel Legends,2018-07,3137,9.49
+Reel Legends,2018-08,4415,9.49
+Reel Legends,2018-09,5257,9.49
+Reel Legends,2018-10,6029,9.49
+Reel Legends,2018-11,3737,9.49
+Reel Legends,2018-12,4836,9.49
+Reel Legends,2019-01,4798,7.49
+Reel Legends,2019-02,2937,7.49
+Reel Legends,2019-03,6961,9.49
+Reel Legends,2019-04,12218,9.49
+Reel Legends,2019-05,17725,9.49
+Reel Legends,2019-06,15390,9.49
+Reel Legends,2019-07,14239,9.49
+Reel Legends,2019-08,9985,9.49
+Reel Legends,2019-09,46,9.49
+Rue 21,2015-12,2,7.99
+Rue 21,2016-01,3,6.99
+Rue 21,2016-04,7,3.99
+Rue 21,2016-05,4,6.74
+Rue 21,2016-06,4,6.49
+Rue 21,2016-07,7,6.99
+Rue 21,2017-01,2,6.49
+Rue 21,2017-02,19,7.49
+Rue 21,2017-10,3,9.99
+Rue 21,2017-11,10,7.99
+Rue 21,2017-12,105,7.99
+Rue 21,2018-01,83,7.99
+Rue 21,2018-02,3,5.99
+Rue 21,2018-03,1,6.99
+Rue 21,2018-04,2,7.24
+Rue 21,2018-05,3,4.99
+Rue 21,2018-06,41,9.49
+Rue 21,2018-07,4,9.49
+Rue 21,2018-08,26,9.49
+Rue 21,2018-10,24,9.49
+Rue 21,2018-11,34,9.99
+Rue 21,2018-12,39,9.99
+Rue 21,2019-01,53,7.49
+Rue 21,2019-02,11,7.49
+Rue 21,2019-03,1,9.99
+Rue 21,2019-04,7,9.99
+Rue 21,2019-05,89,11.99
+Rue 21,2019-06,6,8.49
+Rue 21,2019-07,8,7.49
+Rue 21,2019-08,15,7.49
+St. John's Bay,2014-07,34,9.99
+St. John's Bay,2014-08,30,7.5
+St. John's Bay,2014-09,28,12.5
+St. John's Bay,2014-10,36,9.495000000000001
+St. John's Bay,2014-11,42,9.99
+St. John's Bay,2014-12,67,9.99
+St. John's Bay,2015-01,60,9.99
+St. John's Bay,2015-02,32,18.009999999999998
+St. John's Bay,2015-03,49,8.99
+St. John's Bay,2015-04,62,8.99
+St. John's Bay,2015-05,78,8.995000000000001
+St. John's Bay,2015-06,68,9.95
+St. John's Bay,2015-07,68,9.969999999999999
+St. John's Bay,2015-08,66,8.99
+St. John's Bay,2015-09,75,11.0
+St. John's Bay,2015-10,60,9.95
+St. John's Bay,2015-11,63,9.95
+St. John's Bay,2015-12,59,9.99
+St. John's Bay,2016-01,58,7.99
+St. John's Bay,2016-02,48,9.95
+St. John's Bay,2016-03,68,9.99
+St. John's Bay,2016-04,71,9.99
+St. John's Bay,2016-05,86,9.95
+St. John's Bay,2016-06,82,7.99
+St. John's Bay,2016-07,95,9.99
+St. John's Bay,2016-08,76,9.99
+St. John's Bay,2016-09,64,6.99
+St. John's Bay,2016-10,112,5.49
+St. John's Bay,2016-11,139,6.49
+St. John's Bay,2016-12,102,6.49
+St. John's Bay,2017-01,70,7.49
+St. John's Bay,2017-02,101,7.49
+St. John's Bay,2017-03,82,7.99
+St. John's Bay,2017-04,161,7.99
+St. John's Bay,2017-05,111,7.49
+St. John's Bay,2017-06,116,7.49
+St. John's Bay,2017-07,154,7.49
+St. John's Bay,2017-08,129,7.49
+St. John's Bay,2017-09,114,7.49
+St. John's Bay,2017-10,233,9.49
+St. John's Bay,2017-11,346,7.99
+St. John's Bay,2017-12,451,7.99
+St. John's Bay,2018-01,573,7.49
+St. John's Bay,2018-02,392,7.49
+St. John's Bay,2018-03,425,5.99
+St. John's Bay,2018-04,346,9.49
+St. John's Bay,2018-05,534,9.49
+St. John's Bay,2018-06,410,9.49
+St. John's Bay,2018-07,314,7.49
+St. John's Bay,2018-08,168,9.49
+St. John's Bay,2018-09,147,9.49
+St. John's Bay,2018-10,143,9.99
+St. John's Bay,2018-11,188,9.49
+St. John's Bay,2018-12,332,9.49
+St. John's Bay,2019-01,595,9.49
+St. John's Bay,2019-02,531,9.49
+St. John's Bay,2019-03,784,9.49
+St. John's Bay,2019-04,760,9.49
+St. John's Bay,2019-05,684,9.49
+St. John's Bay,2019-06,472,8.99
+St. John's Bay,2019-07,334,9.49
+St. John's Bay,2019-08,254,7.49
+St. John's Bay,2019-09,20,9.95
+St. John's Bay,2019-12,1,11.99
+Style & Co,2015-12,3,7.0
+Style & Co,2016-01,5,6.99
+Style & Co,2016-04,4,5.99
+Style & Co,2016-05,3,6.99
+Style & Co,2016-06,3,4.99
+Style & Co,2016-07,7,9.99
+Style & Co,2016-09,1,5.0
+Style & Co,2016-10,1,5.95
+Style & Co,2016-11,1,5.95
+Style & Co,2017-02,4,6.495
+Style & Co,2017-03,2,7.99
+Style & Co,2017-05,4,5.75
+Style & Co,2017-06,2,5.0
+Style & Co,2017-07,1,5.0
+Style & Co,2017-10,4,8.245000000000001
+Style & Co,2017-11,31,7.99
+Style & Co,2017-12,270,7.99
+Style & Co,2018-01,216,7.99
+Style & Co,2018-02,11,5.99
+Style & Co,2018-03,14,9.49
+Style & Co,2018-04,114,9.49
+Style & Co,2018-05,85,9.49
+Style & Co,2018-06,405,7.49
+Style & Co,2018-07,4,8.969999999999999
+Style & Co,2018-08,37,5.99
+Style & Co,2018-09,8,7.5
+Style & Co,2018-10,81,9.49
+Style & Co,2018-11,20,9.99
+Style & Co,2018-12,26,9.99
+Style & Co,2019-01,48,7.5
+Style & Co,2019-02,13,8.0
+Style & Co,2019-03,4,9.995000000000001
+Style & Co,2019-04,13,9.99
+Style & Co,2019-05,83,11.99
+Style & Co,2019-06,16,7.99
+Style & Co,2019-07,51,11.99
+Style & Co,2019-08,52,6.99
+Style & Co,2019-09,3,8.49
+Style & Co,2019-10,2,11.99
+Talbots,2014-07,217,7.0
+Talbots,2014-08,231,7.0
+Talbots,2014-09,138,6.995
+Talbots,2014-10,233,6.95
+Talbots,2014-11,139,6.99
+Talbots,2014-12,139,6.99
+Talbots,2015-01,177,6.99
+Talbots,2015-02,178,6.99
+Talbots,2015-03,225,8.95
+Talbots,2015-04,257,6.99
+Talbots,2015-05,228,7.0
+Talbots,2015-06,212,7.99
+Talbots,2015-07,208,6.99
+Talbots,2015-08,198,6.99
+Talbots,2015-09,110,6.99
+Talbots,2015-10,100,6.99
+Talbots,2015-11,163,7.99
+Talbots,2015-12,117,6.99
+Talbots,2016-01,142,6.99
+Talbots,2016-02,132,6.99
+Talbots,2016-03,200,7.99
+Talbots,2016-04,182,6.99
+Talbots,2016-05,123,6.99
+Talbots,2016-06,208,7.95
+Talbots,2016-07,160,6.99
+Talbots,2016-08,157,6.99
+Talbots,2016-09,180,6.970000000000001
+Talbots,2016-10,206,6.99
+Talbots,2016-11,259,5.49
+Talbots,2016-12,412,5.49
+Talbots,2017-01,387,5.95
+Talbots,2017-02,365,7.49
+Talbots,2017-03,405,7.49
+Talbots,2017-04,447,7.49
+Talbots,2017-05,385,7.49
+Talbots,2017-06,406,7.49
+Talbots,2017-07,495,7.49
+Talbots,2017-08,878,7.49
+Talbots,2017-09,860,7.49
+Talbots,2017-10,640,7.49
+Talbots,2017-11,607,7.49
+Talbots,2017-12,646,7.99
+Talbots,2018-01,681,7.49
+Talbots,2018-02,546,6.37
+Talbots,2018-03,503,5.99
+Talbots,2018-04,528,9.004999999999999
+Talbots,2018-05,747,9.49
+Talbots,2018-06,789,7.49
+Talbots,2018-07,737,7.49
+Talbots,2018-08,802,5.99
+Talbots,2018-09,456,8.0
+Talbots,2018-10,591,7.99
+Talbots,2018-11,561,9.49
+Talbots,2018-12,836,9.49
+Talbots,2019-01,779,7.99
+Talbots,2019-02,564,9.49
+Talbots,2019-03,831,9.49
+Talbots,2019-04,971,7.99
+Talbots,2019-05,924,8.49
+Talbots,2019-06,988,8.49
+Talbots,2019-07,718,7.99
+Talbots,2019-08,668,7.99
+Talbots,2019-09,78,7.99
+Talbots,2019-10,51,11.99
+Talbots,2019-11,11,11.99
+Talbots,2019-12,34,11.99
+The North Face,2014-07,35,5.99
+The North Face,2014-08,21,5.95
+The North Face,2014-09,23,7.99
+The North Face,2014-10,31,7.99
+The North Face,2014-11,42,8.51
+The North Face,2014-12,46,7.99
+The North Face,2015-01,32,8.99
+The North Face,2015-02,48,7.99
+The North Face,2015-03,76,7.99
+The North Face,2015-04,60,7.99
+The North Face,2015-05,49,7.02
+The North Face,2015-06,47,7.95
+The North Face,2015-07,50,5.95
+The North Face,2015-08,74,5.95
+The North Face,2015-09,68,5.95
+The North Face,2015-10,56,7.99
+The North Face,2015-11,41,7.99
+The North Face,2015-12,64,7.0
+The North Face,2016-01,81,7.99
+The North Face,2016-02,66,7.99
+The North Face,2016-03,64,7.99
+The North Face,2016-04,67,7.95
+The North Face,2016-05,61,7.99
+The North Face,2016-06,56,7.99
+The North Face,2016-07,55,7.99
+The North Face,2016-08,63,7.95
+The North Face,2016-09,60,6.99
+The North Face,2016-10,75,5.95
+The North Face,2016-11,72,6.99
+The North Face,2016-12,66,7.335
+The North Face,2017-01,77,7.49
+The North Face,2017-02,33,7.99
+The North Face,2017-03,65,6.5
+The North Face,2017-04,61,7.99
+The North Face,2017-05,43,6.5
+The North Face,2017-06,70,7.49
+The North Face,2017-07,77,7.0
+The North Face,2017-08,73,7.99
+The North Face,2017-09,68,7.99
+The North Face,2017-10,55,7.99
+The North Face,2017-11,62,7.99
+The North Face,2017-12,60,7.99
+The North Face,2018-01,46,7.99
+The North Face,2018-02,78,7.99
+The North Face,2018-03,88,7.99
+The North Face,2018-04,76,7.99
+The North Face,2018-05,72,7.99
+The North Face,2018-06,113,6.95
+The North Face,2018-07,85,7.5
+The North Face,2018-08,99,9.0
+The North Face,2018-09,101,9.99
+The North Face,2018-10,126,8.49
+The North Face,2018-11,93,9.99
+The North Face,2018-12,138,9.49
+The North Face,2019-01,150,7.99
+The North Face,2019-02,134,7.99
+The North Face,2019-03,148,7.99
+The North Face,2019-04,178,7.99
+The North Face,2019-05,185,7.99
+The North Face,2019-06,194,7.99
+The North Face,2019-07,238,7.99
+The North Face,2019-08,229,7.99
+The North Face,2019-09,44,7.99
+The North Face,2019-10,4,13.455
+Tommy Hilfiger,2014-07,64,6.5
+Tommy Hilfiger,2014-08,53,5.99
+Tommy Hilfiger,2014-09,27,5.99
+Tommy Hilfiger,2014-10,51,5.99
+Tommy Hilfiger,2014-11,42,6.49
+Tommy Hilfiger,2014-12,40,6.0
+Tommy Hilfiger,2015-01,41,5.0
+Tommy Hilfiger,2015-02,40,6.99
+Tommy Hilfiger,2015-03,65,6.99
+Tommy Hilfiger,2015-04,48,4.995
+Tommy Hilfiger,2015-05,51,6.99
+Tommy Hilfiger,2015-06,51,8.99
+Tommy Hilfiger,2015-07,87,7.95
+Tommy Hilfiger,2015-08,113,7.0
+Tommy Hilfiger,2015-09,93,6.99
+Tommy Hilfiger,2015-10,53,8.99
+Tommy Hilfiger,2015-11,27,7.99
+Tommy Hilfiger,2015-12,32,7.99
+Tommy Hilfiger,2016-01,28,7.99
+Tommy Hilfiger,2016-02,25,6.99
+Tommy Hilfiger,2016-03,21,8.99
+Tommy Hilfiger,2016-04,20,7.49
+Tommy Hilfiger,2016-05,32,6.99
+Tommy Hilfiger,2016-06,51,5.49
+Tommy Hilfiger,2016-07,65,5.49
+Tommy Hilfiger,2016-08,140,5.49
+Tommy Hilfiger,2016-09,133,5.49
+Tommy Hilfiger,2016-10,125,5.49
+Tommy Hilfiger,2016-11,159,5.49
+Tommy Hilfiger,2016-12,171,5.49
+Tommy Hilfiger,2017-01,204,5.49
+Tommy Hilfiger,2017-02,84,7.49
+Tommy Hilfiger,2017-03,193,7.49
+Tommy Hilfiger,2017-04,122,7.49
+Tommy Hilfiger,2017-05,108,7.49
+Tommy Hilfiger,2017-06,79,7.49
+Tommy Hilfiger,2017-07,95,7.49
+Tommy Hilfiger,2017-08,191,7.49
+Tommy Hilfiger,2017-09,159,7.49
+Tommy Hilfiger,2017-10,156,7.49
+Tommy Hilfiger,2017-11,113,7.49
+Tommy Hilfiger,2017-12,86,7.49
+Tommy Hilfiger,2018-01,171,7.49
+Tommy Hilfiger,2018-02,172,6.99
+Tommy Hilfiger,2018-03,207,9.49
+Tommy Hilfiger,2018-04,245,9.49
+Tommy Hilfiger,2018-05,202,7.99
+Tommy Hilfiger,2018-06,143,7.49
+Tommy Hilfiger,2018-07,153,7.49
+Tommy Hilfiger,2018-08,147,6.0
+Tommy Hilfiger,2018-09,126,7.99
+Tommy Hilfiger,2018-10,94,7.0
+Tommy Hilfiger,2018-11,113,9.49
+Tommy Hilfiger,2018-12,220,9.49
+Tommy Hilfiger,2019-01,227,7.99
+Tommy Hilfiger,2019-02,139,7.99
+Tommy Hilfiger,2019-03,207,7.99
+Tommy Hilfiger,2019-04,209,7.99
+Tommy Hilfiger,2019-05,506,12.49
+Tommy Hilfiger,2019-06,920,12.49
+Tommy Hilfiger,2019-07,795,12.49
+Tommy Hilfiger,2019-08,661,7.49
+Tommy Hilfiger,2019-09,37,9.99
+Tommy Hilfiger,2019-10,11,11.99
+Tommy Hilfiger,2019-11,7,11.99
+Tommy Hilfiger,2019-12,7,11.99
+Tory Burch,2014-07,26,27.005000000000003
+Tory Burch,2014-08,2,32.55
+Tory Burch,2014-09,10,30.5
+Tory Burch,2014-10,15,23.0
+Tory Burch,2014-11,13,29.0
+Tory Burch,2014-12,36,19.41
+Tory Burch,2015-01,8,28.525
+Tory Burch,2015-02,22,24.025
+Tory Burch,2015-03,29,28.99
+Tory Burch,2015-04,15,26.99
+Tory Burch,2015-05,31,23.0
+Tory Burch,2015-06,26,23.494999999999997
+Tory Burch,2015-07,24,25.035
+Tory Burch,2015-08,30,13.025
+Tory Burch,2015-09,23,16.0
+Tory Burch,2015-10,37,22.0
+Tory Burch,2015-11,26,21.0
+Tory Burch,2015-12,27,16.99
+Tory Burch,2016-01,32,21.0
+Tory Burch,2016-02,48,18.895000000000003
+Tory Burch,2016-03,39,21.0
+Tory Burch,2016-04,47,24.23
+Tory Burch,2016-05,43,21.0
+Tory Burch,2016-06,14,21.259999999999998
+Tory Burch,2016-07,52,18.65
+Tory Burch,2016-08,33,23.98
+Tory Burch,2016-09,46,18.75
+Tory Burch,2016-10,49,18.0
+Tory Burch,2016-11,26,18.8
+Tory Burch,2016-12,30,18.174999999999997
+Tory Burch,2017-01,23,16.0
+Tory Burch,2017-02,33,18.01
+Tory Burch,2017-03,51,13.99
+Tory Burch,2017-04,52,21.0
+Tory Burch,2017-05,35,21.0
+Tory Burch,2017-06,51,20.0
+Tory Burch,2017-07,40,18.0
+Tory Burch,2017-08,27,20.0
+Tory Burch,2017-09,34,14.745000000000001
+Tory Burch,2017-10,36,17.39
+Tory Burch,2017-11,47,16.0
+Tory Burch,2017-12,32,12.995000000000001
+Tory Burch,2018-01,31,16.0
+Tory Burch,2018-02,37,12.99
+Tory Burch,2018-03,34,18.994999999999997
+Tory Burch,2018-04,31,22.0
+Tory Burch,2018-05,52,15.0
+Tory Burch,2018-06,36,10.995000000000001
+Tory Burch,2018-07,40,18.994999999999997
+Tory Burch,2018-08,33,23.0
+Tory Burch,2018-09,49,14.0
+Tory Burch,2018-10,60,15.0
+Tory Burch,2018-11,49,16.0
+Tory Burch,2018-12,37,18.0
+Tory Burch,2019-01,55,9.99
+Tory Burch,2019-02,60,14.995000000000001
+Tory Burch,2019-03,79,11.0
+Tory Burch,2019-04,47,18.99
+Tory Burch,2019-05,59,14.99
+Tory Burch,2019-06,92,14.0
+Tory Burch,2019-07,84,13.995000000000001
+Tory Burch,2019-08,90,13.504999999999999
+Tory Burch,2019-09,13,12.0
+Under Armour,2014-07,29,7.0
+Under Armour,2014-08,25,7.99
+Under Armour,2014-09,19,9.99
+Under Armour,2014-10,49,6.99
+Under Armour,2014-11,47,6.07
+Under Armour,2014-12,40,5.0
+Under Armour,2015-01,48,6.0
+Under Armour,2015-02,50,6.0
+Under Armour,2015-03,88,5.0
+Under Armour,2015-04,106,5.0
+Under Armour,2015-05,53,4.99
+Under Armour,2015-06,84,5.0
+Under Armour,2015-07,77,5.0
+Under Armour,2015-08,81,5.0
+Under Armour,2015-09,109,5.0
+Under Armour,2015-10,64,5.0
+Under Armour,2015-11,86,5.0
+Under Armour,2015-12,66,6.49
+Under Armour,2016-01,125,8.99
+Under Armour,2016-02,205,8.99
+Under Armour,2016-03,190,8.99
+Under Armour,2016-04,122,7.0
+Under Armour,2016-05,65,6.99
+Under Armour,2016-06,190,8.99
+Under Armour,2016-07,263,5.49
+Under Armour,2016-08,186,5.49
+Under Armour,2016-09,96,6.99
+Under Armour,2016-10,73,7.75
+Under Armour,2016-11,89,7.0
+Under Armour,2016-12,113,5.49
+Under Armour,2017-01,84,5.49
+Under Armour,2017-02,49,6.99
+Under Armour,2017-03,65,7.49
+Under Armour,2017-04,84,7.245
+Under Armour,2017-05,68,5.0
+Under Armour,2017-06,108,6.99
+Under Armour,2017-07,134,6.99
+Under Armour,2017-08,193,6.99
+Under Armour,2017-09,115,6.99
+Under Armour,2017-10,100,8.0
+Under Armour,2017-11,90,6.995
+Under Armour,2017-12,99,7.99
+Under Armour,2018-01,134,7.99
+Under Armour,2018-02,99,6.99
+Under Armour,2018-03,137,9.49
+Under Armour,2018-04,285,9.49
+Under Armour,2018-05,275,8.99
+Under Armour,2018-06,326,7.49
+Under Armour,2018-07,280,6.995
+Under Armour,2018-08,298,6.99
+Under Armour,2018-09,255,9.49
+Under Armour,2018-10,231,9.49
+Under Armour,2018-11,171,7.49
+Under Armour,2018-12,126,9.49
+Under Armour,2019-01,91,8.99
+Under Armour,2019-02,66,9.49
+Under Armour,2019-03,112,9.49
+Under Armour,2019-04,92,7.99
+Under Armour,2019-05,141,7.99
+Under Armour,2019-06,257,9.49
+Under Armour,2019-07,200,9.49
+Under Armour,2019-08,164,7.99
+Under Armour,2019-09,18,7.99
+Under Armour,2019-10,13,11.99
+Under Armour,2019-11,3,11.99
+Under Armour,2019-12,13,11.99
+Victoria's Secret,2014-07,22,6.5
+Victoria's Secret,2014-08,19,6.99
+Victoria's Secret,2014-09,9,7.0
+Victoria's Secret,2014-10,8,7.495
+Victoria's Secret,2014-11,12,7.995
+Victoria's Secret,2014-12,21,8.0
+Victoria's Secret,2015-01,14,5.0
+Victoria's Secret,2015-02,29,7.0
+Victoria's Secret,2015-03,30,6.99
+Victoria's Secret,2015-04,39,6.99
+Victoria's Secret,2015-05,35,6.99
+Victoria's Secret,2015-06,65,6.99
+Victoria's Secret,2015-07,47,6.99
+Victoria's Secret,2015-08,67,6.99
+Victoria's Secret,2015-09,71,6.49
+Victoria's Secret,2015-10,95,7.95
+Victoria's Secret,2015-11,84,7.99
+Victoria's Secret,2015-12,73,7.99
+Victoria's Secret,2016-01,57,8.95
+Victoria's Secret,2016-02,70,8.975
+Victoria's Secret,2016-03,77,9.99
+Victoria's Secret,2016-04,134,9.99
+Victoria's Secret,2016-05,147,7.95
+Victoria's Secret,2016-06,196,9.99
+Victoria's Secret,2016-07,235,5.99
+Victoria's Secret,2016-08,207,5.49
+Victoria's Secret,2016-09,93,6.0
+Victoria's Secret,2016-10,103,6.25
+Victoria's Secret,2016-11,66,7.99
+Victoria's Secret,2016-12,89,6.99
+Victoria's Secret,2017-01,106,5.49
+Victoria's Secret,2017-02,87,7.49
+Victoria's Secret,2017-03,165,7.49
+Victoria's Secret,2017-04,135,7.49
+Victoria's Secret,2017-05,128,7.49
+Victoria's Secret,2017-06,137,7.49
+Victoria's Secret,2017-07,147,6.0
+Victoria's Secret,2017-08,150,7.49
+Victoria's Secret,2017-09,136,7.49
+Victoria's Secret,2017-10,107,7.49
+Victoria's Secret,2017-11,108,7.49
+Victoria's Secret,2017-12,89,7.99
+Victoria's Secret,2018-01,101,7.49
+Victoria's Secret,2018-02,145,8.0
+Victoria's Secret,2018-03,101,7.99
+Victoria's Secret,2018-04,121,6.99
+Victoria's Secret,2018-05,114,6.475
+Victoria's Secret,2018-06,162,6.0
+Victoria's Secret,2018-07,324,6.95
+Victoria's Secret,2018-08,276,5.0
+Victoria's Secret,2018-09,106,9.99
+Victoria's Secret,2018-10,136,9.99
+Victoria's Secret,2018-11,104,9.99
+Victoria's Secret,2018-12,195,9.49
+Victoria's Secret,2019-01,203,7.99
+Victoria's Secret,2019-02,141,9.49
+Victoria's Secret,2019-03,132,8.0
+Victoria's Secret,2019-04,111,7.99
+Victoria's Secret,2019-05,159,9.99
+Victoria's Secret,2019-06,196,9.49
+Victoria's Secret,2019-07,164,9.49
+Victoria's Secret,2019-08,150,9.49
+Victoria's Secret,2019-09,28,11.99
+Victoria's Secret,2019-10,26,11.99
+Victoria's Secret,2019-11,6,11.99
+Victoria's Secret,2019-12,12,11.99
+Wall Flower,2014-10,1,5.0
+Wall Flower,2014-11,2,5.0
+Wall Flower,2015-07,1,8.88
+Wall Flower,2015-08,2,8.495000000000001
+Wall Flower,2015-11,4,6.99
+Wall Flower,2015-12,3,6.99
+Wall Flower,2016-02,2,7.495
+Wall Flower,2017-01,1,7.99
+Wall Flower,2017-02,6,7.99
+Wall Flower,2017-03,4,7.99
+Wall Flower,2017-04,3,7.99
+Wall Flower,2017-11,119,9.49
+Wall Flower,2017-12,181,9.99
+Wall Flower,2018-01,469,9.49
+Wall Flower,2018-02,620,9.49
+Wall Flower,2018-03,687,9.49
+Wall Flower,2018-04,558,9.49
+Wall Flower,2018-05,526,9.49
+Wall Flower,2018-06,763,9.49
+Wall Flower,2018-07,849,9.49
+Wall Flower,2018-08,787,9.49
+Wall Flower,2018-09,714,9.49
+Wall Flower,2018-10,666,9.49
+Wall Flower,2018-11,384,9.49
+Wall Flower,2018-12,296,9.49
+Wall Flower,2019-01,91,5.99
+Wall Flower,2019-02,17,9.49
+Wall Flower,2019-03,27,9.49
+Wall Flower,2019-04,2,9.49
+Wall Flower,2019-05,34,9.49
+Wall Flower,2019-06,26,9.49
+Wall Flower,2019-07,6,9.49
+Wall Flower,2019-08,96,9.49
+Wall Flower,2019-10,1,11.99
+White House Black Market,2015-12,5,7.99
+White House Black Market,2016-01,29,5.95
+White House Black Market,2016-03,2,5.48
+White House Black Market,2016-04,43,7.99
+White House Black Market,2016-05,13,7.99
+White House Black Market,2016-06,16,5.95
+White House Black Market,2016-07,30,7.95
+White House Black Market,2016-08,1,5.95
+White House Black Market,2016-09,8,5.95
+White House Black Market,2016-10,8,5.95
+White House Black Market,2016-11,7,5.95
+White House Black Market,2016-12,6,5.95
+White House Black Market,2017-01,8,5.475
+White House Black Market,2017-02,50,7.95
+White House Black Market,2017-03,41,9.95
+White House Black Market,2017-04,16,6.5
+White House Black Market,2017-05,41,7.95
+White House Black Market,2017-06,32,6.5
+White House Black Market,2017-07,32,5.95
+White House Black Market,2017-08,23,6.5
+White House Black Market,2017-09,6,6.5
+White House Black Market,2017-10,14,6.5
+White House Black Market,2017-11,10,8.245000000000001
+White House Black Market,2017-12,34,6.95
+White House Black Market,2018-01,24,8.49
+White House Black Market,2018-02,16,7.970000000000001
+White House Black Market,2018-03,14,6.99
+White House Black Market,2018-04,23,6.5
+White House Black Market,2018-05,17,5.99
+White House Black Market,2018-06,44,6.99
+White House Black Market,2018-07,15,6.5
+White House Black Market,2018-08,102,4.99
+White House Black Market,2018-09,9,7.5
+White House Black Market,2018-10,95,9.99
+White House Black Market,2018-11,79,9.99
+White House Black Market,2018-12,54,9.99
+White House Black Market,2019-01,58,9.99
+White House Black Market,2019-02,32,7.5
+White House Black Market,2019-03,29,9.99
+White House Black Market,2019-04,15,6.49
+White House Black Market,2019-05,11,11.99
+White House Black Market,2019-06,35,11.99
+White House Black Market,2019-07,32,7.99
+White House Black Market,2019-08,34,7.49
+White House Black Market,2019-09,8,14.934999999999999
+White House Black Market,2019-10,4,11.99
+White House Black Market,2019-11,1,11.99
+White House Black Market,2019-12,2,11.99
+Zara,2015-12,1,4.99
+Zara,2016-01,3,9.95
+Zara,2016-04,5,9.95
+Zara,2016-05,2,9.975
+Zara,2016-06,1,4.99
+Zara,2016-07,5,9.95
+Zara,2016-10,1,3.0
+Zara,2017-02,1,7.95
+Zara,2017-04,2,4.95
+Zara,2017-05,9,8.95
+Zara,2017-06,5,3.0
+Zara,2017-07,9,1.0
+Zara,2017-08,7,6.99
+Zara,2017-09,12,3.0
+Zara,2017-10,12,1.0
+Zara,2017-11,9,12.99
+Zara,2017-12,22,3.0
+Zara,2018-01,16,2.995
+Zara,2018-02,4,4.495
+Zara,2018-03,7,3.99
+Zara,2018-04,8,4.99
+Zara,2018-05,17,4.99
+Zara,2018-06,9,7.99
+Zara,2018-07,3,4.99
+Zara,2018-08,24,4.99
+Zara,2018-10,42,9.99
+Zara,2018-11,55,9.99
+Zara,2018-12,37,9.99
+Zara,2019-01,20,8.995000000000001
+Zara,2019-02,7,4.99
+Zara,2019-03,6,9.99
+Zara,2019-04,29,9.99
+Zara,2019-05,28,11.99
+Zara,2019-06,53,11.99
+Zara,2019-07,29,11.99
+Zara,2019-08,32,11.99
+Zara,2019-09,17,11.99
+Zara,2019-10,51,11.99
+Zara,2019-11,12,11.99
+Zara,2019-12,14,11.99
