@@ -3,12 +3,17 @@
 <head>
 	<title>Used Clothing</title>
 	<link rel="stylesheet" type="text/css" href="./tufte.css">
-	<link rel="stylesheet" type="text/css" href="./index.css">
 	<script src="https://d3js.org/d3.v5.min.js"></script>
 	<script src="https://d3js.org/d3-array.v2.min.js"></script>
 	<script src="https://d3js.org/topojson.v2.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.24.0/slimselect.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.24.0/slimselect.min.css"> 
+	<link rel="stylesheet" type="text/css" href="./index.css">
 	<script type="text/javascript" src="./colours.js"></script>
+	<script type="text/javascript" src="./helpers.js"></script>
+	<script type="text/javascript" src="./streamChart.js"></script>
 	<script type="text/javascript" src="./lineChart.js"></script>
+	<script type="text/javascript" src="./brandLineChart.js"></script>
 </head>
 <body>
 	<article>
@@ -94,14 +99,13 @@
 			</figure>
 			<p>We can also check out how brand popularity and price has changed over time.</p>
 			<figure class="fullwidth" data-children-count=1>
+				<h1 class="svgTitle">Brand Count and Median Price Over Time</h1>
+				<p>
+					<span>Select brands: </span>
+					<select class="brandDropdown" multiple></select>
+				</p>
 				<div style="width:100%">
-					<div class="floated" style="width:75%">
-						<svg class="brandsPriceOverTime" viewBox="0 0 600 350"/>
-					</div>
-					<div class="sideBar floated" style="width:25%">
-						<svg class="brandsOverTimePriceLegend" style="width:100%"/>
-						<div class="selectiveBrandChart" style="width:100%"></div>
-					</div>
+					<svg class="brandsPriceOverTime" viewBox="0 0 600 250"/>
 				</div>
 			</figure>
 			<p>But beyond just price figures, these data gives us a unique gift: Garment descriptions. You can keep your flowery Mr. Peterman descriptions of safari detailing ready to conquer both the boardroom and the night markets of Morocco. If I want to know how a brand is perceived, give me the ad hoc descriptions of Goodwill employees not obliged to spread the gospel of any brand bible.</p>
@@ -127,7 +131,7 @@
 			</figure>
 			<p>Any savvy thrift shopper knows that all thrift stores aren't created equal. 
 			My personal approach was always to go to the part of town where the rich people live. But does that strategy extend to the state level? To distribution centres and online sales rather than individual stores? Probably not, but let's pretend. Let's start by exploring how various values change over time by state.</p>
-				<figure data-children-count=1>
+			<figure data-children-count=1>
 				<h1 class="svgTitle">Goodwill Tops by State Over Time</h1>
 				<p>
 					<span>Colour blocks by: </span>

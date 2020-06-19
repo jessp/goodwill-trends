@@ -50,7 +50,6 @@ d3.csv("./data/trends_over_time.csv", function(d, e, columns){
 	return items;
 }).then(function(data) {
 	let formattedData = data.flat();
-	formattedData = formattedData.filter(e => e.name !== "floral" && e.name !== "long" && e.name !== "sleeveless" && e.name !== "knit" && e.name !== "sequin" && e.name !== "sheer" && e.name !== "stripe" && e.name !== "nonadjustable" && e.name !== "anchor")
 	drawStreamChart(".trendStream", formattedData, "Fashion Trends Over Time");
 });
 
@@ -162,7 +161,8 @@ d3.csv("./data/brands_count_over_time.csv", function(d){
 	let theDays = [...new Set(data.map(e => e.date.getTime()))];
 	let formattedData = brands.map(e => ({[(e)]: theDays.map(f => ({[(f)]: data.find(g => g.brand === e && g.date.getTime() === f) || {"brand": e, "count": 0, "median": null, "date": new Date(f)}}))}));
 	drawBrandLineChart(".brandsPriceOverTime", formattedData, "Brand Cost and Popularity Over Time", ["Gap", "Michael Kors"])
-	drawBrandSelection(".selectiveBrandChart", brands, ["Gap", "Michael Kors"], e => drawBrandLineChart(".brandsPriceOverTime", formattedData, "Brand Cost and Popularity Over Time", e));
+	
+	drawBrandSelection(".brandDropdown", brands, ["Gap", "Michael Kors"], e => drawBrandLineChart(".brandsPriceOverTime", formattedData, "Brand Cost and Popularity Over Time", e));
 })
 
 d3.csv("./data/values_by_state.csv", function(d){
