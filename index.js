@@ -126,7 +126,7 @@ d3.csv("./data/histogram.csv", function(d, e, columns){
 		count: +d.id
 	}
 }).then(function(data) {
-	drawHistogram(".distribution", data, "Price Distribution Under $25");
+	drawHistogram(".distribution", data, "Number of Tops by Price Under $25");
 });
 
 d3.json("./data/brand_words.json").then(function(data) {

@@ -16,19 +16,18 @@
 		<p class="subtitle">Jess Peter</p>
 		<section>
 			<p>
-				I've been buying second-hand clothes for probably a decade now. I started as a teen as a way to out-hipster the other kids in my suburban neighbourhood, and kept it up as I got increasingly into the sustainable fashion movement (without really ever being able to move past the $50 pricetag for a t-shirt that's made, you know, outside a sweatshop).
+				After 10ish years of second-hand shopping, I've started to ask myself a lot of questions about the clothes I've been buying, like, <em>"Did someone die in this?"</em> or, <em>"Have thrift stores always been this pricy?"</em>. In the absense of any conclusive answers, I tried to get the data myself.
 			</p>
 			<p>
-				After 10ish years of second-hand shopping, you start to ask yourself a lot of questions about the clothes you're buying, like, <em>"Did someone die in this?"</em> or, <em>"Have thrift stores always been this pricy?"</em>. Finally, I decided to go looking for answers. 
+				I set up a script to collect information on listings for more than x million women's shirts for sale through Goodwill's website, going back to mid-2014. The information is deeply flawed—a Goodwill online auction is very different from a Goodwill store—but we can get an idea of how thrift store offerings have changed through the years. 
 			</p>
 			<p>
-				I set up a script to collect information on listings for more than x million women's shirts for sale through GoodWill's website. That's a little more than five years of shirt listings. The information is deeply flawed--a GoodWill online auction is very different from a GoodWill store--but we can get an idea of how thrift store offerings have changed through the years. As per whether someone died wearing your latest haul? The answer is to just assume they have and make peace with it.
+				This project was done without Goodwill's assistance or permission. Hopefully, though, they'll see this content as it's intended to be seen: As a very weird love letter to thrifting from a very weird person.
 			</p>
-			<p>This project was done without GoodWill's assistance or permission. Hopefully, though, they'll see this content as it's intended to be seen: As a very weird love letter to thrifting from a very weird person.</p>
 		</section>
 		<section>
 			<h2>1. Are Used Clothes Getting More Expensive?</h2>
-			<p>In short, yes. Or rather, maybe. But if I keep making the "this data is imperfect" caveat, this is going to be a <em>long</em> piece, so just assume it's there from now on.</p>
+			<p>In short, yes. Or rather, maybe. But if I keep making the "this data is imperfect" caveat, this is going to be a <em>long</em> piece, so just assume it's there from now on, and I'll adress it more in a later section.</p>
 			<p>I started by finding the change in the median price of a woman's shirt. But overall median price increase only tells us so much. Have prices doubled because everything is getting more expensive? Or are Goodwills just selling more high-price items online? Or fewer inexpensive items?</p>
 				<figure data-children-count=1>	
 					<div class="marginnote">
@@ -116,7 +115,7 @@
 		</section>
 	
 		<section>
-			<h2>4. How Does GoodWill Clothing Change By Location?</h2>
+			<h2>4. How Does Goodwill Clothing Change By Location?</h2>
 			<figure data-children-count=1>
 					<span class="marginnote">
 						<p>FYI, the Goodwill location assiciated with the most sales is "Goodwill Industries of North Central PA, Inc.," which sold 2,643,509 items in our dataset. That's almost half of all sales, and more than 35 times higher than the next highest selling store's sales. If we ignore that so we can get an actually decent looking graph, we get the following:</p>
@@ -164,9 +163,9 @@
 			</figure>
 		</section>
 		<section>
-			<h2>5. So, exactly how shit are these data and how did you get them?</h2>
-			<p>Honestly, pretty shit. But, from the beginning, I've been operating on the principle that <em>some</em> data is better than none for such non-essential questions as "What's the deal with GoodWill?". So, let me unpack how I got the data and the issues I'm aware of.</p>
-			<p>Basically, after finding that data of old listings aren't available on the GoodWill website, I went rogue. I set up a script on my computer to crawl through sale item pages on the GoodWill website item id by item id and checked the page name and description to see if it was a women's shirt. This was a slow process, but I wasn't interested in overwhelming the GoodWill website, and, again, there is no real pressing need for statistics on GoodWill sales.</p>
+			<h2>5. So, exactly how bad are these data and how did you get them?</h2>
+			<p>Honestly, pretty bad. But, from the beginning, I've been operating on the principle that <em>some</em> data is better than none for such non-essential questions as "What's the deal with Goodwill?". So, let me unpack how I got the data and the issues I'm aware of.</p>
+			<p>Basically, after finding that data of old listings aren't available on the Goodwill website, I went rogue. I set up a script on my computer to crawl through sale item pages on the Goodwill website item id by item id and checked the page name and description to see if it was a women's shirt. This was a slow process, but I wasn't interested in overwhelming the Goodwill website, and, again, there is no real pressing need for statistics on Goodwill sales.</p>
 			<p>After that, I looked for large gaps in consecutive item ids and ran my script to attempt to capture items that I didn't get the first time. Even after all this, there's still gaps in my data, which you can see just by looking.</p>
 			<figure><em>Chart</em></figure>
 			<p>But hey, for all the imperfection, this method yielded a total of xxx records of ladies shirts. In my mind, this is enough to do some analysis, even if it's imperfect. For the record, I also deleted instances of items that seemed to be for multiple items, so that number of records was much higher.</p>

@@ -240,7 +240,7 @@ function drawStreamChart(holder, data, title){
 
 	let color = d3.scaleOrdinal()
     .domain(keys)
-    .range(d3.schemeCategory10);
+    .range(d3.schemeDark2);
 
     let groups = mainG
     .selectAll("g")
@@ -260,6 +260,11 @@ function drawStreamChart(holder, data, title){
     .text(function(d){
     		return d.key;
     })
+    .attr("fill", "#fff")
+    .attr("stroke", "#000")
+    .attr("stroke-opacity", 0.75)
+    .attr("stroke-width", 3)
+    .attr("paint-order", "stroke")
 
 
 
@@ -591,6 +596,7 @@ function drawBrandLineChart(holder, data, title, selected){
 	    .selectAll("path")
 	    .data(selectedData)
 	    .join("path")
+	    .style("mix-blend-mode", "multiply")
 	    .attr("d", function(d){
 	    	return line(Object.values(d)[0]);
 	    });
@@ -604,6 +610,7 @@ function drawBrandLineChart(holder, data, title, selected){
 				return Object.values(d)[0].filter(function(d){ return d.count !== 0});
 			})
 			.join("circle")
+			.style("mix-blend-mode", "multiply")
 			.attr("fill", "steelblue")
 			.attr("r", function(d){
 				return radii(Object.values(d)[0].median)
