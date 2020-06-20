@@ -36,8 +36,7 @@ function drawStreamChart(holder, data, title){
     }
   });
 
-  // let axisY = svg.append("g").attr("class", "axisY");
-    let y = d3.scaleLinear()
+  let y = d3.scaleLinear()
   .domain([0, d3.max(series, d => d3.max(d, d => d[1]))]).nice()
     .range([(height - margin.bottom * 3), margin.top])
 

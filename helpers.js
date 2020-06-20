@@ -1,8 +1,14 @@
-function xAxis(g, scale, width, height, margin){
+function xAxis(g, scale, width, height, margin, format){
+	let axisCall;
+	if (format){
+		axisCall = d3.axisBottom(scale).ticks(width / 80).tickSizeOuter(0).tickFormat(d3.format(format))
+	} else {
+		axisCall = d3.axisBottom(scale).ticks(width / 80).tickSizeOuter(0);
+	}
 	g
 	.transition().duration(100)
     .attr("transform", `translate(0,${height - margin.bottom})`)
-    .call(d3.axisBottom(scale).ticks(width / 80).tickSizeOuter(0));
+    .call(axisCall);
 }
 
 function yAxis(g, scale, width, height, margin, format){
@@ -43,4 +49,14 @@ function makeTitle(group, margin, title){
 	titleGroup
 		.attr("transform", `translate(${15},${margin.top/2})`)
 		.text(title);
+}
+
+function makeYName(group, margin, height, title){
+	let yAxisGroup = group.select(".yAxisTitle").node() === null ? group.append("g").attr("class", "yAxisTitle").append("text") : group.select(".yAxisTitle").select("text");
+	let x = margin.left/3;
+	let y = (height - margin.top - margin.bottom)/2 + margin.top;
+	yAxisGroup
+		.attr("transform", `rotate(-90 ${x} ${y}) translate(${x},${y})`)
+		.text(title)
+		.attr("text-anchor", "middle");
 }

@@ -22,7 +22,7 @@ d3.csv("./data/compare_median_by_date.csv", function(d){
 		"adjusted_all": {"colour": "blue", "dash": "dashed", "label": "All Items Adjusted Price"},
 		"adjusted_tees": {"colour": "green", "dash": "dashed", "label": "Just Tees Adjusted Price"}
 	}
-	drawLineChart(".overtime", formattedData, legend, "Median Price of Women's Tops Over Time");
+	drawLineChart(".overtime", formattedData, legend, "Median Price of Women's Tops Over Time", "Median Price of Top");
 });
 
 
@@ -40,7 +40,7 @@ d3.csv("./data/percent_by_date.csv", function(d){
 		"Under 5": {"colour": "pink", "dash": "solid", "label": "Under $5"}
 
 	}
-	drawAreaChart(".stackedpricemargin", data, legend, "Price Distribution of Tops Over Time");
+	drawAreaChart(".stackedpricemargin", data, legend, "Price Distribution of Tops Over Time", "% of Tops Sold");
 });
 
 d3.csv("./data/trends_over_time.csv", function(d, e, columns){
@@ -125,7 +125,7 @@ d3.csv("./data/histogram.csv", function(d, e, columns){
 		count: +d.id
 	}
 }).then(function(data) {
-	drawHistogram(".distribution", data, "Number of Tops by Price Under $25");
+	drawHistogram(".distribution", data, "Number of Tops by Price Under $20", "Count of Tops Sold");
 });
 
 d3.json("./data/brand_words.json").then(function(data) {
@@ -160,9 +160,9 @@ d3.csv("./data/brands_count_over_time.csv", function(d){
 	let brands = [...new Set(data.map(e => e.brand))];
 	let theDays = [...new Set(data.map(e => e.date.getTime()))];
 	let formattedData = brands.map(e => ({[(e)]: theDays.map(f => ({[(f)]: data.find(g => g.brand === e && g.date.getTime() === f) || {"brand": e, "count": 0, "median": null, "date": new Date(f)}}))}));
-	drawBrandLineChart(".brandsPriceOverTime", formattedData, "Brand Cost and Popularity Over Time", ["Gap", "Michael Kors"])
+	drawBrandLineChart(".brandsPriceOverTime", formattedData, "Brand Cost and Popularity Over Time", "Number of Items Sold", ["Gap", "Michael Kors"])
 	
-	drawBrandSelection(".brandDropdown", brands, ["Gap", "Michael Kors"], e => drawBrandLineChart(".brandsPriceOverTime", formattedData, "Brand Cost and Popularity Over Time", e));
+	drawBrandSelection(".brandDropdown", brands, ["Gap", "Michael Kors"], e => drawBrandLineChart(".brandsPriceOverTime", formattedData, "Brand Cost and Popularity Over Time", "Number of Items Sold", e));
 })
 
 d3.csv("./data/values_by_state.csv", function(d){

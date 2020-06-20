@@ -45,8 +45,8 @@ function drawBubbleChart(holder, data, clickData, defaultName, title){
 
 }
 
-function drawLineChart(holder, data, legend, title){
-	let margin = {"left": 50, "top": 75, "bottom": 25, "right": 175};
+function drawLineChart(holder, data, legend, title, yTitle){
+	let margin = {"left": 75, "top": 75, "bottom": 25, "right": 175};
 	let width = 600;
 	let height = 300;
 	let svg = d3.select(holder);
@@ -91,6 +91,7 @@ function drawLineChart(holder, data, legend, title){
 
 	drawLineChartLegend(svg.append("g").attr("class", "legend").attr("transform", "translate(" + (width - margin.right + 15) + "," + (margin.top) + ")"), legend);
 	makeTitle(d3.select(holder), margin, title);
+	makeYName(d3.select(holder), margin, height, yTitle);
 }
 
 
@@ -108,104 +109,6 @@ function xAxisBumpChart(g, scale, width, height, margin){
         .remove());
 }
 
-
-function drawAreaChart(holder, data, legend, title){
-	let margin = {"left": 50, "top": 75, "bottom": 25, "right": 175};
-	let keys = ["Under 5", "Everything Else", "Over 10"];
-	let values = Array.from(d3.rollup(data, ([d]) => d.value, d => +d.date, d => d.name));
-	let width = 600;
-	let height = 300;
-	let svg = d3.select(holder);
-	let mainG = svg.append("g").attr("class", "main");
-	let axisX = svg.append("g").attr("class", "axisX");
-	let x = d3.scaleUtc()
-	    .domain(d3.extent(data, d => d.date))
-	    .range([margin.left, width - margin.right]);	
-	xAxis(axisX, x, width, height, margin);
-
-	let area = d3.area()
-    .x(d => x(d.data[0]))
-    .y0(d => y(d[0]))
-    .y1(d => y(d[1]))
-
-	let order = d3.stackOrderNone;
-	let series = d3.stack()
-    .keys(keys)
-    .value(([, values], key) => values.get(key))
-    .order(order)
-  (values)
-
-	let axisY = svg.append("g").attr("class", "axisY");
-    let y = d3.scaleLinear()
-	.domain([0, 1]).nice()
-    .range([height - margin.bottom, margin.top])
-	yAxis(axisY, y, width, height, margin, ".0%");
-
-    mainG
-    .selectAll("path")
-    .data(series)
-    .join("path")
-      .attr("fill", function(d){
-      	return legend[d.key]["colour"];
-      })
-      .attr("d", area)
-    .append("title")
-      .text(({key}) => key);
-
-   	drawLineChartLegend(svg.append("g").attr("class", "legend").attr("transform", "translate(" + (width - margin.right + 15) + "," + (margin.top) + ")"), legend);
-   	makeTitle(d3.select(holder), margin, title);
-}
-
-
-function drawVerticalBarChart(holder, data, color, title){
-	let margin = {"left": 10, "top": 75, "bottom": 25, "right": 10};
-	let width = 300;
-	let height = 400;
-	let svg = d3.select(holder);
-	let xScale = d3.scaleLinear()
-		.domain([0, d3.max(data.map(e => e.count))])
-		.range([0, width-margin.left-margin.right]);
-	let yScale = d3.scaleBand()
-		.domain(data.map(e => e.brand))
-		.range([0, height - margin.top - margin.bottom])
-		.paddingInner(0.8);
-
-	let mainGroup = svg.append("g")
-		.attr("class", "holder")
-		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-	let rects = mainGroup.selectAll("g.barGroup")
-		.data(data, function(d) { return d})
-		.enter()
-		.append("g")
-		.attr("class", "barGroup")
-		.attr("transform", (d) => ("translate(0," + yScale(d.brand) + ")"));
-
-	rects.append("rect")
-		.attr("width", function(d){
-			return xScale(d.count);
-		})
-		.attr("height", yScale.bandwidth())
-		.attr("fill", color);
-
-	rects.append("text")
-		.attr("transform", "translate(0," + (-yScale.bandwidth() + 2) + ")")
-		.text(function(d){ return d.brand})
-
-	rects.append("text")
-		.attr("transform", "translate(" + (width - margin.left - margin.right) + "," + (-yScale.bandwidth() + 2) + ")")
-		.style("text-anchor", "end")
-		.text(function(d){ return d3.format(",")(d.count)})
-
-	rects.append("line")
-		.attr("x1",0)
-		.attr("x2",width - margin.left - margin.right)
-		.attr("y1",yScale.bandwidth()/2)
-		.attr("y2",yScale.bandwidth()/2)
-		.attr("stroke-dasharray", "2 2")
-		.attr("stroke", color);
-
-	makeTitle(d3.select(holder), margin, title);
-}
 
 function drawBumpChart(holder, data, colors, title){
 	let margin = {"left": 150, "top": 100, "bottom": 25, "right": 150};
@@ -320,41 +223,6 @@ function drawBumpChart(holder, data, colors, title){
 	
 }
 
-function drawHistogram(holder, data, title){
-	let margin = {"left": 55, "top": 75, "bottom": 25, "right": 10};
-	let width = 300;
-	let height = 200;
-	let svg = d3.select(holder).append("g").attr("transform", "translate(" + 0 + "," + 0 + ")");
-	
-	let axisY = d3.select(holder)
-		.append("g").attr("class", "axisY");
-	let axisX = d3.select(holder)
-		.append("g").attr("class", "axisX");
-
-	let xScale = d3.scaleBand()
-		.domain(data.map(e => e.range))
-		.range([margin.left, width - margin.right])
-		.paddingInner(0.1);
-	let yScale = d3.scaleLinear()
-		.domain([0, d3.max(data.map(e => e.count))])
-		.range([height - margin.bottom, margin.top]);
-	let bars = svg.selectAll("rect")
-		.data(data, d => d.range)
-		.enter()
-		.append("rect")
-		.attr("fill", "steelblue")
-		.attr("x", d => xScale(d.range))
-		.attr("height", d => (height - margin.bottom - yScale(d.count)))
-		.attr("width", xScale.bandwidth())
-		.attr("y", d => yScale(d.count));
-
-	yAxis(axisY, yScale, width, height, margin, "2,");
-	xAxis(axisX, xScale, width, height, margin);
-	d3.select(holder).select(".axisX").selectAll(".tick").selectAll("*").attr("transform", "translate(-" +(xScale.bandwidth()/2) + ",0)")
-
-	makeTitle(d3.select(holder), margin, title);
-}
-
 
 function drawMatrix(holder, data, scale, title){
 	let margin = {"left": 120, "top": 30, "bottom": 25, "right": 0};
@@ -465,44 +333,4 @@ function drawMatrix(holder, data, scale, title){
 	let axisX = d3.select(holder).select(".axisX").node() === null ? svg.append("g").attr("class", "axisX") : svg.select(".axisX");
 
 	xAxisBumpChart(axisX, scaleX, width, height, margin);
-}
-
-function drawMap(holder, data, title){
-	let margin = {"left": 75, "top": 75, "bottom": 25, "right": 0};
-	let width = 600;
-	let height = 450;
-
-	let svg = d3.select(holder);
-	let stateLevel = svg.append("g").attr("transform", "scale(0.65,0.65) translate(0,100)");
-
-	let colourScale = d3.scaleLinear()
-		.range(["pink", "orange", "red"])
-		.domain([0, 5, 10])
-
-	let path = d3.geoPath();
-	stateLevel.selectAll("path")
-	  .data(data)
-	  .enter().append("path")
-	    .attr("d", path)
-	    .style("opacity", 0.8)
-	    .attr("stroke", "#fff")
-	    .attr("fill", function(d){
-	    	if (!d.price){
-	    		return "url(#diagonalHatch)";
-	    	} else {
-	    		return colourScale(d.price);
-	    	}
-	    });
-	
-	stateLevel.selectAll("text")
-	  .data(data)
-	  .enter().append("text")
-	  	.attr("transform", function(d) { 
-	  		return "translate(" + path.centroid(d) + ")"; 
-	  	})
-	  	.text(function(d){ return d.brand})
-	  	.attr("text-anchor", "middle")
-
-	makeTitle(d3.select(holder), margin, title);
-
 }

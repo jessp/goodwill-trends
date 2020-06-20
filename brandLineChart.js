@@ -1,5 +1,5 @@
-function drawBrandLineChart(holder, data, title, selected){
-	let margin = {"left": 55, "top": 30, "bottom": 25, "right": 175};
+function drawBrandLineChart(holder, data, title, yTitle, selected){
+	let margin = {"left": 75, "top": 30, "bottom": 25, "right": 175};
 	let width = 600;
 	let height = 250;
 	let svg = d3.select(holder);
@@ -73,10 +73,11 @@ function drawBrandLineChart(holder, data, title, selected){
 		let legendG = svg.select(".legend").node() === null ? svg.append("g").attr("class", "legend") : svg.select(".legend");
 	   	drawBrandLineChartLegend(legendG.attr("transform", "translate(" + (width - margin.right + 15) + "," + (margin.top) + ")"), legend, [theMin, trueMax]);
 
+	   	makeYName(d3.select(holder), margin, height, yTitle);
 
 }
 
-function drawBrandSelection(holder, allBrands, selected, callBack, scale){
+function drawBrandSelection(holder, allBrands, selected, callBack){
 	let brandObject = allBrands.map(e => ({"text": e, "selected": selected.includes(e)}));
 	let selector = new SlimSelect({
 	  select: holder,
@@ -89,6 +90,7 @@ function drawBrandSelection(holder, allBrands, selected, callBack, scale){
 }
 
 function drawBrandLineChartLegend(holder, values, scale){
+	let priceFormat = d3.format(".2f");
 	let names = holder.selectAll(".legItem")
 			.data(Object.keys(values))
 			.enter()
@@ -130,7 +132,7 @@ function drawBrandLineChartLegend(holder, values, scale){
 	let smallCircleText = holder.select(".smallCircleText").node() === null ? holder.append("text").attr("class", "smallCircleText") : holder.select(".smallCircleText");
 	smallCircleText
 		.attr("transform", "translate(20,54)")
-		.text("$" + scale[0] + " (Cheapest)");
+		.text("$" + priceFormat(scale[0]) + " (Cheapest)");
 	
 	let largeCircle = holder.select(".largeCircle").node() === null ? holder.append("circle").attr("class", "largeCircle") : holder.select(".largeCircle");
 	largeCircle
@@ -142,5 +144,5 @@ function drawBrandLineChartLegend(holder, values, scale){
 	let largeCircleText = holder.select(".largeCircleText").node() === null ? holder.append("text").attr("class", "largeCircleText") : holder.select(".largeCircleText");
 	largeCircleText
 		.attr("transform", "translate(20,79)")
-		.text("$" + scale[1] + " (Most Expensive)");
+		.text("$" + priceFormat(scale[1]) + " (Most Expensive)");
 }

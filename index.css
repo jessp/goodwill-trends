@@ -68,3 +68,7 @@
 	height: 100px;
 	overflow: scroll;
 }
+
+.yAxisTitle {
+	font-style: italic;
+}
