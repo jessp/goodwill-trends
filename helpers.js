@@ -60,3 +60,17 @@ function makeYName(group, margin, height, title){
 		.text(title)
 		.attr("text-anchor", "middle");
 }
+
+function xAxisScaleAlt(g, scale, width, height, margin){
+	g
+    .attr("transform", `translate(${margin.left},${height - margin.bottom})`)
+    .call(d3.axisTop(scale)
+    	.tickSize(height - margin.top/4*3 - margin.bottom)
+    	.ticks(6)
+    	.tickSizeOuter(0))
+    .call(g => g.selectAll(".tick line")
+        .attr("stroke-opacity", 0.5)
+        .attr("stroke-dasharray", "2,2"))
+    .call(g => g.select(".domain")
+        .remove());
+}
