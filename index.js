@@ -143,8 +143,11 @@ d3.json("./data/brand_words.json").then(function(data) {
 			}
 		}
 	}
-	drawBubbleChart(".brandWordsWords", brandDistribution, {"tag": ".brandWordsBrands", "data": wordDistribution, "title": " Often Describes the Brands..."}, "Max Studio", " is Often Described as...");
-	drawBubbleChart(".brandWordsBrands", wordDistribution, {"tag": ".brandWordsWords", "data": brandDistribution, "title": " is Often Described as..."}, "silk", " Often Describes the Brands...");
+
+	drawComparativeChart(".brandsToWords", brandDistribution, ".wordsToBrands", "Max Studio", "Explore Brands");
+	drawComparativeSelector(".brandsToWords", brandDistribution, ".wordsToBrands", "Max Studio", "Explore Brands");
+	drawComparativeChart(".wordsToBrands", wordDistribution, ".brandsToWords", "silk", "Explore Descriptors");
+	drawComparativeSelector(".wordsToBrands", wordDistribution, ".brandsToWords", "silk", "Explore Descriptors");
 
 });
 

@@ -73,3 +73,8 @@ figure div:after {
 .yAxisTitle {
 	font-style: italic;
 }
+
+.comparers ul {
+	max-height: 200px;
+	overflow: scroll;
+}
