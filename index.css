@@ -109,3 +109,11 @@ figure div:after {
 	content: "\2013\a0";
 	color: steelblue;
 }
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}

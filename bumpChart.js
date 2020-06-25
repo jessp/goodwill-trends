@@ -55,7 +55,43 @@ function drawBumpChart(holder, data, colors, title){
 	    })
 	    .enter()
 	    .append("circle")
+	    .attr("class", d => d.brand.split(" ").join(""))
+	    .on("mouseover", function(d){
+	    	squarePopupStart(d3.select(holder), 
+	    		[xScale(d.date) + margin.left, yScale(d.rank) + margin.top],
+	    		[d["brand"], d.date.getFullYear(), "Rank", "Count", d.rank, d3.format(",")(d.count)]);
+	    	d3.select(holder)
+	    		.selectAll("circle")
+	    		.attr("r", 4);
+	    	d3.select(holder)
+	    		.selectAll("." + d.brand.split(" ").join(""))
+	    		.attr("r", 8);
+	    })
+	    .on("mouseout", function(d){
+	    	squarePopupStop(d3.select(holder));
+	    	d3.select(holder)
+	    		.selectAll("circle")
+	    		.attr("r", 4);
+	    })
+	    .on("touchstart", function(d){
+	    	squarePopupStart(d3.select(holder), 
+	    		[xScale(d.date) + margin.left, yScale(d.rank) + margin.top],
+	    		[d["brand"], d.date.getFullYear(), "Rank", "Count", d.rank, d3.format(",")(d.count)]);
+	    	d3.select(holder)
+	    		.selectAll("circle")
+	    		.attr("r", 4);
+	    	d3.select(holder)
+	    		.selectAll("." + d.brand.split(" ").join(""))
+	    		.attr("r", 8);
+	    })
+	    .on("touchend", function(d){
+	    	squarePopupStop(d3.select(holder));
+	    	d3.select(holder)
+	    		.selectAll("circle")
+	    		.attr("r", 4);
+	    })
 	    .attr("r", 4)
+	    .style("cursor", "pointer")
 	    .attr("fill", function(d){
 	    	if (colors.domain().indexOf(d["brand"]) > -1){
 	    		return colors(d["brand"]);
@@ -108,5 +144,7 @@ function drawBumpChart(holder, data, colors, title){
 		});
 
 	makeTitle(d3.select(holder), titleMargin, title);
+
+	setupSquarePopup(d3.select(holder));
 	
 }
