@@ -3,6 +3,7 @@ function drawBrandLineChart(holder, data, title, yTitle, selected){
 	let width = 600;
 	let height = 250;
 	let svg = d3.select(holder);
+	let dateFormat = d3.timeFormat("%B %Y");
 	let mainG = svg.select(".main").node() === null ? svg.append("g").attr("class", "main") : svg.select(".main");
 	mainG.style("mix-blend-mode", "multiply");
 	let axisX = svg.select(".axisX").node() === null ? svg.append("g").attr("class", "axisX") : svg.select(".axisX");
@@ -56,6 +57,7 @@ function drawBrandLineChart(holder, data, title, yTitle, selected){
 				return Object.values(d)[0].filter(function(d){ return d.count !== 0});
 			})
 			.join("circle")
+			.style("cursor", "pointer")
 			.style("mix-blend-mode", "multiply")
 			.attr("fill", "steelblue")
 			.attr("r", function(d){
@@ -66,7 +68,26 @@ function drawBrandLineChart(holder, data, title, yTitle, selected){
 			})
 			.attr("cy", function(d){
 				return y(Object.values(d)[0].count)
-			});
+			})
+			.on("mouseover", function(d){
+				let vals = Object.values(d)[0];
+				squarePopupStart(d3.select(holder), 
+		    		[x(vals.date), y(vals.count)],
+		    		[dateFormat(vals.date), vals["brand"], "Count", "Median Price", d3.format(",")(vals.count), d3.format("$")(vals.median)]);
+	    	})
+	    	.on("touchstart", function(d){
+				let vals = Object.values(d)[0];
+				squarePopupStart(d3.select(holder), 
+		    		[x(vals.date), y(vals.count)],
+		    		[dateFormat(vals.date), vals["brand"], "Count", "Median Price", d3.format(",")(vals.count), d3.format("$")(vals.median)]);
+	    	})
+	    	.on("mouseout", function(d){
+	    	squarePopupStop(d3.select(holder));
+		    })
+		    .on("touchend", function(d){
+		    	squarePopupStop(d3.select(holder));
+		    })
+			;
 		let legend = {
 			"all": {"colour": "steelblue", "dash": "solid", "label": "# of Items from Brand"}
 		};
@@ -75,6 +96,7 @@ function drawBrandLineChart(holder, data, title, yTitle, selected){
 
 	   	makeYName(d3.select(holder), margin, height, yTitle);
 
+	   	setupSquarePopup(d3.select(holder));
 }
 
 function drawBrandSelection(holder, allBrands, selected, callBack){

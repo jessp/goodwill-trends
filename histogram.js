@@ -32,4 +32,5 @@ function drawHistogram(holder, data, title, yTitle){
 
 	makeTitle(d3.select(holder), margin, title);
 	makeYName(d3.select(holder), margin, height, yTitle);
+
 }

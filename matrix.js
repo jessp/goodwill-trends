@@ -9,7 +9,9 @@ function drawMatrix(holder, data, scale, title){
 	let scaleY = d3.scaleBand()
 		.domain(data.map(e => e.key))
 		.range([margin.top, height - margin.bottom])
-		.paddingInner(0.25)
+		.paddingInner(0.25);
+
+	let dateFormat = d3.timeFormat("%B %Y")
 
 
 	var colourDomainByState;
@@ -83,6 +85,45 @@ function drawMatrix(holder, data, scale, title){
 	let boxes = rows.selectAll("rect")
 		.data(d => d.values)
 		.join("rect")
+		.style("cursor", d => d.us_state ? "pointer" : "initial")
+		.on("mouseover", function(d){
+			if (d.us_state){
+				var theValue; 
+
+				if (scale === "priceRel" || scale === "priceAbs") {
+					theValue = {"key": "Median Price", "value": d3.format("$")(d.price)};
+				} else if (scale === "countRel" || scale === "countAbs"){
+					theValue = {"key": "Count", "value": d3.format(",")(d.count)};
+				} else {
+					theValue = {"key": "Count of Designer Items", "value": d.designerCount};
+				}
+				squarePopupStart(d3.select(holder), 
+	    		[scaleX(d["date"]) + margin.left, scaleY(d.us_state)],
+	    		[dateFormat(d["date"]), d["us_state"], theValue.key, "", theValue.value, ""]);
+			}
+	    })
+	    .on("touchstart", function(d){
+			if (d.us_state){
+				var theValue; 
+
+				if (scale === "priceRel" || scale === "priceAbs") {
+					theValue = {"key": "Median Price", "value": d3.format("$")(d.price)};
+				} else if (scale === "countRel" || scale === "countAbs"){
+					theValue = {"key": "Count", "value": d3.format(",")(d.count)};
+				} else {
+					theValue = {"key": "Count of Designer Items", "value": d.designerCount};
+				}
+				squarePopupStart(d3.select(holder), 
+	    		[scaleX(d["date"]) + margin.left, scaleY(d.us_state)],
+	    		[dateFormat(d["date"]), d["us_state"], theValue.key, "", theValue.value, ""]);
+			}
+	    })
+	    .on("mouseout", function(d){
+	    	squarePopupStop(d3.select(holder));
+	    })
+	    .on("touchend", function(d){
+	    	squarePopupStop(d3.select(holder));
+	    })
 		.attr("x", function(d){ return scaleX(d["date"])})
 		.attr("y", 0)
 		.attr("width", oneBand)
@@ -110,6 +151,9 @@ function drawMatrix(holder, data, scale, title){
 
 	let legendGroup = svg.select(".legend").node() === null ? svg.append("g").attr("class", "legend").attr("transform", "translate(" + (margin.left) + "," + (height - margin.bottom) + ")") : svg.select(".legend");
 	drawMatrixLegend(legendGroup, margin, scale, colourDomainByState);
+
+	setupSquarePopup(d3.select(holder));
+
 }
 
 function drawMatrixLegend(group, margin, scaleType, scaleVal){
@@ -150,7 +194,6 @@ function drawMatrixLegend(group, margin, scaleType, scaleVal){
 				return "0 Designer Tops"
 			}
 		})
-		// .text("$" + extent[1] + " (Highest Price)");
 	let topGradientLine = group.select(".gradientTopLine").node() === null ? group.append("line").attr("class", "gradientTopLine") : group.select(".gradientTopLine");
 	topGradientLine.attr("x1", 0)
 		.attr("x2", 0)
