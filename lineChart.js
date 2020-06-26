@@ -45,4 +45,6 @@ function drawLineChart(holder, data, legend, title, yTitle){
 	drawLineChartLegend(svg.append("g").attr("class", "legend").attr("transform", "translate(" + (width - margin.right + 15) + "," + (margin.top) + ")"), legend);
 	makeTitle(d3.select(holder), margin, title);
 	makeYName(d3.select(holder), margin, height, yTitle);
+
+	svg.call(lineHover, path, x, y, data, legend);
 }
