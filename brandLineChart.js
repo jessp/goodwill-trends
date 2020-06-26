@@ -69,7 +69,7 @@ function drawBrandLineChart(holder, data, title, yTitle, selected){
 			.attr("cy", function(d){
 				return y(Object.values(d)[0].count)
 			})
-			.on("mouseover", function(d){
+			.on("mouseenter", function(d){
 				let vals = Object.values(d)[0];
 				squarePopupStart(d3.select(holder), 
 		    		[x(vals.date), y(vals.count)],

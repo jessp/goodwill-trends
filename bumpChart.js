@@ -56,7 +56,7 @@ function drawBumpChart(holder, data, colors, title){
 	    .enter()
 	    .append("circle")
 	    .attr("class", d => d.brand.split(" ").join(""))
-	    .on("mouseover", function(d){
+	    .on("mouseenter", function(d){
 	    	squarePopupStart(d3.select(holder), 
 	    		[xScale(d.date) + margin.left, yScale(d.rank) + margin.top],
 	    		[d["brand"], d.date.getFullYear(), "Rank", "Count", d.rank, d3.format(",")(d.count)]);

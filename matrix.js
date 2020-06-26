@@ -86,7 +86,7 @@ function drawMatrix(holder, data, scale, title){
 		.data(d => d.values)
 		.join("rect")
 		.style("cursor", d => d.us_state ? "pointer" : "initial")
-		.on("mouseover", function(d){
+		.on("mouseenter", function(d){
 			if (d.us_state){
 				var theValue; 
 
@@ -98,7 +98,7 @@ function drawMatrix(holder, data, scale, title){
 					theValue = {"key": "Count of Designer Items", "value": d.designerCount};
 				}
 				squarePopupStart(d3.select(holder), 
-	    		[scaleX(d["date"]) + margin.left, scaleY(d.us_state)],
+	    		[scaleX(d["date"]) + margin.left + oneBand/2, scaleY(d.us_state)],
 	    		[dateFormat(d["date"]), d["us_state"], theValue.key, "", theValue.value, ""]);
 			}
 	    })
@@ -114,7 +114,7 @@ function drawMatrix(holder, data, scale, title){
 					theValue = {"key": "Count of Designer Items", "value": d.designerCount};
 				}
 				squarePopupStart(d3.select(holder), 
-	    		[scaleX(d["date"]) + margin.left, scaleY(d.us_state)],
+	    		[scaleX(d["date"]) + margin.left + oneBand/2, scaleY(d.us_state)],
 	    		[dateFormat(d["date"]), d["us_state"], theValue.key, "", theValue.value, ""]);
 			}
 	    })

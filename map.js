@@ -25,8 +25,31 @@ function drawMap(holder, data, title){
 	    		return colourScale(d.price);
 	    	}
 	    })
-	    .append("title")
-	    .text(d => d.properties.name);
+	    .style("cursor", d => d.price ? "pointer" : "initial")
+	    .on("mouseover", function(d){
+	    	if (d.price){
+	    		let centre = path.centroid(d);
+	    		squarePopupStart(d3.select(holder), 
+	    		[centre[0] * 0.425, centre[1] * 0.425 + 125 - margin.top],
+	    		[d.properties.name, d.brand, "Median Price of All Tops", "", d3.format("$")(d.price), ""]);
+
+	    	}
+	    })
+	    .on("touchstart", function(d){
+	    	if (d.price){
+	    		let centre = path.centroid(d);
+	    		squarePopupStart(d3.select(holder), 
+	    		[centre[0] * 0.425, centre[1] * 0.425 + 125 - margin.top],
+	    		[d.properties.name, d.brand, "Median Price of All Tops", "", d3.format("$")(d.price), ""]);
+
+	    	}
+	    })
+	    .on("mouseout", function(d){
+	    	squarePopupStop(d3.select(holder));
+	    })
+	    .on("touchend", function(d){
+	    	squarePopupStop(d3.select(holder));
+	    })
 	
 	stateLevel.selectAll("text")
 	  .data(data)
@@ -41,6 +64,7 @@ function drawMap(holder, data, title){
 	  		}
 	  		return "translate(" + centre + ")"; 
 	  	})
+	  	.style("pointer-events", "none")
 	  	.text(function(d){ return d.brand})
 	  	.attr("font-size", "120%")
 	  	.attr("text-anchor", "middle")
@@ -74,6 +98,7 @@ function drawMap(holder, data, title){
 	let extent = d3.extent(data.filter(e => e.price !== undefined).map(f => f.price));
 	let legendGroup = svg.append("g").attr("class", "legend").attr("transform", "translate(" + (width - margin.right + 15) + "," + (margin.top) + ")");
 	drawMapLegend(legendGroup, margin, width, colourScale, extent);
+	setupSquarePopup(d3.select(holder));
 }
 
 function drawMapLegend(group, margin, width, scale, extent){
