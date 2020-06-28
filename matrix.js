@@ -86,44 +86,6 @@ function drawMatrix(holder, data, scale, title){
 		.data(d => d.values)
 		.join("rect")
 		.style("cursor", d => d.us_state ? "pointer" : "initial")
-		// .on("mouseenter", function(d){
-		// 	if (d.us_state){
-		// 		var theValue; 
-
-		// 		if (scale === "priceRel" || scale === "priceAbs") {
-		// 			theValue = {"key": "Median Price", "value": d3.format("$")(d.price)};
-		// 		} else if (scale === "countRel" || scale === "countAbs"){
-		// 			theValue = {"key": "Count", "value": d3.format(",")(d.count)};
-		// 		} else {
-		// 			theValue = {"key": "Count of Designer Items", "value": d.designerCount};
-		// 		}
-		// 		squarePopupStart(d3.select(holder), 
-	 //    		[scaleX(d["date"]) + margin.left + oneBand/2, scaleY(d.us_state)],
-	 //    		[dateFormat(d["date"]), d["us_state"], theValue.key, "", theValue.value, ""]);
-		// 	}
-	 //    })
-	 //    .on("touchstart", function(d){
-		// 	if (d.us_state){
-		// 		var theValue; 
-
-		// 		if (scale === "priceRel" || scale === "priceAbs") {
-		// 			theValue = {"key": "Median Price", "value": d3.format("$")(d.price)};
-		// 		} else if (scale === "countRel" || scale === "countAbs"){
-		// 			theValue = {"key": "Count", "value": d3.format(",")(d.count)};
-		// 		} else {
-		// 			theValue = {"key": "Count of Designer Items", "value": d.designerCount};
-		// 		}
-		// 		squarePopupStart(d3.select(holder), 
-	 //    		[scaleX(d["date"]) + margin.left + oneBand/2, scaleY(d.us_state)],
-	 //    		[dateFormat(d["date"]), d["us_state"], theValue.key, "", theValue.value, ""]);
-		// 	}
-	 //    })
-	 //    .on("mouseout", function(d){
-	 //    	squarePopupStop(d3.select(holder));
-	 //    })
-	 //    .on("touchend", function(d){
-	 //    	squarePopupStop(d3.select(holder));
-	 //    })
 		.attr("x", function(d){ return scaleX(d["date"])})
 		.attr("y", 0)
 		.attr("width", oneBand)
@@ -152,7 +114,7 @@ function drawMatrix(holder, data, scale, title){
 	let legendGroup = svg.select(".legend").node() === null ? svg.append("g").attr("class", "legend").attr("transform", "translate(" + (margin.left) + "," + (height - margin.bottom) + ")") : svg.select(".legend");
 	drawMatrixLegend(legendGroup, margin, scale, colourDomainByState);
 
-	setupSquarePopup(d3.select(holder));
+	svg.call(matrixHover, boxes, scaleX, scaleY, data, margin, scale, oneBand);
 
 }
 

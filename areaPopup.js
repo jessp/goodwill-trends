@@ -11,8 +11,10 @@ function areaHover(svg, path, x, y, data){
       .on("mouseenter", entered)
       .on("mouseleave", left);
 
+
   const dot = svg.append("g")
       .attr("display", "none");
+
 
   dot.append("circle")
       .attr("r", 2.5);
