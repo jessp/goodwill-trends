@@ -1,4 +1,5 @@
-function lineHover(svg, path, x, y, data, legend){
+function areaHover(svg, path, x, y, data){
+  let mappedDates = data.map(e => e.date);
 	let dateFormat = d3.timeFormat("%B %Y");
 	if ("ontouchstart" in document) svg
       .style("-webkit-tap-highlight-color", "transparent")
@@ -35,23 +36,30 @@ function lineHover(svg, path, x, y, data, legend){
 	    const mouse = d3.mouse(this);
 	    const xm = x.invert(mouse[0]);
 	    const ym = y.invert(mouse[1]);
-	    const i1 = d3.bisectLeft(data.dates, xm, 1);
+	    const i1 = d3.bisectLeft(mappedDates, xm, 1);
+
 	    const i0 = i1 - 1;
-	    const i = xm - data.dates[i0] > data.dates[i1] - xm ? i1 : i0;
-	    const s = d3.least(data.series, d => Math.abs(d.values[i] - ym));
-	    path.attr("stroke", d => d === s ? (legend[d.name] ? legend[d.name]["colour"] : "orange") : "#ddd").filter(d => d === s).raise();
-	    dot.attr("transform", `translate(${x(data.dates[i])},${y(s.values[i])})`);
-	    dot.select("text").select("tspan:first-of-type").text(dateFormat(data.dates[i]));
-	    dot.select("text").select("tspan:nth-of-type(2)").text(d3.format("$.2f")(s["values"][i]));
+	    const i = xm - mappedDates[i0] > mappedDates[i1] - xm ? i1 : i0;
+      let matchedDates = data.filter(e => e.date.getTime() === mappedDates[i].getTime());
+
+      let whichDate;
+      if (ym < matchedDates[2].value){
+        whichDate = matchedDates[2];
+      } else if (ym < (matchedDates[2].value + matchedDates[0].value)){
+        whichDate = matchedDates[0];
+      } else {
+        whichDate = matchedDates[1];
+      }
+	    dot.attr("transform", `translate(${x(mappedDates[i])},${mouse[1]})`);
+	    dot.select("text").select("tspan:first-of-type").text(dateFormat(mappedDates[i]));
+	    dot.select("text").select("tspan:nth-of-type(2)").text(d3.format(".2")(whichDate.value * 100) + "%");
 	}
 
 	function entered() {
-    	path.style("mix-blend-mode", null).attr("stroke", "#ddd");
     	dot.attr("display", null);
   	}
 
 	function left() {
-	    path.style("mix-blend-mode", "multiply").attr("stroke", d => legend[d.name] ? legend[d.name]["colour"] : "orange");
 	    dot.attr("display", "none");
 	}
 }

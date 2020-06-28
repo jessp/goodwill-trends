@@ -30,7 +30,7 @@ function drawAreaChart(holder, data, legend, title, yTitle){
     .range([height - margin.bottom, margin.top])
 	yAxis(axisY, y, width, height, margin, ".0%");
 
-    mainG
+  let path = mainG
     .selectAll("path")
     .data(series)
     .join("path")
@@ -44,4 +44,6 @@ function drawAreaChart(holder, data, legend, title, yTitle){
    	drawLineChartLegend(svg.append("g").attr("class", "legend").attr("transform", "translate(" + (width - margin.right + 15) + "," + (margin.top) + ")"), legend);
    	makeTitle(d3.select(holder), margin, title);
     makeYName(d3.select(holder), margin, height, yTitle);
+
+    svg.call(areaHover, path, x, y, data);
 }
