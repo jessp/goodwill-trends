@@ -58,12 +58,12 @@
 	font-size: 90%;
 }
 
-figure div:after {
+/*figure div:after {
   content: "";
   display: table;
   clear: both;
   float: none;
-}
+}*/
 
 .selectiveBrandChart {
 	height: 100px;
