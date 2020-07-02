@@ -22,7 +22,7 @@ d3.csv("./data/compare_median_by_date.csv", function(d){
 		"adjusted_all": {"colour": "blue", "dash": "dashed", "label": "All Items Adjusted Price"},
 		"adjusted_tees": {"colour": "green", "dash": "dashed", "label": "Just Tees Adjusted Price"}
 	}
-	drawLineChart(".overtime", formattedData, legend, "Median Price of Women's Tops Over Time", "Median Price of Top");
+	drawLineChart(".overtime", formattedData, legend, "Median Price of Top");
 });
 
 
@@ -40,7 +40,7 @@ d3.csv("./data/percent_by_date.csv", function(d){
 		"Under 5": {"colour": "pink", "dash": "solid", "label": "Under $5"}
 
 	}
-	drawAreaChart(".stackedpricemargin", data, legend, "Price Distribution of Tops Over Time", "% of Tops Sold");
+	drawAreaChart(".stackedpricemargin", data, legend, "% of Tops Sold");
 });
 
 d3.csv("./data/trends_over_time.csv", function(d, e, columns){
@@ -50,7 +50,7 @@ d3.csv("./data/trends_over_time.csv", function(d, e, columns){
 	return items;
 }).then(function(data) {
 	let formattedData = data.flat();
-	drawStreamChart(".trendStream", formattedData, "Fashion Trends Over Time");
+	drawStreamChart(".trendStream", formattedData);
 });
 
 d3.csv("./data/top_brands.csv", function(d){
@@ -59,7 +59,8 @@ d3.csv("./data/top_brands.csv", function(d){
 		count: +d.count
 	};
 }).then(function(data) {
-	drawVerticalBarChart(".topRankings", data, "steelblue", "Most Common Women's Top Brands");
+	let width = window.innerWidth;
+	drawVerticalBarChart(width < 760 ? ".small_topRankings" : ".topRankings", data, "steelblue");
 });
 
 d3.csv("./data/top_brands_by_year.csv", function(d){
@@ -100,7 +101,7 @@ d3.csv("./data/top_brands_by_year.csv", function(d){
 	});
 	let brands = ["Loft", "Talbots", "Coral Bay", "Gloria Vanderbilt", "Reel Legends", "Nue Options", "Dept 222"];
 	var scale = d3.scaleOrdinal().domain(brands).range(["#2d004b", "#542788", "#8073ac", "#b2abd2", "#e08214", "#b35806", "#7f3b08"]);
-	drawBumpChart(".brandsOverTime", dateArrays, scale, "Most Common Brands Over Time");
+	drawBumpChart(".brandsOverTime", dateArrays, scale);
 });
 
 d3.csv("./data/prices_by_brand.csv", function(d){
@@ -114,9 +115,9 @@ d3.csv("./data/prices_by_brand.csv", function(d){
 	let pricyBrands = data.filter(d => d.range === "Over 10");
 	let cheapBrands = data.filter(d => d.range === "Under 5");
 
-	drawVerticalBarChart(".cheapBrands", cheapBrands, "pink", "Top Brands Under $5");
-	drawVerticalBarChart(".pricyBrands", pricyBrands, "red", "Top Brands Over $10");
-	drawVerticalBarChart(".midBrands", midBrands, "orange", "Top Mid-price Brands");
+	drawVerticalBarChart(".cheapBrands", cheapBrands, "pink");
+	drawVerticalBarChart(".pricyBrands", pricyBrands, "red");
+	drawVerticalBarChart(".midBrands", midBrands, "orange");
 });
 
 d3.csv("./data/histogram.csv", function(d, e, columns){
@@ -125,7 +126,7 @@ d3.csv("./data/histogram.csv", function(d, e, columns){
 		count: +d.id
 	}
 }).then(function(data) {
-	drawHistogram(".distribution", data, "Number of Tops by Price Under $20", "Count of Tops Sold");
+	drawHistogram(window.innerWidth < 760 ? ".small_distribution" : ".distribution", data, "Count of Tops Sold");
 });
 
 d3.json("./data/brand_words.json").then(function(data) {
@@ -216,7 +217,8 @@ d3.csv("./data/top_stores.csv", function(d){
 		count: +d.count
 	}
 }).then(function(data){
-	drawVerticalBarChart(".topStores", data, "steelblue", "Top Goodwill Locations (Outside NCPA)");
+	let width = window.innerWidth;
+	drawVerticalBarChart(innerWidth < 760 ? ".small_topStores" : ".topStores", data, "steelblue");
 });
 
 d3.csv("./data/brand_map.csv", function(d){
@@ -230,7 +232,6 @@ d3.csv("./data/brand_map.csv", function(d){
 		return json
 	}).then(function(stateData){
 		let formattedData = topojson.feature(stateData, stateData.objects.states).features;
-
 		for (var i = 0; i < formattedData.length; i++){
 
 			let stateName = formattedData[i].properties["name"];
@@ -240,6 +241,6 @@ d3.csv("./data/brand_map.csv", function(d){
 				formattedData[i]["brand"] = theData["brand"];
 			}
 		}
-		drawMap(".stateMap", formattedData, "Overall Median Price and Most Commonly Sold Brand by State");
+		drawMap(".stateMap", formattedData);
 	})
 })

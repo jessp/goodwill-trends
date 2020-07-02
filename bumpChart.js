@@ -1,8 +1,13 @@
-function drawBumpChart(holder, data, colors, title){
-	let margin = {"left": 150, "top": 100, "bottom": 25, "right": 150};
-	let titleMargin = {"left": 150, "top": 75, "bottom": 25, "right": 150};
-	let width = 600;
-	let height = 450;
+function drawBumpChart(holder, data, colors){
+	let width = d3.select(holder).node().width.baseVal.value;
+  	let height = d3.select(holder).node().height.baseVal.value;
+  	let margin;
+
+  	if (width > 500){
+  		margin = {"left": 150, "top": 50, "bottom": 25, "right": 150};
+  	} else {
+  		margin = {"left": 75, "top": 50, "bottom": 25, "right": 75};
+  	}
 	let xScale = d3.scaleUtc()
 		.domain(d3.extent(data.flat(), e => e.date))
 		.range([0, width-margin.left-margin.right]);
@@ -13,6 +18,11 @@ function drawBumpChart(holder, data, colors, title){
 	let axisX = d3.select(holder)
 		.append("g").attr("class", "axisX");
 	xAxisScaleAlt(axisX, xScale, width, height, margin);
+
+
+	d3.select(holder)
+		.attr("width", width)
+      	.attr("height", height);
 
 	let svg = d3.select(holder).append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -119,8 +129,15 @@ function drawBumpChart(holder, data, colors, title){
 			return yScale(d[0]["rank"])
 		})
 		.text(function(d){
-			return (d[0]["rank"] + 1) + ". " + d[0]["brand"];
-		});
+			if (width > 500){
+				return (d[0]["rank"] + 1) + ". " + d[0]["brand"];
+			} else {
+				let brandName = d[0]["brand"].length < 10 ? d[0]["brand"] : d[0]["brand"].substring(0,8) + "...";
+				return (d[0]["rank"] + 1) + ". " + brandName;
+			}
+			
+		})
+		.style("font-size", width > 500 ? "100%" : "85%");
 
 	svg.append("g").selectAll("text.outLabel")
 		.data(data.filter(e => e[e.length - 1]["count"] > 0), function(d){ return d.brand})
@@ -140,10 +157,10 @@ function drawBumpChart(holder, data, colors, title){
 			return yScale(d[d.length - 1]["rank"])
 		})
 		.text(function(d){
-			return (d[d.length - 1]["rank"] + 1) + ". " + d[d.length - 1]["brand"];
-		});
-
-	makeTitle(d3.select(holder), titleMargin, title);
+			let brandName = d[d.length - 1]["brand"].length < 10 ? d[d.length - 1]["brand"] : d[d.length - 1]["brand"].substring(0,8) + "...";
+			return (d[d.length - 1]["rank"] + 1) + ". " + brandName;
+		})
+		.style("font-size", width > 500 ? "100%" : "85%");
 
 	setupSquarePopup(d3.select(holder));
 	

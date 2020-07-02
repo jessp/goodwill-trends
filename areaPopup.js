@@ -11,6 +11,17 @@ function areaHover(svg, path, x, y, data){
       .on("mouseenter", entered)
       .on("mouseleave", left);
 
+  const hoverLine = svg.append("g")
+    .attr("class", "hoverLine")
+    .attr("display", "none");
+
+  hoverLine.append("line")
+    .attr("stroke", "#aaa")
+    .attr("x1", 0)
+    .attr("x2", 0)
+    .attr("y1", y.range()[0])
+    .attr("y2", y.range()[1])
+
 
   const dot = svg.append("g")
       .attr("display", "none");
@@ -55,13 +66,17 @@ function areaHover(svg, path, x, y, data){
 	    dot.attr("transform", `translate(${x(mappedDates[i])},${mouse[1]})`);
 	    dot.select("text").select("tspan:first-of-type").text(dateFormat(mappedDates[i]));
 	    dot.select("text").select("tspan:nth-of-type(2)").text(d3.format(".2")(whichDate.value * 100) + "%");
-	}
+	    hoverLine.attr("transform", `translate(${x(mappedDates[i])},${0})`);
+
+  }
 
 	function entered() {
     	dot.attr("display", null);
+      hoverLine.attr("display", null);
   	}
 
 	function left() {
 	    dot.attr("display", "none");
+      hoverLine.attr("display", "none");
 	}
 }

@@ -1,7 +1,14 @@
 function drawMatrix(holder, data, scale, title){
-	let margin = {"left": 120, "top": 30, "bottom": 75, "right": 0};
-	let width = 600;
-	let height = 650;
+	let width = d3.select(holder).node().width.baseVal.value;
+  	let height = d3.select(holder).node().height.baseVal.value;
+  	let margin;
+  	if (width > 500){
+  		margin = {"left": 120, "top": 50, "bottom": 50, "right": 0};
+  	} else {
+  		margin = {"left": 90, "top": 50, "bottom": 50, "right": 0};
+  	}
+
+  	let miniMargin = {"left": 10, "top": 50, "bottom": 50, "right": 0};
 	let scaleX = d3.scaleUtc()
 		.domain(d3.extent(data[0].values, e => e.date))
 		.range([0, width-margin.left-margin.right]);
@@ -59,7 +66,8 @@ function drawMatrix(holder, data, scale, title){
 
 	let oneBand = (scaleX.range()[1] - scaleX.range()[0])/data[0].values.length;
 
-	let svg = d3.select(holder);
+	let svg = d3.select(holder)
+		svg.attr("viewBox", `0 0 ${width} ${height}`)
 
 
 	let group = d3.select(holder).select(".main").node() === null ? d3.select(holder).append("g").attr("class", "main") : d3.select(holder).select(".main");
@@ -111,8 +119,8 @@ function drawMatrix(holder, data, scale, title){
 
 	xAxisScaleAlt(axisX, scaleX, width, height, margin);
 
-	let legendGroup = svg.select(".legend").node() === null ? svg.append("g").attr("class", "legend").attr("transform", "translate(" + (margin.left) + "," + (height - margin.bottom) + ")") : svg.select(".legend");
-	drawMatrixLegend(legendGroup, margin, scale, colourDomainByState);
+	let legendGroup = svg.select(".legend").node() === null ? svg.append("g").attr("class", "legend").attr("transform", "translate(" + (width < 500 ? miniMargin.left : margin.left) + "," + (height - margin.bottom) + ")") : svg.select(".legend");
+	drawMatrixLegend(legendGroup, width < 500 ? miniMargin : margin, scale, colourDomainByState);
 
 	svg.call(matrixHover, boxes, scaleX, scaleY, data, margin, scale, oneBand);
 
@@ -135,14 +143,13 @@ function drawMatrixLegend(group, margin, scaleType, scaleVal){
 	rectGradient
 		.attr("x", 0)
 		.attr("y", 25)
-		.attr("width", 150)
+		.attr("width", 130)
 		.attr("height", 10)
 		.attr("fill", "url(#gradLinearMatrix)");
 
 	let gradientTopText = group.select(".gradientTopText").node() === null ? group.append("text").attr("class", "gradientTopText") : group.select(".gradientTopText");
 	gradientTopText.attr("x", 0)
 		.attr("y", 55)
-		.text("abc jbjbjb")
 		.text(function(){
 			if (scaleType === "priceRel"){
 				return "Cheaper";
@@ -164,7 +171,7 @@ function drawMatrixLegend(group, margin, scaleType, scaleVal){
 
 
 	let gradientBottomText = group.select(".gradientBottomText").node() === null ? group.append("text").attr("class", "gradientBottomText") : group.select(".gradientBottomText");
-	gradientBottomText.attr("x", 150)
+	gradientBottomText.attr("x", 130)
 		.attr("y", 55)
 		.text(function(){
 			if (scaleType === "priceRel"){
@@ -181,26 +188,26 @@ function drawMatrixLegend(group, margin, scaleType, scaleVal){
 		})
 
 	let BottomGradientLine = group.select(".gradientBottomLine").node() === null ? group.append("line").attr("class", "gradientBottomLine") : group.select(".gradientBottomLine");
-	BottomGradientLine.attr("x1", 150)
-		.attr("x2", 150)
+	BottomGradientLine.attr("x1", 130)
+		.attr("x2", 130)
 		.attr("y1", 25).attr("y2", 40)
 		.attr("stroke", "#000")
 
 	let rectangleLegend = group.select(".legRect").node() === null ? group.append("rect").attr("class", "legRect") : group.select("legRect");
-	rectangleLegend.attr("x", 250)
+	rectangleLegend.attr("x", 200)
 	.attr("y", 25)
 	.attr("width", 7)
 	.attr("height", 10)
 	.attr("fill", "url(#diagonalHatch)");
 
 	let noDataGradientLine = group.select(".gradientNoDataLine").node() === null ? group.append("line").attr("class", "gradientNoDataLine") : group.select(".gradientNoDataLine");
-	noDataGradientLine.attr("x1", 250)
-		.attr("x2", 250)
+	noDataGradientLine.attr("x1", 200)
+		.attr("x2", 200)
 		.attr("y1", 25).attr("y2", 40)
 		.attr("stroke", "#000")
 
 	let noDataText = group.select(".gradientNoDataText").node() === null ? group.append("text").attr("class", "gradientNoDataText") : group.select(".gradientNoDataText");
-	noDataText.attr("x", 250)
+	noDataText.attr("x", 200)
 		.attr("y", 55)
 		.text("Insufficient Data");
 }

@@ -18,12 +18,15 @@ function yAxis(g, scale, width, height, margin, format){
     .call(d3.axisLeft(scale).tickFormat(d3.format(format)));
 }
 
-function drawLineChartLegend(holder, values){
+function drawLineChartLegend(holder, values, width){
+
+	let numPerRow = Math.round(width/165);
+
 	let names = holder.selectAll(".legItem")
 			.data(Object.keys(values))
 			.enter()
 			.append("g")
-			.attr("transform", (d, i) => `translate(0,${i * 30})`)
+			.attr("transform", (d, i) => `translate(${(i % numPerRow) * (width/numPerRow + 10)},${Math.floor(i/numPerRow) * 20})`)
 			.attr("class", "legItem")
 
 	names.append("line")
@@ -42,13 +45,6 @@ function drawLineChartLegend(holder, values){
 	names.append("text")
 			.attr("transform", "translate(20,4)")
 			.text(d => values[d].label)
-}
-
-function makeTitle(group, margin, title){
-	let titleGroup = group.select(".svgTitle").node() === null ? group.append("g").attr("class", "svgTitle").append("text") : group.select(".svgTitle").select("text");
-	titleGroup
-		.attr("transform", `translate(${15},${margin.top/2})`)
-		.text(title);
 }
 
 function makeYName(group, margin, height, title){

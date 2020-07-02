@@ -1,8 +1,9 @@
-function drawVerticalBarChart(holder, data, color, title){
-	let margin = {"left": 10, "top": 75, "bottom": 25, "right": 10};
-	let width = 300;
-	let height = 400;
-	let svg = d3.select(holder);
+function drawVerticalBarChart(holder, data, color){
+	let margin = {"left": 10, "top": 25, "bottom": 25, "right": 10};
+	let width = d3.select(holder).node().width.baseVal.value;
+  	let height = d3.select(holder).node().height.baseVal.value;
+	let svg = d3.select(holder)
+		svg.attr("viewBox", `0 0 ${width} ${height}`)
 	let xScale = d3.scaleLinear()
 		.domain([0, d3.max(data.map(e => e.count))])
 		.range([0, width-margin.left-margin.right]);
@@ -30,7 +31,15 @@ function drawVerticalBarChart(holder, data, color, title){
 
 	rects.append("text")
 		.attr("transform", "translate(0," + (-yScale.bandwidth() + 2) + ")")
-		.text(function(d){ return d.brand})
+		.text(function(d){
+			if (d.brand.length > Math.floor(width/15)){
+				return d.brand.substring(0,Math.floor(width/15)+3) + "...";
+			}
+			return d.brand
+			
+		})
+		.append("title")
+		.text(d => d.brand)
 
 	rects.append("text")
 		.attr("transform", "translate(" + (width - margin.left - margin.right) + "," + (-yScale.bandwidth() + 2) + ")")
@@ -45,5 +54,4 @@ function drawVerticalBarChart(holder, data, color, title){
 		.attr("stroke-dasharray", "2 2")
 		.attr("stroke", color);
 
-	makeTitle(d3.select(holder), margin, title);
 }

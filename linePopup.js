@@ -10,6 +10,18 @@ function lineHover(svg, path, x, y, data, legend){
       .on("mouseenter", entered)
       .on("mouseleave", left);
 
+  const hoverLine = svg.append("g")
+    .attr("class", "hoverLine")
+    .attr("display", "none");
+
+  hoverLine.append("line")
+    .attr("stroke", "#aaa")
+    .attr("x1", 0)
+    .attr("x2", 0)
+    .attr("y1", y.range()[0])
+    .attr("y2", y.range()[1])
+
+
   const dot = svg.append("g")
       .attr("display", "none");
 
@@ -19,7 +31,7 @@ function lineHover(svg, path, x, y, data, legend){
   let text = dot.append("text")
       .attr("font-family", "sans-serif")
       .attr("font-size", 10)
-      .attr("text-anchor", "middle");
+      .attr("text-anchor", "start");
 
   text.append("tspan")
   	.style("font-weight", "bold")
@@ -43,15 +55,19 @@ function lineHover(svg, path, x, y, data, legend){
 	    dot.attr("transform", `translate(${x(data.dates[i])},${y(s.values[i])})`);
 	    dot.select("text").select("tspan:first-of-type").text(dateFormat(data.dates[i]));
 	    dot.select("text").select("tspan:nth-of-type(2)").text(d3.format("$.2f")(s["values"][i]));
-	}
+	    dot.select("text").attr("text-anchor", x(data.dates[i]) < (x.range()[1] - x.range()[0])/2 + x.range()[0] ? "start" : "end")
+      hoverLine.attr("transform", `translate(${x(data.dates[i])},${0})`);
+  }
 
 	function entered() {
     	path.style("mix-blend-mode", null).attr("stroke", "#ddd");
     	dot.attr("display", null);
+      hoverLine.attr("display", null);
   	}
 
 	function left() {
 	    path.style("mix-blend-mode", "multiply").attr("stroke", d => legend[d.name] ? legend[d.name]["colour"] : "orange");
 	    dot.attr("display", "none");
+      hoverLine.attr("display", "none");
 	}
 }

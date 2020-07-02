@@ -1,8 +1,16 @@
 function drawBrandLineChart(holder, data, title, yTitle, selected){
-	let margin = {"left": 75, "top": 30, "bottom": 25, "right": 175};
-	let width = 600;
-	let height = 250;
-	let svg = d3.select(holder);
+	let margin;
+	let width = d3.select(holder).node().width.baseVal.value;
+  	let height = d3.select(holder).node().height.baseVal.value;
+  	if (width < 500){
+  		margin = {"left": width < 500 ? 65 : 75, "top": 30, "bottom": 100, "right": 0};
+  	} else {
+  		margin = {"left": 75, "top": 30, "bottom": 25, "right": 175};
+  	}
+
+
+	let svg = d3.select(holder)
+		svg.attr("viewBox", `0 0 ${width} ${height}`)
 	let dateFormat = d3.timeFormat("%B %Y");
 	let mainG = svg.select(".main").node() === null ? svg.append("g").attr("class", "main") : svg.select(".main");
 	mainG.style("mix-blend-mode", "multiply");
@@ -92,7 +100,11 @@ function drawBrandLineChart(holder, data, title, yTitle, selected){
 			"all": {"colour": "steelblue", "dash": "solid", "label": "# of Items from Brand"}
 		};
 		let legendG = svg.select(".legend").node() === null ? svg.append("g").attr("class", "legend") : svg.select(".legend");
-	   	drawBrandLineChartLegend(legendG.attr("transform", "translate(" + (width - margin.right + 15) + "," + (margin.top) + ")"), legend, [theMin, trueMax]);
+	   	if (width > 500){
+	   		drawBrandLineChartLegend(legendG.attr("transform", "translate(" + (width - margin.right + 15) + "," + (margin.top) + ")"), legend, [theMin, trueMax]);
+	   	} else {
+	   		drawAltBrandLineChartLegend(legendG.attr("transform", "translate(0," + (height - margin.bottom + 15) + ")"), legend, [theMin, trueMax]);
+	   	}
 
 	   	makeYName(d3.select(holder), margin, height, yTitle);
 
@@ -118,6 +130,64 @@ function drawBrandLineChartLegend(holder, values, scale){
 			.enter()
 			.append("g")
 			.attr("transform", (d, i) => `translate(0,${i * 30})`)
+			.attr("class", "legItem")
+
+	names.append("line")
+			.attr("x1", 0)
+			.attr("x2", 15)
+			.attr("y1", 0)
+			.attr("y2", 0)
+			.attr("stroke-width", 2)
+			.attr("stroke", function(d){
+				return values[d]["colour"];
+			})
+			.attr("stroke-dasharray", function(d){
+      			return values[d]["dash"] === "solid" ? null : "4,4";
+      		});
+
+	names.append("text")
+			.attr("transform", "translate(20,4)")
+			.text(d => values[d].label)
+
+	let priceHeader = holder.select(".priceHeader").node() === null ? holder.append("text").attr("class", "priceHeader") : holder.select(".priceHeader");
+
+	priceHeader
+		.text("Median Price of Top")
+		.attr("transform", "translate(20,30.5)")
+		.attr("font-weight", "bold")
+
+	let smallCircle = holder.select(".smallCircle").node() === null ? holder.append("circle").attr("class", "smallCircle") : holder.select(".smallCircle");
+	smallCircle
+		.attr("r", 1)
+		.attr("cx", 7.5)
+		.attr("cy", 50)
+		.attr("fill", "steelblue");
+
+	let smallCircleText = holder.select(".smallCircleText").node() === null ? holder.append("text").attr("class", "smallCircleText") : holder.select(".smallCircleText");
+	smallCircleText
+		.attr("transform", "translate(20,54)")
+		.text("$" + priceFormat(scale[0]) + " (Cheapest)");
+	
+	let largeCircle = holder.select(".largeCircle").node() === null ? holder.append("circle").attr("class", "largeCircle") : holder.select(".largeCircle");
+	largeCircle
+		.attr("r", 6)
+		.attr("cx", 7.5)
+		.attr("cy", 75)
+		.attr("fill", "steelblue");
+
+	let largeCircleText = holder.select(".largeCircleText").node() === null ? holder.append("text").attr("class", "largeCircleText") : holder.select(".largeCircleText");
+	largeCircleText
+		.attr("transform", "translate(20,79)")
+		.text("$" + priceFormat(scale[1]) + " (Most Expensive)");
+}
+
+function drawAltBrandLineChartLegend(holder, values, scale){
+	let priceFormat = d3.format(".2f");
+	let names = holder.selectAll(".legItem")
+			.data(Object.keys(values))
+			.enter()
+			.append("g")
+			.attr("transform", (d, i) => `translate(150,${i * 30 + 30})`)
 			.attr("class", "legItem")
 
 	names.append("line")

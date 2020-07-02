@@ -1,10 +1,12 @@
 function drawStreamChart(holder, data, title){
-  let margin = {"left": 50, "top": 75, "bottom": 65, "right": 50};
+  let margin = {"left": 20, "top": 50, "bottom": 50, "right": 20};
   let keys = d3.map(data, d => d.name).keys();
   let values = Array.from(d3.rollup(data, ([d]) => d.value, d => +d.date, d => d.name));
-  let width = 1000;
-  let height = 500;
-  let svg = d3.select(holder);
+  let width = d3.select(holder).node().width.baseVal.value;
+  let height = d3.select(holder).node().height.baseVal.value;
+
+  let svg = d3.select(holder)
+  svg.attr("viewBox", `0 0 ${width} ${height}`)
   let mainG = svg.append("g").attr("class", "main");
   let axisX = svg.append("g").attr("class", "axisX");
   let labelG = svg.append("g").attr("class", "labels");
@@ -69,7 +71,6 @@ function drawStreamChart(holder, data, title){
     .attr("paint-order", "stroke")
 
 
-
     titles
     .datum(function(d){
       return getBestLabel(this, d, x, y);
@@ -79,7 +80,6 @@ function drawStreamChart(holder, data, title){
     .attr("x", d => d[0])
     .attr("y", d => d[1])
 
-    makeTitle(d3.select(holder), margin, title);
 }
 
 function getBestLabel(that, points, x, y) {
@@ -98,7 +98,11 @@ function getBestLabel(that, points, x, y) {
   let bottomPoint;
   if (points.bottom){
   	bottomPoint = finder(null, y.range()[0]);
-  	bottomPoint = [bottomPoint[0] + 10, bottomPoint[1] + 20]
+    if (bottomPoint !== undefined){
+  	   bottomPoint = [bottomPoint[0] + 10, bottomPoint[1] + 20];
+     } else {
+        bottomPoint = [x.range()[1] * 0.9, 300]
+     }
   }
   // Try to fit it inside, otherwise try to fit it above or below
   return posFound ||

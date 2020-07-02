@@ -10,7 +10,6 @@
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.24.0/slimselect.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.24.0/slimselect.min.css"> 
 	<link rel="stylesheet" type="text/css" href="./index.css">
-	<script type="text/javascript" src="./colours.js"></script>
 	<script type="text/javascript" src="./helpers.js"></script>
 	<script type="text/javascript" src="./squarePopup.js"></script>
 	<script type="text/javascript" src="./linePopup.js"></script>
@@ -38,9 +37,6 @@
 			<p>
 				I set up a script to collect information on listings for more than x million women's shirts for sale through Goodwill's website, going back to mid-2014. The information is deeply flawed—a Goodwill online auction is very different from a Goodwill store—but we can get an idea of how thrift store offerings have changed through the years. 
 			</p>
-			<p>
-				This project was done without Goodwill's assistance or permission. Hopefully, though, they'll see this content as it's intended to be seen: As a very weird love letter to thrifting from a very weird person.
-			</p>
 		</section>
 		<section>
 			<h2>1. Are Used Clothes Getting More Expensive?</h2>
@@ -55,29 +51,50 @@
 					</div>
 				</figure>
 				<figure data-children-count=1>
-					<div style="width:100%">
-						<svg class="overtime" viewBox="0 0 600 300"></svg>
+					<div style="height:30vw; min-height: 325px; max-height: 500px" class="flexHolder">
+						<h3>Median Price of Women's Tops Over Time</h3>
+						<svg class="overtime"></svg>
 					</div>
 				</figure>
+
+			<p class="hiddenOnBig">From July 2014 to December 2019, the <span class="inTextKey green">median item price</span> increased from $6 to $11.99. That's almost exactly a 100% increase.</p>
+			<p class="hiddenOnBig">Drilling down to a few mid-price retailers, we can observe an increase in <span class="inTextKey blue">median price of t-shirts</span> from $3.49 to $7.99 (an 88% increase) from 2014 to 2019. </p>
+			<p class="hiddenOnBig">In the interest of due-diligence, I also confirmed that <span class="inTextKey dashed">adjusting for inflation</span> barely changes these results at all.</p>
+
 			<p>In order to better understand how much the "average" item has increased, I found just t-shirts from a few common brands: American Eagle, Gap, Old Navy, Columbia, Champion, Under Armour, and Nike.</p>
 			<p>So that suggests that everything is getting more expensive, but that doesn't disprove our other theory: What's changed about the price distribution of items sold at Goodwill over time?</p>
 			<figure data-children-count=1>
 				<span class="marginnote">
 					<p>For this, I split the items into three price ranges: under $5, over $10 and everything else. These ranges I picked pretty arbitrarily based purely what <em>I</em> consider cheap and expensive (because distribution on this is whack, as seen in the chart below).</p>
-					<div style="width:100%">
-						<svg class="distribution" viewBox="0 0 300 200">></svg>
+					<div style="height:200px" class="flexHolder">
+						<h3>Number of Tops by Price Under $20</h3>
+						<svg class="distribution"></svg>
 					</div>
 				</span>
-				<div style="width:100%">
-					<svg class="stackedpricemargin" viewBox="0 0 600 300"></svg>
+				<div style="height:30vw; min-height: 325px; max-height: 500px" class="flexHolder">
+					<h3>Price Distribution of Tops Over Time</h3>
+					<svg class="stackedpricemargin"></svg>
 				</div>
 			</figure>
+
 			<p>It looks like the percentage of under $5 has decreased dramatically after an initial surge just prior to 2016, though the percengage of more expensive items has stayed more or less steady.</p>
+			<p class="hiddenOnBig">For this, I split the items into three price ranges: under $5, over $10 and everything else. These ranges I picked pretty arbitrarily based purely what <em>I</em> consider cheap and expensive (because distribution on this is whack, as seen in the chart below).</p>
+			<figure class="hiddenOnBig"data-children-count=1>
+				<div style="height:200px" class="flexHolder">
+					<h3>Number of Tops by Price Under $20</h3>
+					<svg class="small_distribution"></svg>
+				</div>
+			</figure>
+			</p>
+
 		</section>
 		<section>
 			<h2>2. What Can Used Clothes Suggest About Fashion Trends?</h2>
 			<figure class="fullwidth">
-				<svg class="trendStream" style="width:100%; height:500px"></svg>
+				<div style="height:500px;" class="flexHolder">
+					<h3>Fashion Trends Over Time</h3>
+					<svg class="trendStream"></svg>
+				</div>
 			</figure>
 			
 			
@@ -87,52 +104,76 @@
 			<h2>3. What Can Thrift Stores Tell Us About Clothing Brands?</h2>
 			<figure data-children-count=1>
 					<span class="marginnote">
-						<div style="width:100%">
-							<svg class="topRankings" viewBox="0 0 300 400"></svg>
+						<div style="height:400px;" class="flexHolder">
+							<h3>Most Common Women's Top Brands</h3>
+							<svg class="topRankings"></svg>
 						</div>
 					</span>
 			</figure>
 			<p>
 				As in life, so it is online: For every untouched Givenchy original, there's a thousand worn out Mossimo sweatshirts. The breakdown of brands over time is disappointing for any hypebeast. That said the clothes may be absolute <em>fire</em> but we're talking clout here.
 			</p>
+			<figure class="hideOnBig" data-children-count=1>
+				<div style="height:400px;" class="flexHolder">
+					<h3>Most Common Women's Top Brands</h3>
+					<svg class="small_topRankings"></svg>
+				</div>
+			</figure>
 			<p>We get a slightly more nuanced view when we look at how these rankings have changed year-to-year.</p>
 			<figure data-children-count=1>
-				<div style="width:100%">
-					<svg class="brandsOverTime" viewBox="0 0 600 450"></svg>
+				<div style="height:425px;" class="flexHolder">
+					<h3>Most Common Brands Over Time</h3>
+					<svg class="brandsOverTime"></svg>
 				</div>
 			</figure>
 			<p>If we want to talk price, we might also look at our most and least expensive brands. For this, I used our old arbitrary cut-offs of under $5, over $10, and everything in between to represent, low cost, high cost, and mid cost items, respectively. I mean, here we don't see all that much in the way of surprises. There's still a high number of items from various in-house brands from Florida department store Bealls (namely Coral Bay, Reel Legends, and Dept 222)—the significance of which I'll leave to people who actually know things about business.</p>
-			<figure class="fullwidth" data-children-count=1>
-				<div style="width:100%">
-					<svg class="cheapBrands floated" style="width:33%"viewBox="0 0 300 400"/>
-					<svg class="midBrands floated" style="width:33%"viewBox="0 0 300 400"/>
-					<svg class="pricyBrands floated" style="width:33%"viewBox="0 0 300 400"/>
-				</div>
-			</figure>
+			<div class="rightScroll">
+				<figure class="fullwidth" data-children-count=1>
+					<div style="width:100%">
+						<div style="width: 33%" class="floated">
+							<div style="height:400px;" class="flexHolder">
+								<h3>Most Common Inexpensive Brands</h3>
+								<svg class="cheapBrands"/>
+							</div>
+						</div>
+						<div style="width: 33%" class="floated">
+							<div style="height:400px;" class="flexHolder">
+								<h3>Most Common Mid-price Brands</h3>
+								<svg class="midBrands"/>
+							</div>
+						</div>
+						<div style="width: 33%" class="floated">
+							<div style="height:400px;" class="flexHolder">
+								<h3>Most Common Pricy Brands</h3>
+								<svg class="pricyBrands"/>
+							</div>
+						</div>
+					</div>
+				</figure>
+			</div>
 			<p>We can also check out how brand popularity and price has changed over time.</p>
 			<figure class="fullwidth" data-children-count=1>
-				<h1 class="svgTitle">Brand Count and Median Price Over Time</h1>
+				<h3>Brand Count and Median Price Over Time</h3>
 				<p>
 					<span>Select brands: </span>
 					<select class="brandDropdown" multiple></select>
 				</p>
-				<div style="width:100%">
-					<svg class="brandsPriceOverTime" viewBox="0 0 600 250"/>
+				<div style="height:30vw; min-height: 325px; max-height: 500px" class="flexHolder">
+					<svg class="brandsPriceOverTime"/>
 				</div>
 			</figure>
 			<p>But beyond just price figures, these data gives us a unique gift: Garment descriptions. You can keep your flowery Mr. Peterman descriptions of safari detailing ready to conquer both the boardroom and the night markets of Morocco. If I want to know how a brand is perceived, give me the ad hoc descriptions of Goodwill employees not obliged to spread the gospel of any brand bible.</p>
 				<figure class="fullwidth" data-children-count=1>
 					<div style="width:100%; height: 450px">
-						<div class="brandsToWords floated comparers" style="width:45%; margin-right: 5%">
+						<div class="brandsToWords floated comparers">
 							<h3></h3>
 							<select></select>
 							<p><em>is disproportionately described as...</em></p>
 							<ul>
 							</ul>
 						</div>
-						<div class="wordsToBrands floated comparers" style="width:45%">
+						<div class="wordsToBrands floated comparers">
 							<h3></h3>
-
 							<select></select>
 							<p><em>disproportionately describes...</em></p>
 							<ul>
@@ -148,8 +189,9 @@
 			<figure data-children-count=1>
 					<span class="marginnote">
 						<p>FYI, the Goodwill location assiciated with the most sales is "Goodwill Industries of North Central PA, Inc.," which sold 2,643,509 items in our dataset. That's almost half of all sales, and more than 35 times higher than the next highest selling store's sales. If we ignore that so we can get an actually decent looking graph, we get the following:</p>
-						<div style="width:100%">
-							<svg class="topStores" viewBox="0 0 300 400"></svg>
+						<div class="flexHolder" style="height:400px">
+							<h3>Top Goodwill Locations (Outside NCPA)</h3>
+							<svg class="topStores"></svg>
 						</div>
 						<p>Also, for the purposes of this chart's labels: GW = Goodwill, GWI = Goodwill Industries.</p>
 					</span>
@@ -168,8 +210,8 @@
 						<option>Count of designer tops</option>
 					</select>
 				</p>
-				<div style="width:100%">
-					<svg class="valuesByState" viewBox="0 0 600 650">
+				<div style="height:600px;" class="flexHolder">
+					<svg class="valuesByState">
 						<pattern id="diagonalHatch" patternUnits="userSpaceOnUse" width="4" height="4">
 							<path d="M-1,1 l2,-2
 							           M0,4 l4,-4
@@ -179,10 +221,20 @@
 					</svg>
 				</div>
 			</figure>
+			<p class="hideOnBig">FYI, the Goodwill location assiciated with the most sales is "Goodwill Industries of North Central PA, Inc.," which sold 2,643,509 items in our dataset. That's almost half of all sales, and more than 35 times higher than the next highest selling store's sales. If we ignore that so we can get an actually decent looking graph, we get the following:</p>
+			<figure class="hideOnBig" data-children-count=1>
+				<div class="flexHolder" style="height:400px">
+					<h3>Top Goodwill Locations (Outside NCPA)</h3>
+						<svg class="small_topStores"></svg>
+				</div>
+			</figure>
+			<p class="hideOnBig">Also, for the purposes of this chart's labels: GW = Goodwill, GWI = Goodwill Industries.</p>
+
 			<p>And just for good measure, let's do that thing the Pudding does where we make a map and show the brand most frequently sold there. Just for good measure, we'll throw in a colour scale showing how expensive each state is.</p>
-			<figure data-children-count=1 class="fullwidth">
-				<div style="width:100%">
-					<svg class="stateMap" viewBox="0 0 600 350">
+			<figure class="fullwidth" data-children-count=1>
+				<div style="height:57.5vw; max-height: 500px" class="flexHolder">
+					<h3>Overall Median Price and Most Commonly Sold Brand by State</h3>
+					<svg class="stateMap">
 						<pattern id="diagonalHatch" patternUnits="userSpaceOnUse" width="4" height="4">
 								<path d="M-1,1 l2,-2
 								           M0,4 l4,-4
@@ -201,6 +253,9 @@
 			<figure><em>Chart</em></figure>
 			<p>But hey, for all the imperfection, this method yielded a total of xxx records of ladies shirts. In my mind, this is enough to do some analysis, even if it's imperfect. For the record, I also deleted instances of items that seemed to be for multiple items, so that number of records was much higher.</p>
 			<p>For each item </p>
+			<p>
+				This project was done without Goodwill's assistance or permission. Hopefully, though, they'll see this content as it's intended to be seen: As a very weird love letter to thrifting from a very weird person.
+			</p>
 		</section>
 
 	</article>

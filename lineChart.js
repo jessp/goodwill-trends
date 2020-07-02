@@ -1,8 +1,10 @@
-function drawLineChart(holder, data, legend, title, yTitle){
-	let margin = {"left": 75, "top": 75, "bottom": 25, "right": 175};
-	let width = 600;
-	let height = 300;
-	let svg = d3.select(holder);
+function drawLineChart(holder, data, legend, yTitle){
+	let width = d3.select(holder).node().width.baseVal.value;
+	let height = d3.select(holder).node().height.baseVal.value;
+	let margin = {"left": width < 500 ? 65 : 75, "top": 0, "bottom": 75, "right": 0};
+
+	let svg = d3.select(holder)
+		svg.attr("viewBox", `0 0 ${width} ${height}`)
 	let mainG = svg.append("g").attr("class", "main");
 	let axisX = svg.append("g").attr("class", "axisX");
 	let x = d3.scaleUtc()
@@ -41,9 +43,8 @@ function drawLineChart(holder, data, legend, title, yTitle){
       			return legend[d.name]["dash"] === "solid" ? null : "3,3";
       		})
 	      .attr("d", d => line(d.values));
-
-	drawLineChartLegend(svg.append("g").attr("class", "legend").attr("transform", "translate(" + (width - margin.right + 15) + "," + (margin.top) + ")"), legend);
-	makeTitle(d3.select(holder), margin, title);
+	
+	drawLineChartLegend(svg.append("g").attr("class", "legend").attr("transform", "translate(" + (0) + "," + (height - margin.bottom/2) + ")"), legend, width);
 	makeYName(d3.select(holder), margin, height, yTitle);
 
 	svg.call(lineHover, path, x, y, data, legend);
