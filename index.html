@@ -79,6 +79,7 @@
 			</figure>
 
 			<p>It looks like the percentage of under $5 has decreased dramatically after an initial surge just prior to 2016, though the percengage of more expensive items has stayed more or less steady.</p>
+			<p>(I'll note here that the weird surge in expensive items post-October 2019 is more likely due to some data collection issues than an actual change in price, which is discussed again <a href="#methods">here</a>.)</p>
 			<p class="hiddenOnBig">For this, I split the items into three price ranges: under $5, over $10 and everything else. These ranges I picked pretty arbitrarily based purely what <em>I</em> consider cheap and expensive (because distribution on this is whack, as seen in the chart below).</p>
 			<figure class="hiddenOnBig"data-children-count=1>
 				<div style="height:200px" class="flexHolder">
@@ -166,6 +167,7 @@
 				</div>
 			</figure>
 			<p>But beyond just price figures, these data gives us a unique gift: Garment descriptions. You can keep your flowery Mr. Peterman descriptions of safari detailing ready to conquer both the boardroom and the night markets of Morocco. If I want to know how a brand is perceived, give me the ad hoc descriptions of Goodwill employees not obliged to spread the gospel of any brand bible.</p>
+			<p>For this, I filtered out one- and two-letter words, things that were obvious mispellings, and keywords that were only associated with one particular brand. (It was also through this exercise that I got a glimpse at how occassionally faulty by brand-categorizing regex is. Whoops.)</p>
 				<figure class="fullwidth" data-children-count=1>
 					<div style="width:100%; height: 450px">
 						<div class="brandsToWords floated comparers">
@@ -253,7 +255,12 @@
 			<p>Honestly, pretty bad. But, from the beginning, I've been operating on the principle that <em>some</em> data is better than none for such non-essential questions as "What's the deal with Goodwill?". So, let me unpack how I got the data and the issues I'm aware of.</p>
 			<p>Basically, after finding that data of old listings aren't available on the Goodwill website, I went rogue. I set up a script on my computer to crawl through sale item pages on the Goodwill website item id by item id and checked the page name and description to see if it was a women's shirt. This was a slow process, but I wasn't interested in overwhelming the Goodwill website, and, again, there is no real pressing need for statistics on Goodwill sales.</p>
 			<p>After that, I looked for large gaps in consecutive item ids and ran my script to attempt to capture items that I didn't get the first time. Even after all this, there are still gaps in my data, which you can see just by looking.</p>
-			<figure><em>Chart</em></figure>
+			<figure data-children-count=1>
+				<div style="height:30vw; min-height: 325px; max-height: 500px" class="flexHolder">
+					<h3>Number of Women's Tops Over Time</h3>
+					<svg class="allOvertime"></svg>
+				</div>
+			</figure>
 			<p>But hey, for all the imperfection, this method yielded a total of more than four milltion records of ladies shirts. In my mind, this is enough to do some analysis, even if it's imperfect. For the record, I also deleted instances of items that seemed to be for multiple items, so the original number of records was somewhat higher.</p>
 			<p>A bit more info on methods can be seen in my Python notebook. The short version is that brand and state were determined by me based on the item name and seller name, respectively, and the other data was scraped.</p>
 			<p>

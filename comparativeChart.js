@@ -26,7 +26,7 @@ function drawComparativeChart(holder, data, clickData, defaultName, title){
 
 function drawComparativeSelector(holder, data, clickData, defaultName, title){
 	let selectorObject = Object.keys(data).map(e => ({"text": e, "selected": defaultName.includes(e)}));
-	
+	selectorObject = selectorObject.sort((a, b) => d3.ascending(a.text, b.text));
 	let selector = new SlimSelect({
 	  select: holder + " select",
 	  data: selectorObject,

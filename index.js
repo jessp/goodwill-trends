@@ -22,7 +22,28 @@ d3.csv("./data/compare_median_by_date.csv", function(d){
 		"adjusted_all": {"colour": "blue", "dash": "dashed", "label": "All Items Adjusted Price"},
 		"adjusted_tees": {"colour": "green", "dash": "dashed", "label": "Just Tees Adjusted Price"}
 	}
-	drawLineChart(".overtime", formattedData, legend, "Median Price of Top");
+	drawLineChart(".overtime", formattedData, legend, "Median Price of Top", "$");
+});
+
+d3.csv("./data/over_time.csv", function(d){
+	let parseTime = d3.timeParse("%Y-%m");
+	return {
+		date: parseTime(d.date),
+		count: +d.count
+	}
+}).then(function(data) {
+	const columns = data.columns.slice(1);
+	let formattedData = {
+		series: columns.map(d => ({
+	      name: d,
+	      values: data.map(k => +k[d])
+	    })),
+	    dates: data.map(d => d[data.columns[0]])
+	};
+	let legend = {
+		"count": {"colour": "steelblue", "dash": "solid", "label": "Number of Women's Tops"}
+	}
+	drawLineChart(".allOvertime", formattedData, legend, "Number of Tops", "~s");
 });
 
 
@@ -31,7 +52,7 @@ d3.csv("./data/percent_by_date.csv", function(d){
 	return {
 		date: parseTime(d.date),
 		name: d.range,
-		value: +(d.id/100)
+		value: +(d.count/100)
 	}
 }).then(function(data) {
 	let legend = {
@@ -99,8 +120,8 @@ d3.csv("./data/top_brands_by_year.csv", function(d){
 		});
 		return newp;
 	});
-	let brands = ["Loft", "Talbots", "Coral Bay", "Gloria Vanderbilt", "Reel Legends", "Nue Options", "Dept 222"];
-	var scale = d3.scaleOrdinal().domain(brands).range(["#2d004b", "#542788", "#8073ac", "#b2abd2", "#e08214", "#b35806", "#7f3b08"]);
+	let brands = ["Loft", "Talbots", "Coral Bay", "Gloria Vanderbilt", "Reel Legends", "Dept 222"];
+	var scale = d3.scaleOrdinal().domain(brands).range(["#2d004b", "#542788", "#8073ac", "#e08214", "#b35806", "#7f3b08"]);
 	drawBumpChart(".brandsOverTime", dateArrays, scale);
 });
 
@@ -122,8 +143,8 @@ d3.csv("./data/prices_by_brand.csv", function(d){
 
 d3.csv("./data/histogram.csv", function(d, e, columns){
 	return {
-		range: d.histo,
-		count: +d.id
+		range: d.price_bucket,
+		count: +d.count
 	}
 }).then(function(data) {
 	drawHistogram(window.innerWidth < 760 ? ".small_distribution" : ".distribution", data, "Count of Tops Sold");
@@ -144,7 +165,6 @@ d3.json("./data/brand_words.json").then(function(data) {
 			}
 		}
 	}
-
 	drawComparativeChart(".brandsToWords", brandDistribution, ".wordsToBrands", "Max Studio", "Explore Brands");
 	drawComparativeSelector(".brandsToWords", brandDistribution, ".wordsToBrands", "Max Studio", "Explore Brands");
 	drawComparativeChart(".wordsToBrands", wordDistribution, ".brandsToWords", "silk", "Explore Descriptors");

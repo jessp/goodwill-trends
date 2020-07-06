@@ -1,4 +1,4 @@
-function drawLineChart(holder, data, legend, yTitle){
+function drawLineChart(holder, data, legend, yTitle, format){
 	let width = d3.select(holder).node().width.baseVal.value;
 	let height = d3.select(holder).node().height.baseVal.value;
 	let margin = {"left": width < 500 ? 65 : 75, "top": 0, "bottom": 75, "right": 0};
@@ -16,7 +16,7 @@ function drawLineChart(holder, data, legend, yTitle){
     let y = d3.scaleLinear()
 	    .domain([0, d3.max(data.series, d => d3.max(d.values))]).nice()
 	    .range([height - margin.bottom, margin.top]);
-	yAxis(axisY, y, width, height, margin, "$");
+	yAxis(axisY, y, width, height, margin, format);
 	const line = d3.line()
     .defined(d => !isNaN(d))
     .x((d, i) => x(data.dates[i]))

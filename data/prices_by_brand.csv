@@ -1,14 +1,16 @@
 range,brand,count
 Everything Else,Coral Bay,320589
+Everything Else,Talbots,188314
 Everything Else,Dept 222,157891
 Everything Else,Reel Legends,153662
 Everything Else,Gloria Vanderbilt,117693
-Everything Else,Caribbean Joe,99386
+Everything Else,Caribbean Joe,100017
 Everything Else,Alia,74176
 Everything Else,Hearts of Palm,63637
 Everything Else,Rafaella,58768
-Everything Else,Nue Options,52107
-Everything Else,Loft,42479
+Everything Else,Alfred Dunner,54247
+Over 10,Talbots,26860
+Over 10,INC,4816
 Over 10,Michael Kors,4427
 Over 10,Dept 222,4291
 Over 10,Loft,3725
@@ -17,8 +19,7 @@ Over 10,Harley Davidson,2331
 Over 10,Chico's,2080
 Over 10,Coral Bay,1899
 Over 10,LuLaRoe,1844
-Over 10,Tory Burch,1768
-Over 10,Tommy Hilfiger,1756
+Under 5,Talbots,26130
 Under 5,Coral Bay,16795
 Under 5,Loft,9954
 Under 5,Reel Legends,8679
@@ -26,6 +27,5 @@ Under 5,Gloria Vanderbilt,8355
 Under 5,Dept 222,6311
 Under 5,Old Navy,5518
 Under 5,Banana Republic,4318
+Under 5,Jones New York,4312
 Under 5,Caribbean Joe,4224
-Under 5,Jones New York,4006
-Under 5,Talbots,3999
