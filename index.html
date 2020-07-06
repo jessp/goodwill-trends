@@ -28,14 +28,15 @@
 </head>
 <body>
 	<article>
-		<h1>Thrift Shopping in America</h1>
-		<p class="subtitle">Jess Peter</p>
+		<h1>Goodwill.com Hunting</h1>
+		<p class="subtitle">A Graphical Analysis of Women's Tops Sold on Goodwill's Website</p>
+		<p>by J. Peter</p>
 		<section>
 			<p>
 				After 10ish years of second-hand shopping, I've started to ask myself a lot of questions about the clothes I've been buying, like, <em>"Did someone die in this?"</em> or, <em>"Have thrift stores always been this pricy?"</em>. In the absense of any conclusive answers, I tried to get the data myself.
 			</p>
 			<p>
-				I set up a script to collect information on listings for more than x million women's shirts for sale through Goodwill's website, going back to mid-2014. The information is deeply flawed—a Goodwill online auction is very different from a Goodwill store—but we can get an idea of how thrift store offerings have changed through the years. 
+				I set up a script that collected information on listings for 4,100,355 women's shirts for sale through <a href="https://www.shopgoodwill.com/" target="_blank">Goodwill's website</a>, going back to mid-2014 (note: site not available in Europe). The information is deeply flawed—a Goodwill online auction is very different from a Goodwill store—but we can get an idea of how thrift store offerings have changed through the years. There's more info on data collection method <a href="#methods">below</a>.
 			</p>
 		</section>
 		<section>
@@ -90,14 +91,16 @@
 		</section>
 		<section>
 			<h2>2. What Can Used Clothes Suggest About Fashion Trends?</h2>
+			<p>Thrift stores are a funny thing when it comes to fashion. It's where your mom dumped your old <em>Champion</em> sweats when you got too cool for them, and where kids cooler than you big up their vintage <em>Champion</em> sweats now that they're cool again.</p>
+			<p>That said, it would be a funny thing to have a huge dataset of clothing item descriptions and <em>not</em> use it to try to find out something about fashion trends, so here it is.</p>
 			<figure class="fullwidth">
 				<div style="height:500px;" class="flexHolder">
 					<h3>Fashion Trends Over Time</h3>
 					<svg class="trendStream"></svg>
 				</div>
 			</figure>
-			
-			
+			<p>Ah, stream charts. The chart you don't so much read as experience. In this little number, the width (girth?) of each band represents which percentage of tops included this keyword.</p>
+			<p>I identified these trends by using tf-idf (term frequency–inverse document frequency) at both the monthly and yearly level to find which words disproportinately appeared in a certain period, then selected those that best represent trends. I use the same technique below to look into how people describe brands.</p>
 		</section>
 
 		<section>
@@ -246,15 +249,15 @@
 			</figure>
 		</section>
 		<section>
-			<h2>5. So, exactly how bad are these data and how did you get them?</h2>
+			<h2 id="methods">5. So, exactly how bad are these data and how did you get them?</h2>
 			<p>Honestly, pretty bad. But, from the beginning, I've been operating on the principle that <em>some</em> data is better than none for such non-essential questions as "What's the deal with Goodwill?". So, let me unpack how I got the data and the issues I'm aware of.</p>
 			<p>Basically, after finding that data of old listings aren't available on the Goodwill website, I went rogue. I set up a script on my computer to crawl through sale item pages on the Goodwill website item id by item id and checked the page name and description to see if it was a women's shirt. This was a slow process, but I wasn't interested in overwhelming the Goodwill website, and, again, there is no real pressing need for statistics on Goodwill sales.</p>
-			<p>After that, I looked for large gaps in consecutive item ids and ran my script to attempt to capture items that I didn't get the first time. Even after all this, there's still gaps in my data, which you can see just by looking.</p>
+			<p>After that, I looked for large gaps in consecutive item ids and ran my script to attempt to capture items that I didn't get the first time. Even after all this, there are still gaps in my data, which you can see just by looking.</p>
 			<figure><em>Chart</em></figure>
-			<p>But hey, for all the imperfection, this method yielded a total of xxx records of ladies shirts. In my mind, this is enough to do some analysis, even if it's imperfect. For the record, I also deleted instances of items that seemed to be for multiple items, so that number of records was much higher.</p>
-			<p>For each item </p>
+			<p>But hey, for all the imperfection, this method yielded a total of more than four milltion records of ladies shirts. In my mind, this is enough to do some analysis, even if it's imperfect. For the record, I also deleted instances of items that seemed to be for multiple items, so the original number of records was somewhat higher.</p>
+			<p>A bit more info on methods can be seen in my Python notebook. The short version is that brand and state were determined by me based on the item name and seller name, respectively, and the other data was scraped.</p>
 			<p>
-				This project was done without Goodwill's assistance or permission. Hopefully, though, they'll see this content as it's intended to be seen: As a very weird love letter to thrifting from a very weird person.
+			This project was done without Goodwill's assistance or permission. Hopefully, though, they'll see this content as it's intended to be seen: As a very weird love letter to thrifting from a very weird person.
 			</p>
 		</section>
 

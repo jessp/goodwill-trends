@@ -33,7 +33,6 @@ function areaHover(svg, path, x, y, data){
   let text = dot.append("text")
       .attr("font-family", "sans-serif")
       .attr("font-size", 10)
-      .attr("text-anchor", "middle");
 
   text.append("tspan")
   	.style("font-weight", "bold")
@@ -63,10 +62,25 @@ function areaHover(svg, path, x, y, data){
       } else {
         whichDate = matchedDates[1];
       }
-	    dot.attr("transform", `translate(${x(mappedDates[i])},${mouse[1]})`);
+
+      let theXPos = x(mappedDates[i]);
+      if (theXPos < x.range()[0]) {
+        theXPos = x.range()[0];
+      } else if (theXPos > x.range()[1]){
+        theXPos = x.range()[1];
+      }
+
+      let theYPos = mouse[1];
+      if (theYPos < y.range()[1]) {
+        theYPos = y.range()[1];
+      } else if (theYPos > y.range()[0]){
+        theYPos = y.range()[0];
+      }
+	    dot.attr("transform", `translate(${theXPos},${theYPos})`);
 	    dot.select("text").select("tspan:first-of-type").text(dateFormat(mappedDates[i]));
 	    dot.select("text").select("tspan:nth-of-type(2)").text(d3.format(".2")(whichDate.value * 100) + "%");
-	    hoverLine.attr("transform", `translate(${x(mappedDates[i])},${0})`);
+	    dot.select("text").attr("text-anchor", x(mappedDates[i]) < (x.range()[1] - x.range()[0])/2 + x.range()[0] ? "start" : "end")
+      hoverLine.attr("transform", `translate(${x(mappedDates[i])},${0})`);
 
   }
 
