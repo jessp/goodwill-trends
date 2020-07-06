@@ -65,7 +65,7 @@ function drawBumpChart(holder, data, colors){
 	    })
 	    .enter()
 	    .append("circle")
-	    .attr("class", d => d.brand.split(" ").join(""))
+	    .attr("class", d => d.brand.split(" ").join("").replace(/['.,\/#!$%\^&\*;:{}=\-_`~()]/g,""))
 	    .on("mouseenter", function(d){
 	    	squarePopupStart(d3.select(holder), 
 	    		[xScale(d.date) + margin.left, yScale(d.rank) + margin.top],
@@ -74,7 +74,7 @@ function drawBumpChart(holder, data, colors){
 	    		.selectAll("circle")
 	    		.attr("r", 4);
 	    	d3.select(holder)
-	    		.selectAll("." + d.brand.split(" ").join(""))
+	    		.selectAll("." + d.brand.split(" ").join("").replace(/['.,\/#!$%\^&\*;:{}=\-_`~()]/g,""))
 	    		.attr("r", 8);
 	    })
 	    .on("mouseout", function(d){
@@ -91,7 +91,7 @@ function drawBumpChart(holder, data, colors){
 	    		.selectAll("circle")
 	    		.attr("r", 4);
 	    	d3.select(holder)
-	    		.selectAll("." + d.brand.split(" ").join(""))
+	    		.selectAll("." + d.brand.split(" ").join("").replace(/['.,\/#!$%\^&\*;:{}=\-_`~()]/g,""))
 	    		.attr("r", 8);
 	    })
 	    .on("touchend", function(d){
