@@ -2,7 +2,7 @@ function drawHistogram(holder, data, yTitle){
 	let width = d3.select(holder).node().width.baseVal.value;
   	let height = d3.select(holder).node().height.baseVal.value;
   	if (height > 10){
-		let margin = {"left": 75, "top": 0, "bottom": 25, "right": 10};
+		let margin = {"left": 60, "top": 0, "bottom": 25, "right": 10};
 		let svg = d3.select(holder)
 			.attr("width", width)
 			.attr("height", height)

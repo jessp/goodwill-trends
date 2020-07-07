@@ -1,5 +1,5 @@
 function drawVerticalBarChart(holder, data, color){
-	let margin = {"left": 10, "top": 25, "bottom": 25, "right": 10};
+	let margin = {"left": 0, "top": 25, "bottom": 25, "right": 10};
 	let width = d3.select(holder).node().width.baseVal.value;
   	let height = d3.select(holder).node().height.baseVal.value;
 	let svg = d3.select(holder)
