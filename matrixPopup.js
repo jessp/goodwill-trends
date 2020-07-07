@@ -1,6 +1,7 @@
 function matrixHover(svg, path, x, y, data, margin, scale, xWid){
   var eachBand = y.step();
-  let dates = data[0].values.map(e => e.date);
+
+  let dates = data[0].values.map(e => e.date).sort((a, b) => a - b);
 	let dateFormat = d3.timeFormat("%B %Y");
 	if ("ontouchstart" in document) svg
       .style("-webkit-tap-highlight-color", "transparent")
