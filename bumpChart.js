@@ -157,8 +157,12 @@ function drawBumpChart(holder, data, colors){
 			return yScale(d[d.length - 1]["rank"])
 		})
 		.text(function(d){
-			let brandName = d[d.length - 1]["brand"].length < 10 ? d[d.length - 1]["brand"] : d[d.length - 1]["brand"].substring(0,8) + "...";
-			return (d[d.length - 1]["rank"] + 1) + ". " + brandName;
+			if (width > 500){
+				return (d[d.length - 1]["rank"] + 1) + ". " + d[d.length - 1]["brand"];
+			} else {
+				let brandName = d[d.length - 1]["brand"].length < 10 ? d[d.length - 1]["brand"] : d[d.length - 1]["brand"].substring(0,8) + "...";
+				return (d[d.length - 1]["rank"] + 1) + ". " + brandName;
+			}
 		})
 		.style("font-size", width > 500 ? "100%" : "85%");
 

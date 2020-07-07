@@ -1,4 +1,4 @@
-function drawLineChart(holder, data, legend, yTitle, format){
+function drawLineChart(holder, data, legend, yTitle, yFormat, tooltipFormat){
 	let width = d3.select(holder).node().width.baseVal.value;
 	let height = d3.select(holder).node().height.baseVal.value;
 	let margin = {"left": width < 500 ? 65 : 75, "top": 0, "bottom": 75, "right": 0};
@@ -16,7 +16,7 @@ function drawLineChart(holder, data, legend, yTitle, format){
     let y = d3.scaleLinear()
 	    .domain([0, d3.max(data.series, d => d3.max(d.values))]).nice()
 	    .range([height - margin.bottom, margin.top]);
-	yAxis(axisY, y, width, height, margin, format);
+	yAxis(axisY, y, width, height, margin, yFormat);
 	const line = d3.line()
     .defined(d => !isNaN(d))
     .x((d, i) => x(data.dates[i]))
@@ -47,5 +47,5 @@ function drawLineChart(holder, data, legend, yTitle, format){
 	drawLineChartLegend(svg.append("g").attr("class", "legend").attr("transform", "translate(" + (0) + "," + (height - margin.bottom/2) + ")"), legend, width);
 	makeYName(d3.select(holder), margin, height, yTitle);
 
-	svg.call(lineHover, path, x, y, data, legend);
+	svg.call(lineHover, path, x, y, data, legend, tooltipFormat);
 }

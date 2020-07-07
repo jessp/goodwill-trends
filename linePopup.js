@@ -1,4 +1,4 @@
-function lineHover(svg, path, x, y, data, legend){
+function lineHover(svg, path, x, y, data, legend, format){
 	let dateFormat = d3.timeFormat("%B %Y");
 	if ("ontouchstart" in document) svg
       .style("-webkit-tap-highlight-color", "transparent")
@@ -54,7 +54,7 @@ function lineHover(svg, path, x, y, data, legend){
 	    path.attr("stroke", d => d === s ? (legend[d.name] ? legend[d.name]["colour"] : "orange") : "#ddd").filter(d => d === s).raise();
 	    dot.attr("transform", `translate(${x(data.dates[i])},${y(s.values[i])})`);
 	    dot.select("text").select("tspan:first-of-type").text(dateFormat(data.dates[i]));
-	    dot.select("text").select("tspan:nth-of-type(2)").text(d3.format("$.2f")(s["values"][i]));
+	    dot.select("text").select("tspan:nth-of-type(2)").text(d3.format(format)(s["values"][i]));
 	    dot.select("text").attr("text-anchor", x(data.dates[i]) < (x.range()[1] - x.range()[0])/2 + x.range()[0] ? "start" : "end")
       hoverLine.attr("transform", `translate(${x(data.dates[i])},${0})`);
   }

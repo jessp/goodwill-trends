@@ -22,7 +22,7 @@ d3.csv("./data/compare_median_by_date.csv", function(d){
 		"adjusted_all": {"colour": "blue", "dash": "dashed", "label": "All Items Adjusted Price"},
 		"adjusted_tees": {"colour": "green", "dash": "dashed", "label": "Just Tees Adjusted Price"}
 	}
-	drawLineChart(".overtime", formattedData, legend, "Median Price of Top", "$");
+	drawLineChart(".overtime", formattedData, legend, "Median Price of Top", "$.2f", "$.2f");
 });
 
 d3.csv("./data/over_time.csv", function(d){
@@ -43,7 +43,7 @@ d3.csv("./data/over_time.csv", function(d){
 	let legend = {
 		"count": {"colour": "steelblue", "dash": "solid", "label": "Number of Women's Tops"}
 	}
-	drawLineChart(".allOvertime", formattedData, legend, "Number of Tops", "~s");
+	drawLineChart(".allOvertime", formattedData, legend, "Number of Tops", "~s", ",");
 });
 
 
