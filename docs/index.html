@@ -39,16 +39,17 @@
 		<p>by J. Peter</p>
 		<section>
 			<p>
-				After 10ish years of second-hand shopping, I've started to ask myself a lot of questions about the clothes I've been buying, like, <em>"Did someone die in this?"</em> or, <em>"Have thrift stores always been this pricy?"</em>. In the absense of any conclusive answers, I tried to get the data myself.
+				After 10ish years of second-hand shopping, I've started to ask myself a lot of questions about the clothes I've been buying, like, <em>"Did someone die in this?"</em> or, <em>"Have thrift stores always been this pricy?"</em> (the answer to the former being, "yeah, probably"). In the absense of any conclusive answers, I tried to get the data myself.
 			</p>
 			<p>
-				I set up a script that collected information on listings for 4,100,355 women's shirts for sale through <a href="https://www.shopgoodwill.com/" target="_blank">Goodwill's website</a>, going back to mid-2014. The information is deeply flawed—a Goodwill online auction is very different from a Goodwill store—but we can get an idea of how thrift store offerings have changed through the years. There's more info on data collection method <a href="#methods">below</a>.
+				I set up a script that collected information on listings for more than four million women's shirts for sale through <a href="https://www.shopgoodwill.com/" target="_blank">Goodwill's website</a>, going back to mid-2014. The information is deeply flawed—a Goodwill online auction is very different from a Goodwill store—but we can get an idea of how thrift store offerings have changed through the years. There's more info on data collection method <a href="#methods">below</a>.
 			</p>
 		</section>
 		<section>
 			<h2>1. Are Used Clothes Getting More Expensive?</h2>
 			<p>In short, yes. Or rather, maybe. But if I keep making the "this data is imperfect" caveat, this is going to be a <em>long</em> piece, so just assume it's there from now on, and I'll address it more in a later section.</p>
 			<p>I started by finding the change in the median price of a woman's shirt. But overall median price increase only tells us so much. Have prices doubled because everything is getting more expensive? Or are Goodwills just selling more high-price items online? Or fewer inexpensive items?</p>
+			<p>In order to better understand how much the "average" item has increased, I found just t-shirts from a few common brands: American Eagle, Gap, Old Navy, Columbia, Champion, Under Armour, and Nike.</p>
 				<figure data-children-count=1>	
 					<div class="marginnote">
 						<p>From July 2014 to December 2019, the <span class="inTextKey green">median item price</span> increased from $6 to $11.99. That's almost exactly a 100% increase.</p>
@@ -68,8 +69,7 @@
 			<p class="hiddenOnBig">Drilling down to a few mid-price retailers, we can observe an increase in <span class="inTextKey blue">median price of t-shirts</span> from $3.49 to $7.99 (an 88% increase) from 2014 to 2019. </p>
 			<p class="hiddenOnBig">In the interest of due-diligence, I also confirmed that <span class="inTextKey dashed">adjusting for inflation</span> barely changes these results at all.</p>
 
-			<p>In order to better understand how much the "average" item has increased, I found just t-shirts from a few common brands: American Eagle, Gap, Old Navy, Columbia, Champion, Under Armour, and Nike.</p>
-			<p>So that suggests that everything is getting more expensive, but that doesn't disprove our other theory: What's changed about the price distribution of items sold at Goodwill over time?</p>
+			<p>So that suggests that everything is getting more expensive, but it doesn't address our other questions: What's changed about the price distribution of items sold at Goodwill over time?</p>
 			<figure data-children-count=1>
 				<span class="marginnote">
 					<p>For this, I split the items into three price ranges: under $5, over $10 and everything else. These ranges I picked pretty arbitrarily based purely what <em>I</em> consider cheap and expensive (because distribution on this is whack, as seen in the chart below).</p>
@@ -84,7 +84,7 @@
 				</div>
 			</figure>
 
-			<p>It looks like the percentage of under $5 has decreased dramatically after an initial surge just prior to 2016, though the percengage of more expensive items has stayed more or less steady.</p>
+			<p>It looks like the percentage of under $5 items has decreased dramatically after an initial surge just prior to 2016, though the percengage of more expensive items has stayed more or less steady.</p>
 			<p>(I'll note here that the weird surge in expensive items post-October 2019 is more likely due to some data collection issues than an actual change in price, which is discussed again <a href="#methods">here</a>.)</p>
 			<p class="hiddenOnBig">For this, I split the items into three price ranges: under $5, over $10 and everything else. These ranges I picked pretty arbitrarily based purely what <em>I</em> consider cheap and expensive (because distribution on this is whack, as seen in the chart below).</p>
 			<figure class="hiddenOnBig"data-children-count=1>
@@ -98,10 +98,10 @@
 		</section>
 		<section>
 			<h2>2. What Can Used Clothes Suggest About Fashion Trends?</h2>
-			<p>Thrift stores are a funny thing when it comes to fashion. It's where your mom dumped your old <em>Champion</em> sweats when you got too cool for them, and where kids cooler than you big up their vintage <em>Champion</em> sweats now that they're cool again.</p>
-			<p>That said, it would be a funny thing to have a huge dataset of clothing item descriptions and <em>not</em> use it to try to find out something about fashion trends, so here it is.</p>
-			<figure class="fullwidth">
-				<div style="height:500px;" class="flexHolder">
+			<p>Thrift stores are a funny thing when it comes to fashion. It's where your mom dumped your old Champion sweats when you got too cool for them, and where kids cooler than you pick up their vintage Champion sweats now that they're cool again.</p>
+			<p>So while the meaning of a surge in a certain type of item at Goodwill might be ambiguous, it would be a funny thing to have a huge dataset of clothing item descriptions and <em>not</em> use it to try to find out something about fashion trends, so here it is.</p>
+			<figure class="fullwidth" style="overflow-x: auto">
+				<div style="height:500px; min-width: 600px" class="flexHolder">
 					<h3>Fashion Trends Over Time</h3>
 					<svg class="trendStream"></svg>
 				</div>
@@ -121,7 +121,7 @@
 					</span>
 			</figure>
 			<p>
-				As in life, so it is online: For every untouched Givenchy original, there's a thousand worn out Mossimo sweatshirts. The breakdown of brands over time is disappointing for any hypebeast. That said the clothes may be absolute <em>fire</em> but we're talking clout here.
+				As in life, so it is online: For every untouched Givenchy original, there's a thousand worn out Mossimo sweatshirts. The breakdown of brands over time is disappointing for any hypebeast. That said, the clothes may be absolute <em>fire</em> but we're talking clout here.
 			</p>
 			<figure class="hiddenOnBig" data-children-count=1>
 				<div style="height:400px;" class="flexHolder">
@@ -161,7 +161,7 @@
 					</div>
 				</figure>
 			</div>
-			<p>We can also check out how brand popularity and price has changed over time.</p>
+			<p>We can also check out how brand popularity and price have changed over time.</p>
 			<figure class="fullwidth" data-children-count=1>
 				<h3>Brand Count and Median Price Over Time</h3>
 				<p>
@@ -258,8 +258,8 @@
 		</section>
 		<section>
 			<h2 id="methods">5. So, exactly how bad are these data and how did you get them?</h2>
-			<p>Honestly, pretty bad. But, from the beginning, I've been operating on the principle that <em>some</em> data is better than none for such non-essential questions as "What's the deal with Goodwill?". So, let me unpack how I got the data and the issues I'm aware of.</p>
-			<p>Basically, after finding that data of old listings aren't available on the Goodwill website, I went rogue. I set up a script on my computer to crawl through sale item pages on the Goodwill website item id by item id and checked the page name and description to see if it was a women's shirt. This was a slow process, but I wasn't interested in overwhelming the Goodwill website, and, again, there is no real pressing need for statistics on Goodwill sales.</p>
+			<p>Honestly, pretty bad. But, from the beginning, I've been operating on the principle that <em>some</em> data are better than none for such non-essential questions as "What's the deal with Goodwill?". So, let me unpack how I got the data and the issues I'm aware of.</p>
+			<p>Basically, after finding that data of old listings aren't available on the Goodwill website, I went rogue. I set up a script on my computer to crawl through sale item pages on the Goodwill website item id by item id and checked the page name and description to see if it was a women's top. This was a slow process, but I wasn't interested in overwhelming the Goodwill website, and, again, there is no real pressing need for statistics on Goodwill sales.</p>
 			<p>After that, I looked for large gaps in consecutive item ids and ran my script to attempt to capture items that I didn't get the first time. Even after all this, there are still gaps in my data, which you can see just by looking.</p>
 			<figure data-children-count=1>
 				<div style="height:30vw; min-height: 325px; max-height: 500px" class="flexHolder">
@@ -267,8 +267,8 @@
 					<svg class="allOvertime"></svg>
 				</div>
 			</figure>
-			<p>But hey, for all the imperfection, this method yielded a total of more than four milltion records of ladies shirts. In my mind, this is enough to do some analysis, even if it's imperfect. For the record, I also deleted instances of items that seemed to be for multiple items, so the original number of records was somewhat higher.</p>
-			<p>A bit more info on methods can be seen in <a href="https://github.com/jessp/goodwill-trends/blob/master/used_clothing_notebook.ipynb" target="_blank">my Python notebook</a>. The short version is that brand and state were determined by me based on the item name and seller name, respectively, and the other data was scraped.</p>
+			<p>But hey, for all the imperfection, this method yielded a total of 4,100,355 records of ladies shirts. In my mind, this is enough to do some analysis, even if it's imperfect. For the record, I also deleted instances of items that seemed to be for multiple items sold in a bundle, so the original number of records was somewhat higher.</p>
+			<p>A bit more info on methods can be seen in <a href="https://github.com/jessp/goodwill-trends/blob/master/used_clothing_notebook.ipynb" target="_blank">my Python notebook</a> (which is having some issues rendering online). The short version is that brand and state were determined by me based on the item name and seller name, respectively, and the other data was scraped.</p>
 			<p>
 			This project was done without Goodwill's assistance or permission. Hopefully, though, they'll see this content as it's intended to be seen: As a very weird love letter to thrifting from a very weird person.
 			</p>
