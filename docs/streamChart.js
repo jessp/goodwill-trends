@@ -1,12 +1,12 @@
 function drawStreamChart(holder, data, title){
   let margin = {"left": 20, "top": 50, "bottom": 50, "right": 20};
-  let keys = d3.map(data, d => d.name).keys();
+  let keys = Array.from(new Set(d3.map(data, d => d.name)));
   let values = Array.from(d3.rollup(data, ([d]) => d.value, d => +d.date, d => d.name));
   let width = d3.select(holder).node().width.baseVal.value;
   let height = d3.select(holder).node().height.baseVal.value;
 
-  let svg = d3.select(holder)
-  svg.attr("viewBox", `0 0 ${width} ${height}`)
+  let svg = d3.select(holder);
+  svg.attr("viewBox", `0 0 ${width} ${height}`);
   let mainG = svg.append("g").attr("class", "main");
   let axisX = svg.append("g").attr("class", "axisX");
   let labelG = svg.append("g").attr("class", "labels");
@@ -45,6 +45,7 @@ function drawStreamChart(holder, data, title){
   let color = d3.scaleOrdinal()
     .domain(keys)
     .range(d3.schemeDark2);
+
 
     let groups = mainG
     .selectAll("g")
